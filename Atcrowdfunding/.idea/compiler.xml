@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="Crowdfunding_main" />
+        <module name="Crowdfunding_potal_api" />
+        <module name="Crowdfunding_manager_impl" />
+        <module name="Crowdfunding_commonn" />
+        <module name="Crowdfunding_beans" />
+        <module name="Crowdfunding_manager_api" />
+        <module name="Crowdfunding_potal_impll" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="Crowdfunding_bean" target="1.7" />
+      <module name="Crowdfunding_beans" target="1.7" />
+      <module name="Crowdfunding_commonn" target="1.7" />
+      <module name="Crowdfunding_main" target="1.7" />
+      <module name="Crowdfunding_manager_api" target="1.7" />
+      <module name="Crowdfunding_manager_impl" target="1.7" />
+      <module name="Crowdfunding_parent" target="1.7" />
+      <module name="Crowdfunding_potal_api" target="1.7" />
+      <module name="Crowdfunding_potal_impll" target="1.7" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

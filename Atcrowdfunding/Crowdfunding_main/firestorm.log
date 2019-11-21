@@ -1,0 +1,560 @@
+DEBUG main org.springframework.beans.factory.support.DefaultListableBeanFactory - Finished creating instance of bean 'advertServiceImpl'
+DEBUG main org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'permissionServiceImpl'
+DEBUG main org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating instance of bean 'permissionServiceImpl'
+DEBUG main org.springframework.beans.factory.support.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0'
+DEBUG main org.springframework.beans.factory.annotation.InjectionMetadata - Registered injected element on class [com.qzn.crowdfunding.manager.service.impl.PermissionServiceImpl]: AutowiredFieldElement for private com.qzn.crowdfunding.manager.dao.PermissionMapper com.qzn.crowdfunding.manager.service.impl.PermissionServiceImpl.permissionMapper
+DEBUG main org.springframework.beans.factory.support.DefaultListableBeanFactory - Eagerly caching bean 'permissionServiceImpl' to allow for resolving potential circular references
+DEBUG main org.springframework.beans.factory.annotation.InjectionMetadata - Processing injected element of bean 'permissionServiceImpl': AutowiredFieldElement for private com.qzn.crowdfunding.manager.dao.PermissionMapper com.qzn.crowdfunding.manager.service.impl.PermissionServiceImpl.permissionMapper
+DEBUG main org.springframework.core.annotation.AnnotationUtils - Failed to meta-introspect annotation [interface org.springframework.beans.factory.annotation.Autowired]: java.lang.IllegalArgumentException: Annotation must not be null
+DEBUG main org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'permissionMapper'
+DEBUG main org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating instance of bean 'permissionMapper'
+DEBUG main org.springframework.beans.factory.support.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0'
+DEBUG main org.springframework.beans.factory.support.DefaultListableBeanFactory - Eagerly caching bean 'permissionMapper' to allow for resolving potential circular references
+DEBUG main org.springframework.beans.factory.support.DefaultListableBeanFactory - Returning cached instance of singleton bean 'sqlSessionFactory'
+DEBUG main org.springframework.beans.factory.support.DefaultListableBeanFactory - Autowiring by type from bean name 'permissionMapper' via property 'sqlSessionFactory' to bean named 'sqlSessionFactory'
+DEBUG main org.springframework.beans.factory.support.DefaultListableBeanFactory - Invoking afterPropertiesSet() on bean with name 'permissionMapper'
+DEBUG main org.springframework.beans.factory.support.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0'
+DEBUG main org.springframework.beans.factory.support.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0'
+DEBUG main org.springframework.beans.factory.support.DefaultListableBeanFactory - Finished creating instance of bean 'permissionMapper'
+DEBUG main org.springframework.beans.factory.support.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0'
+DEBUG main org.springframework.beans.factory.support.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0'
+DEBUG main org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor - Autowiring by type from bean name 'permissionServiceImpl' to bean named 'permissionMapper'
+DEBUG main org.springframework.beans.factory.support.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0'
+DEBUG main org.springframework.beans.factory.support.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0'
+DEBUG main org.springframework.aop.aspectj.autoproxy.AspectJAwareAdvisorAutoProxyCreator - Creating implicit proxy for bean 'permissionServiceImpl' with 0 common interceptors and 2 specific interceptors
+DEBUG main org.springframework.aop.framework.JdkDynamicAopProxy - Creating JDK dynamic proxy: target source is SingletonTargetSource for target object [com.qzn.crowdfunding.manager.service.impl.PermissionServiceImpl@291a7e3c]
+DEBUG main org.springframework.beans.factory.support.DefaultListableBeanFactory - Finished creating instance of bean 'permissionServiceImpl'
+DEBUG main org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'roleServiceImpl'
+DEBUG main org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating instance of bean 'roleServiceImpl'
+DEBUG main org.springframework.beans.factory.support.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0'
+DEBUG main org.springframework.beans.factory.annotation.InjectionMetadata - Registered injected element on class [com.qzn.crowdfunding.manager.service.impl.RoleServiceImpl]: AutowiredFieldElement for private com.qzn.crowdfunding.manager.dao.RoleMapper com.qzn.crowdfunding.manager.service.impl.RoleServiceImpl.roleMapper
+DEBUG main org.springframework.beans.factory.support.DefaultListableBeanFactory - Eagerly caching bean 'roleServiceImpl' to allow for resolving potential circular references
+DEBUG main org.springframework.beans.factory.annotation.InjectionMetadata - Processing injected element of bean 'roleServiceImpl': AutowiredFieldElement for private com.qzn.crowdfunding.manager.dao.RoleMapper com.qzn.crowdfunding.manager.service.impl.RoleServiceImpl.roleMapper
+DEBUG main org.springframework.core.annotation.AnnotationUtils - Failed to meta-introspect annotation [interface org.springframework.beans.factory.annotation.Autowired]: java.lang.IllegalArgumentException: Annotation must not be null
+DEBUG main org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'roleMapper'
+DEBUG main org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating instance of bean 'roleMapper'
+DEBUG main org.springframework.beans.factory.support.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0'
+DEBUG main org.springframework.beans.factory.support.DefaultListableBeanFactory - Eagerly caching bean 'roleMapper' to allow for resolving potential circular references
+DEBUG main org.springframework.beans.factory.support.DefaultListableBeanFactory - Returning cached instance of singleton bean 'sqlSessionFactory'
+DEBUG main org.springframework.beans.factory.support.DefaultListableBeanFactory - Autowiring by type from bean name 'roleMapper' via property 'sqlSessionFactory' to bean named 'sqlSessionFactory'
+DEBUG main org.springframework.beans.factory.support.DefaultListableBeanFactory - Invoking afterPropertiesSet() on bean with name 'roleMapper'
+DEBUG main org.springframework.beans.factory.support.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0'
+DEBUG main org.springframework.beans.factory.support.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0'
+DEBUG main org.springframework.beans.factory.support.DefaultListableBeanFactory - Finished creating instance of bean 'roleMapper'
+DEBUG main org.springframework.beans.factory.support.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0'
+DEBUG main org.springframework.beans.factory.support.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0'
+DEBUG main org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor - Autowiring by type from bean name 'roleServiceImpl' to bean named 'roleMapper'
+DEBUG main org.springframework.beans.factory.support.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0'
+DEBUG main org.springframework.beans.factory.support.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0'
+DEBUG main org.springframework.aop.aspectj.autoproxy.AspectJAwareAdvisorAutoProxyCreator - Creating implicit proxy for bean 'roleServiceImpl' with 0 common interceptors and 2 specific interceptors
+DEBUG main org.springframework.aop.framework.JdkDynamicAopProxy - Creating JDK dynamic proxy: target source is SingletonTargetSource for target object [com.qzn.crowdfunding.manager.service.impl.RoleServiceImpl@7a362b6b]
+DEBUG main org.springframework.beans.factory.support.DefaultListableBeanFactory - Finished creating instance of bean 'roleServiceImpl'
+DEBUG main org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'testServiceImpl'
+DEBUG main org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating instance of bean 'testServiceImpl'
+DEBUG main org.springframework.beans.factory.support.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0'
+DEBUG main org.springframework.beans.factory.annotation.InjectionMetadata - Registered injected element on class [com.qzn.crowdfunding.manager.service.impl.TestServiceImpl]: AutowiredFieldElement for private com.qzn.crowdfunding.manager.dao.TestDao com.qzn.crowdfunding.manager.service.impl.TestServiceImpl.testDao
+DEBUG main org.springframework.beans.factory.support.DefaultListableBeanFactory - Eagerly caching bean 'testServiceImpl' to allow for resolving potential circular references
+DEBUG main org.springframework.beans.factory.annotation.InjectionMetadata - Processing injected element of bean 'testServiceImpl': AutowiredFieldElement for private com.qzn.crowdfunding.manager.dao.TestDao com.qzn.crowdfunding.manager.service.impl.TestServiceImpl.testDao
+DEBUG main org.springframework.core.annotation.AnnotationUtils - Failed to meta-introspect annotation [interface org.springframework.beans.factory.annotation.Autowired]: java.lang.IllegalArgumentException: Annotation must not be null
+DEBUG main org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'testDao'
+DEBUG main org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating instance of bean 'testDao'
+DEBUG main org.springframework.beans.factory.support.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0'
+DEBUG main org.springframework.beans.factory.support.DefaultListableBeanFactory - Eagerly caching bean 'testDao' to allow for resolving potential circular references
+DEBUG main org.springframework.beans.factory.support.DefaultListableBeanFactory - Returning cached instance of singleton bean 'sqlSessionFactory'
+DEBUG main org.springframework.beans.factory.support.DefaultListableBeanFactory - Autowiring by type from bean name 'testDao' via property 'sqlSessionFactory' to bean named 'sqlSessionFactory'
+DEBUG main org.springframework.beans.factory.support.DefaultListableBeanFactory - Invoking afterPropertiesSet() on bean with name 'testDao'
+DEBUG main org.springframework.beans.factory.support.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0'
+DEBUG main org.springframework.beans.factory.support.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0'
+DEBUG main org.springframework.beans.factory.support.DefaultListableBeanFactory - Finished creating instance of bean 'testDao'
+DEBUG main org.springframework.beans.factory.support.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0'
+DEBUG main org.springframework.beans.factory.support.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0'
+DEBUG main org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor - Autowiring by type from bean name 'testServiceImpl' to bean named 'testDao'
+DEBUG main org.springframework.beans.factory.support.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0'
+DEBUG main org.springframework.beans.factory.support.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0'
+DEBUG main org.springframework.aop.aspectj.autoproxy.AspectJAwareAdvisorAutoProxyCreator - Creating implicit proxy for bean 'testServiceImpl' with 0 common interceptors and 2 specific interceptors
+DEBUG main org.springframework.aop.framework.JdkDynamicAopProxy - Creating JDK dynamic proxy: target source is SingletonTargetSource for target object [com.qzn.crowdfunding.manager.service.impl.TestServiceImpl@1458ed9c]
+DEBUG main org.springframework.beans.factory.support.DefaultListableBeanFactory - Finished creating instance of bean 'testServiceImpl'
+DEBUG main org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'userServiceImpl'
+DEBUG main org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating instance of bean 'userServiceImpl'
+DEBUG main org.springframework.beans.factory.support.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0'
+DEBUG main org.springframework.beans.factory.annotation.InjectionMetadata - Registered injected element on class [com.qzn.crowdfunding.manager.service.impl.UserServiceImpl]: AutowiredFieldElement for private com.qzn.crowdfunding.manager.dao.UserMapper com.qzn.crowdfunding.manager.service.impl.UserServiceImpl.userMapper
+DEBUG main org.springframework.beans.factory.support.DefaultListableBeanFactory - Eagerly caching bean 'userServiceImpl' to allow for resolving potential circular references
+DEBUG main org.springframework.beans.factory.annotation.InjectionMetadata - Processing injected element of bean 'userServiceImpl': AutowiredFieldElement for private com.qzn.crowdfunding.manager.dao.UserMapper com.qzn.crowdfunding.manager.service.impl.UserServiceImpl.userMapper
+DEBUG main org.springframework.core.annotation.AnnotationUtils - Failed to meta-introspect annotation [interface org.springframework.beans.factory.annotation.Autowired]: java.lang.IllegalArgumentException: Annotation must not be null
+DEBUG main org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'userMapper'
+DEBUG main org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating instance of bean 'userMapper'
+DEBUG main org.springframework.beans.factory.support.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0'
+DEBUG main org.springframework.beans.factory.support.DefaultListableBeanFactory - Eagerly caching bean 'userMapper' to allow for resolving potential circular references
+DEBUG main org.springframework.beans.factory.support.DefaultListableBeanFactory - Returning cached instance of singleton bean 'sqlSessionFactory'
+DEBUG main org.springframework.beans.factory.support.DefaultListableBeanFactory - Autowiring by type from bean name 'userMapper' via property 'sqlSessionFactory' to bean named 'sqlSessionFactory'
+DEBUG main org.springframework.beans.factory.support.DefaultListableBeanFactory - Invoking afterPropertiesSet() on bean with name 'userMapper'
+DEBUG main org.springframework.beans.factory.support.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0'
+DEBUG main org.springframework.beans.factory.support.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0'
+DEBUG main org.springframework.beans.factory.support.DefaultListableBeanFactory - Finished creating instance of bean 'userMapper'
+DEBUG main org.springframework.beans.factory.support.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0'
+DEBUG main org.springframework.beans.factory.support.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0'
+DEBUG main org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor - Autowiring by type from bean name 'userServiceImpl' to bean named 'userMapper'
+DEBUG main org.springframework.beans.factory.support.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0'
+DEBUG main org.springframework.beans.factory.support.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0'
+DEBUG main org.springframework.aop.aspectj.autoproxy.AspectJAwareAdvisorAutoProxyCreator - Creating implicit proxy for bean 'userServiceImpl' with 0 common interceptors and 2 specific interceptors
+DEBUG main org.springframework.aop.framework.JdkDynamicAopProxy - Creating JDK dynamic proxy: target source is SingletonTargetSource for target object [com.qzn.crowdfunding.manager.service.impl.UserServiceImpl@141e5bef]
+DEBUG main org.springframework.beans.factory.support.DefaultListableBeanFactory - Finished creating instance of bean 'userServiceImpl'
+DEBUG main org.springframework.beans.factory.support.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+DEBUG main org.springframework.beans.factory.support.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+DEBUG main org.springframework.beans.factory.support.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.context.annotation.internalRequiredAnnotationProcessor'
+DEBUG main org.springframework.beans.factory.support.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor'
+DEBUG main org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerProcessor'
+DEBUG main org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating instance of bean 'org.springframework.context.event.internalEventListenerProcessor'
+DEBUG main org.springframework.beans.factory.support.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0'
+DEBUG main org.springframework.beans.factory.support.DefaultListableBeanFactory - Eagerly caching bean 'org.springframework.context.event.internalEventListenerProcessor' to allow for resolving potential circular references
+DEBUG main org.springframework.beans.factory.support.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0'
+DEBUG main org.springframework.beans.factory.support.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0'
+DEBUG main org.springframework.beans.factory.support.DefaultListableBeanFactory - Finished creating instance of bean 'org.springframework.context.event.internalEventListenerProcessor'
+DEBUG main org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerFactory'
+DEBUG main org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating instance of bean 'org.springframework.context.event.internalEventListenerFactory'
+DEBUG main org.springframework.beans.factory.support.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0'
+DEBUG main org.springframework.beans.factory.support.DefaultListableBeanFactory - Eagerly caching bean 'org.springframework.context.event.internalEventListenerFactory' to allow for resolving potential circular references
+DEBUG main org.springframework.beans.factory.support.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0'
+DEBUG main org.springframework.beans.factory.support.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0'
+DEBUG main org.springframework.beans.factory.support.DefaultListableBeanFactory - Finished creating instance of bean 'org.springframework.context.event.internalEventListenerFactory'
+DEBUG main org.springframework.beans.factory.support.DefaultListableBeanFactory - Returning cached instance of singleton bean 'propertyPlaceholderConfigurer'
+DEBUG main org.springframework.beans.factory.support.DefaultListableBeanFactory - Returning cached instance of singleton bean 'dataSource'
+DEBUG main org.springframework.beans.factory.support.DefaultListableBeanFactory - Returning cached instance of singleton bean 'sqlSessionFactory'
+DEBUG main org.springframework.beans.factory.support.DefaultListableBeanFactory - Returning cached instance of singleton bean 'mapperScannerConfigurer'
+DEBUG main org.springframework.beans.factory.support.DefaultListableBeanFactory - Returning cached instance of singleton bean 'transactionManager'
+DEBUG main org.springframework.beans.factory.support.DefaultListableBeanFactory - Returning cached instance of singleton bean 'transactionAdvice'
+DEBUG main org.springframework.beans.factory.support.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.aop.config.internalAutoProxyCreator'
+DEBUG main org.springframework.beans.factory.support.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0'
+DEBUG main org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'processEngineConfiguration'
+DEBUG main org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating instance of bean 'processEngineConfiguration'
+DEBUG main org.springframework.beans.factory.support.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0'
+DEBUG main org.springframework.beans.factory.support.DefaultListableBeanFactory - Eagerly caching bean 'processEngineConfiguration' to allow for resolving potential circular references
+DEBUG main org.springframework.beans.factory.support.DefaultListableBeanFactory - Returning cached instance of singleton bean 'dataSource'
+DEBUG main org.springframework.beans.factory.support.DefaultListableBeanFactory - Returning cached instance of singleton bean 'transactionManager'
+DEBUG main org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating instance of bean 'org.activiti.explorer.form.UserFormType#61d47554'
+DEBUG main org.springframework.beans.factory.support.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0'
+DEBUG main org.springframework.beans.factory.support.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0'
+DEBUG main org.springframework.beans.factory.support.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0'
+DEBUG main org.springframework.beans.factory.support.DefaultListableBeanFactory - Finished creating instance of bean 'org.activiti.explorer.form.UserFormType#61d47554'
+DEBUG main org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating instance of bean 'org.activiti.explorer.form.ProcessDefinitionFormType#69b794e2'
+DEBUG main org.springframework.beans.factory.support.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0'
+DEBUG main org.springframework.beans.factory.support.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0'
+DEBUG main org.springframework.beans.factory.support.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0'
+DEBUG main org.springframework.beans.factory.support.DefaultListableBeanFactory - Finished creating instance of bean 'org.activiti.explorer.form.ProcessDefinitionFormType#69b794e2'
+DEBUG main org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating instance of bean 'org.activiti.explorer.form.MonthFormType#3f200884'
+DEBUG main org.springframework.beans.factory.support.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0'
+DEBUG main org.springframework.beans.factory.support.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0'
+DEBUG main org.springframework.beans.factory.support.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0'
+DEBUG main org.springframework.beans.factory.support.DefaultListableBeanFactory - Finished creating instance of bean 'org.activiti.explorer.form.MonthFormType#3f200884'
+DEBUG main org.springframework.beans.factory.support.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0'
+DEBUG main org.springframework.beans.factory.support.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0'
+DEBUG main org.springframework.beans.factory.support.DefaultListableBeanFactory - Finished creating instance of bean 'processEngineConfiguration'
+DEBUG main org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'processEngine'
+DEBUG main org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating instance of bean 'processEngine'
+DEBUG main org.springframework.beans.factory.support.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0'
+DEBUG main org.springframework.beans.factory.support.DefaultListableBeanFactory - Eagerly caching bean 'processEngine' to allow for resolving potential circular references
+DEBUG main org.springframework.beans.factory.support.DefaultListableBeanFactory - Returning cached instance of singleton bean 'processEngineConfiguration'
+DEBUG main org.springframework.beans.factory.support.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0'
+DEBUG main org.springframework.beans.factory.support.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0'
+DEBUG main org.springframework.beans.factory.support.DefaultListableBeanFactory - Finished creating instance of bean 'processEngine'
+DEBUG main org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'repositoryService'
+DEBUG main org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating instance of bean 'repositoryService'
+DEBUG main org.springframework.beans.factory.support.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0'
+DEBUG main org.springframework.beans.factory.support.DefaultListableBeanFactory - Returning cached instance of singleton bean 'processEngine'
+DEBUG main org.springframework.jdbc.datasource.DataSourceUtils - Fetching JDBC Connection from DataSource
+DEBUG main com.mchange.v2.resourcepool.BasicResourcePool - incremented pending_acquires: 1
+DEBUG main com.mchange.v2.resourcepool.BasicResourcePool - incremented pending_acquires: 2
+DEBUG main com.mchange.v2.resourcepool.BasicResourcePool - incremented pending_acquires: 3
+DEBUG main com.mchange.v2.resourcepool.BasicResourcePool - com.mchange.v2.resourcepool.BasicResourcePool@4212a0c8 config: [start -> 3; min -> 3; max -> 15; inc -> 3; num_acq_attempts -> 30; acq_attempt_delay -> 1000; check_idle_resources_delay -> 0; mox_resource_age -> 0; max_idle_time -> 0; excess_max_idle_time -> 0; destroy_unreturned_resc_time -> 0; expiration_enforcement_delay -> 0; break_on_acquisition_failure -> false; debug_store_checkout_exceptions -> false]
+INFO main com.mchange.v2.c3p0.impl.AbstractPoolBackedDataSource - Initializing c3p0 pool... com.mchange.v2.c3p0.ComboPooledDataSource [ acquireIncrement -> 3, acquireRetryAttempts -> 30, acquireRetryDelay -> 1000, autoCommitOnClose -> false, automaticTestTable -> null, breakAfterAcquireFailure -> false, checkoutTimeout -> 0, connectionCustomizerClassName -> null, connectionTesterClassName -> com.mchange.v2.c3p0.impl.DefaultConnectionTester, dataSourceName -> 1bqr436a6hsclfy1en9es8|41c2284a, debugUnreturnedConnectionStackTraces -> false, description -> null, driverClass -> com.mysql.cj.jdbc.Driver, factoryClassLocation -> null, forceIgnoreUnresolvedTransactions -> false, identityToken -> 1bqr436a6hsclfy1en9es8|41c2284a, idleConnectionTestPeriod -> 0, initialPoolSize -> 3, jdbcUrl -> jdbc:mysql://localhost:3306/crowdfunding?allowMultiQueries=true&rewriteBatchedStatements=true&useUnicode=true&characterEncoding=UTF-8&useSSL=false&serverTimezone=Asia/Shanghai&zeroDateTimeBehavior=CONVERT_TO_NULL, maxAdministrativeTaskTime -> 0, maxConnectionAge -> 0, maxIdleTime -> 0, maxIdleTimeExcessConnections -> 0, maxPoolSize -> 15, maxStatements -> 0, maxStatementsPerConnection -> 0, minPoolSize -> 3, numHelperThreads -> 3, numThreadsAwaitingCheckoutDefaultUser -> 0, preferredTestQuery -> null, properties -> {user=******, password=******}, propertyCycle -> 0, testConnectionOnCheckin -> false, testConnectionOnCheckout -> false, unreturnedConnectionTimeout -> 0, usesTraditionalReflectiveProxies -> false ]
+DEBUG main com.mchange.v2.resourcepool.BasicResourcePool - acquire test -- pool size: 0; target_pool_size: 3; desired target? 1
+DEBUG main com.mchange.v2.resourcepool.BasicResourcePool - awaitAvailable(): [unknown]
+DEBUG main com.mchange.v2.resourcepool.BasicResourcePool - trace com.mchange.v2.resourcepool.BasicResourcePool@4212a0c8 [managed: 0, unused: 0, excluded: 0]
+DEBUG com.mchange.v2.async.ThreadPoolAsynchronousRunner$PoolThread-#2 com.mchange.v2.c3p0.impl.C3P0PooledConnectionPool - com.mchange.v2.c3p0.impl.C3P0PooledConnectionPool$1PooledConnectionResourcePoolManager@33c926b8.acquireResource() returning. 
+DEBUG com.mchange.v2.async.ThreadPoolAsynchronousRunner$PoolThread-#1 com.mchange.v2.c3p0.impl.C3P0PooledConnectionPool - com.mchange.v2.c3p0.impl.C3P0PooledConnectionPool$1PooledConnectionResourcePoolManager@33c926b8.acquireResource() returning. 
+DEBUG com.mchange.v2.async.ThreadPoolAsynchronousRunner$PoolThread-#0 com.mchange.v2.c3p0.impl.C3P0PooledConnectionPool - com.mchange.v2.c3p0.impl.C3P0PooledConnectionPool$1PooledConnectionResourcePoolManager@33c926b8.acquireResource() returning. 
+DEBUG com.mchange.v2.async.ThreadPoolAsynchronousRunner$PoolThread-#2 com.mchange.v2.resourcepool.BasicResourcePool - trace com.mchange.v2.resourcepool.BasicResourcePool@4212a0c8 [managed: 1, unused: 1, excluded: 0]
+DEBUG com.mchange.v2.async.ThreadPoolAsynchronousRunner$PoolThread-#0 com.mchange.v2.resourcepool.BasicResourcePool - trace com.mchange.v2.resourcepool.BasicResourcePool@4212a0c8 [managed: 2, unused: 1, excluded: 0] (e.g. com.mchange.v2.c3p0.impl.NewPooledConnection@3e56ecc2)
+DEBUG com.mchange.v2.async.ThreadPoolAsynchronousRunner$PoolThread-#1 com.mchange.v2.resourcepool.BasicResourcePool - trace com.mchange.v2.resourcepool.BasicResourcePool@4212a0c8 [managed: 3, unused: 2, excluded: 0] (e.g. com.mchange.v2.c3p0.impl.NewPooledConnection@3e56ecc2)
+DEBUG com.mchange.v2.async.ThreadPoolAsynchronousRunner$PoolThread-#1 com.mchange.v2.resourcepool.BasicResourcePool - decremented pending_acquires: 2
+DEBUG com.mchange.v2.async.ThreadPoolAsynchronousRunner$PoolThread-#0 com.mchange.v2.resourcepool.BasicResourcePool - decremented pending_acquires: 1
+DEBUG main com.mchange.v2.resourcepool.BasicResourcePool - trace com.mchange.v2.resourcepool.BasicResourcePool@4212a0c8 [managed: 3, unused: 2, excluded: 0] (e.g. com.mchange.v2.c3p0.impl.NewPooledConnection@3e56ecc2)
+DEBUG com.mchange.v2.async.ThreadPoolAsynchronousRunner$PoolThread-#2 com.mchange.v2.resourcepool.BasicResourcePool - decremented pending_acquires: 0
+DEBUG main org.activiti.engine.impl.cfg.ProcessEngineConfigurationImpl - database product name: 'MySQL'
+DEBUG main org.activiti.engine.impl.cfg.ProcessEngineConfigurationImpl - using database type: mysql
+DEBUG main org.springframework.jdbc.datasource.DataSourceUtils - Returning JDBC Connection to DataSource
+DEBUG main com.mchange.v2.resourcepool.BasicResourcePool - trace com.mchange.v2.resourcepool.BasicResourcePool@4212a0c8 [managed: 3, unused: 2, excluded: 0] (e.g. com.mchange.v2.c3p0.impl.NewPooledConnection@3e56ecc2)
+DEBUG main com.mchange.v2.c3p0.impl.NewProxyConnection - com.mchange.v2.c3p0.impl.NewProxyConnection@20f12539: close() called more than once.
+DEBUG main org.activiti.engine.impl.interceptor.LogInterceptor -                                                                                                     
+DEBUG main org.activiti.engine.impl.interceptor.LogInterceptor - --- starting SchemaOperationsProcessEngineBuild --------------------------------------------------------
+DEBUG main org.activiti.spring.SpringTransactionInterceptor - Running command with propagation NOT_SUPPORTED
+DEBUG main org.apache.ibatis.transaction.managed.ManagedTransaction - Opening JDBC Connection
+DEBUG main org.springframework.jdbc.datasource.DataSourceUtils - Fetching JDBC Connection from DataSource
+DEBUG main com.mchange.v2.resourcepool.BasicResourcePool - trace com.mchange.v2.resourcepool.BasicResourcePool@4212a0c8 [managed: 3, unused: 2, excluded: 0] (e.g. com.mchange.v2.c3p0.impl.NewPooledConnection@3e56ecc2)
+DEBUG main org.springframework.jdbc.datasource.DataSourceUtils - Registering transaction synchronization for JDBC Connection
+DEBUG main org.activiti.engine.impl.persistence.entity.PropertyEntity.selectProperty - ==>  Preparing: select * from ACT_GE_PROPERTY where NAME_ = ? 
+DEBUG main org.activiti.engine.impl.persistence.entity.PropertyEntity.selectProperty - ==> Parameters: schema.version(String)
+DEBUG main org.activiti.engine.impl.persistence.entity.PropertyEntity.selectProperty - <==      Total: 1
+DEBUG main org.activiti.engine.impl.db.DbSqlSession - flush summary: 0 insert, 0 update, 0 delete.
+DEBUG main org.activiti.engine.impl.db.DbSqlSession - now executing flush...
+DEBUG main org.apache.ibatis.transaction.managed.ManagedTransaction - Closing JDBC Connection [Transaction-aware proxy for target Connection [com.mchange.v2.c3p0.impl.NewProxyConnection@6e46d9f4]]
+DEBUG main org.springframework.jdbc.datasource.DataSourceUtils - Returning JDBC Connection to DataSource
+DEBUG main com.mchange.v2.resourcepool.BasicResourcePool - trace com.mchange.v2.resourcepool.BasicResourcePool@4212a0c8 [managed: 3, unused: 2, excluded: 0] (e.g. com.mchange.v2.c3p0.impl.NewPooledConnection@3e56ecc2)
+DEBUG main com.mchange.v2.c3p0.impl.NewProxyConnection - com.mchange.v2.c3p0.impl.NewProxyConnection@6e46d9f4: close() called more than once.
+DEBUG main org.activiti.engine.impl.interceptor.LogInterceptor - --- SchemaOperationsProcessEngineBuild finished --------------------------------------------------------
+DEBUG main org.activiti.engine.impl.interceptor.LogInterceptor -                                                                                                     
+INFO main org.activiti.engine.impl.ProcessEngineImpl - ProcessEngine default created
+INFO main org.activiti.engine.impl.jobexecutor.JobExecutor - Starting up the JobExecutor[org.activiti.engine.impl.jobexecutor.DefaultJobExecutor].
+INFO Thread-5 org.activiti.engine.impl.jobexecutor.AcquireJobsRunnable - JobExecutor[org.activiti.engine.impl.jobexecutor.DefaultJobExecutor] starting to acquire jobs
+DEBUG Thread-5 org.activiti.engine.impl.interceptor.LogInterceptor -                                                                                                     
+DEBUG Thread-5 org.activiti.engine.impl.interceptor.LogInterceptor - --- starting AcquireJobsCmd --------------------------------------------------------
+DEBUG Thread-5 org.activiti.spring.SpringTransactionInterceptor - Running command with propagation REQUIRED
+DEBUG Thread-5 org.springframework.jdbc.datasource.DataSourceTransactionManager - Creating new transaction with name [null]: PROPAGATION_REQUIRED,ISOLATION_DEFAULT
+DEBUG Thread-5 com.mchange.v2.resourcepool.BasicResourcePool - trace com.mchange.v2.resourcepool.BasicResourcePool@4212a0c8 [managed: 3, unused: 2, excluded: 0] (e.g. com.mchange.v2.c3p0.impl.NewPooledConnection@3e56ecc2)
+DEBUG Thread-5 org.springframework.jdbc.datasource.DataSourceTransactionManager - Acquired Connection [com.mchange.v2.c3p0.impl.NewProxyConnection@56e29e0c] for JDBC transaction
+DEBUG Thread-5 org.springframework.jdbc.datasource.DataSourceTransactionManager - Switching JDBC Connection [com.mchange.v2.c3p0.impl.NewProxyConnection@56e29e0c] to manual commit
+DEBUG Thread-5 org.apache.ibatis.transaction.managed.ManagedTransaction - Opening JDBC Connection
+DEBUG Thread-5 org.activiti.engine.impl.persistence.entity.JobEntity.selectNextJobsToExecute_mysql - ==>  Preparing: select RES.* from ACT_RU_JOB RES LEFT OUTER JOIN ACT_RU_EXECUTION PI ON PI.ID_ = RES.PROCESS_INSTANCE_ID_ where (RETRIES_ > 0) and (DUEDATE_ is null or DUEDATE_ <= ?) and (LOCK_OWNER_ is null or LOCK_EXP_TIME_ <= ?) and ( (RES.EXECUTION_ID_ is null) or (PI.SUSPENSION_STATE_ = 1) ) LIMIT ? OFFSET ? 
+DEBUG main org.springframework.beans.factory.support.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0'
+DEBUG main org.springframework.beans.factory.support.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0'
+DEBUG Thread-5 org.activiti.engine.impl.persistence.entity.JobEntity.selectNextJobsToExecute_mysql - ==> Parameters: 2019-11-06 17:46:15.586(Timestamp), 2019-11-06 17:46:15.586(Timestamp), 1(Integer), 0(Integer)
+DEBUG Thread-5 org.activiti.engine.impl.persistence.entity.JobEntity.selectNextJobsToExecute_mysql - <==      Total: 0
+DEBUG Thread-5 org.activiti.engine.impl.db.DbSqlSession - flush summary: 0 insert, 0 update, 0 delete.
+DEBUG Thread-5 org.activiti.engine.impl.db.DbSqlSession - now executing flush...
+DEBUG Thread-5 org.apache.ibatis.transaction.managed.ManagedTransaction - Closing JDBC Connection [Transaction-aware proxy for target Connection [com.mchange.v2.c3p0.impl.NewProxyConnection@56e29e0c]]
+DEBUG Thread-5 org.springframework.jdbc.datasource.DataSourceTransactionManager - Initiating transaction commit
+DEBUG Thread-5 org.springframework.jdbc.datasource.DataSourceTransactionManager - Committing JDBC transaction on Connection [com.mchange.v2.c3p0.impl.NewProxyConnection@56e29e0c]
+DEBUG main org.springframework.beans.factory.support.DefaultListableBeanFactory - Eagerly caching bean 'repositoryService' to allow for resolving potential circular references
+DEBUG Thread-5 org.springframework.jdbc.datasource.DataSourceTransactionManager - Releasing JDBC Connection [com.mchange.v2.c3p0.impl.NewProxyConnection@56e29e0c] after transaction
+DEBUG Thread-5 org.springframework.jdbc.datasource.DataSourceUtils - Returning JDBC Connection to DataSource
+DEBUG Thread-5 com.mchange.v2.resourcepool.BasicResourcePool - trace com.mchange.v2.resourcepool.BasicResourcePool@4212a0c8 [managed: 3, unused: 2, excluded: 0] (e.g. com.mchange.v2.c3p0.impl.NewPooledConnection@3e56ecc2)
+DEBUG Thread-5 org.activiti.engine.impl.interceptor.LogInterceptor - --- AcquireJobsCmd finished --------------------------------------------------------
+DEBUG Thread-5 org.activiti.engine.impl.interceptor.LogInterceptor -                                                                                                     
+DEBUG Thread-5 org.activiti.engine.impl.interceptor.LogInterceptor -                                                                                                     
+DEBUG Thread-5 org.activiti.engine.impl.interceptor.LogInterceptor - --- starting GetUnlockedTimersByDuedateCmd --------------------------------------------------------
+DEBUG Thread-5 org.activiti.spring.SpringTransactionInterceptor - Running command with propagation REQUIRED
+DEBUG Thread-5 org.springframework.jdbc.datasource.DataSourceTransactionManager - Creating new transaction with name [null]: PROPAGATION_REQUIRED,ISOLATION_DEFAULT
+DEBUG Thread-5 com.mchange.v2.resourcepool.BasicResourcePool - trace com.mchange.v2.resourcepool.BasicResourcePool@4212a0c8 [managed: 3, unused: 2, excluded: 0] (e.g. com.mchange.v2.c3p0.impl.NewPooledConnection@3e56ecc2)
+DEBUG Thread-5 org.springframework.jdbc.datasource.DataSourceTransactionManager - Acquired Connection [com.mchange.v2.c3p0.impl.NewProxyConnection@7b0a1768] for JDBC transaction
+DEBUG Thread-5 org.springframework.jdbc.datasource.DataSourceTransactionManager - Switching JDBC Connection [com.mchange.v2.c3p0.impl.NewProxyConnection@7b0a1768] to manual commit
+DEBUG Thread-5 org.apache.ibatis.transaction.managed.ManagedTransaction - Opening JDBC Connection
+DEBUG Thread-5 org.activiti.engine.impl.persistence.entity.JobEntity.selectUnlockedTimersByDuedate - ==>  Preparing: select RES.* from ACT_RU_JOB RES LEFT OUTER JOIN ACT_RU_EXECUTION PI ON PI.ID_ = RES.PROCESS_INSTANCE_ID_ where (RES.TYPE_ = 'timer') and (RES.DUEDATE_ is not null) and (RES.DUEDATE_ < ?) and (RES.LOCK_OWNER_ is null or RES.LOCK_EXP_TIME_ < ?) and (RES.RETRIES_ > 0) and ( (RES.EXECUTION_ID_ is null) or (PI.SUSPENSION_STATE_ = 1) ) order by DUEDATE_ 
+DEBUG Thread-5 org.activiti.engine.impl.persistence.entity.JobEntity.selectUnlockedTimersByDuedate - ==> Parameters: 2019-11-06 17:46:20.599(Timestamp), 2019-11-06 17:46:20.599(Timestamp)
+DEBUG main org.springframework.beans.factory.support.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0'
+DEBUG main org.springframework.beans.factory.support.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0'
+DEBUG Thread-5 org.activiti.engine.impl.persistence.entity.JobEntity.selectUnlockedTimersByDuedate - <==      Total: 0
+DEBUG Thread-5 org.activiti.engine.impl.db.DbSqlSession - flush summary: 0 insert, 0 update, 0 delete.
+DEBUG Thread-5 org.activiti.engine.impl.db.DbSqlSession - now executing flush...
+DEBUG Thread-5 org.apache.ibatis.transaction.managed.ManagedTransaction - Closing JDBC Connection [Transaction-aware proxy for target Connection [com.mchange.v2.c3p0.impl.NewProxyConnection@7b0a1768]]
+DEBUG Thread-5 org.springframework.jdbc.datasource.DataSourceTransactionManager - Initiating transaction commit
+DEBUG Thread-5 org.springframework.jdbc.datasource.DataSourceTransactionManager - Committing JDBC transaction on Connection [com.mchange.v2.c3p0.impl.NewProxyConnection@7b0a1768]
+DEBUG Thread-5 org.springframework.jdbc.datasource.DataSourceTransactionManager - Releasing JDBC Connection [com.mchange.v2.c3p0.impl.NewProxyConnection@7b0a1768] after transaction
+DEBUG main org.springframework.beans.factory.support.DefaultListableBeanFactory - Finished creating instance of bean 'repositoryService'
+DEBUG Thread-5 org.springframework.jdbc.datasource.DataSourceUtils - Returning JDBC Connection to DataSource
+DEBUG main org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'runtimeService'
+DEBUG Thread-5 com.mchange.v2.resourcepool.BasicResourcePool - trace com.mchange.v2.resourcepool.BasicResourcePool@4212a0c8 [managed: 3, unused: 2, excluded: 0] (e.g. com.mchange.v2.c3p0.impl.NewPooledConnection@3e56ecc2)
+DEBUG main org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating instance of bean 'runtimeService'
+DEBUG Thread-5 com.mchange.v2.c3p0.impl.NewProxyConnection - com.mchange.v2.c3p0.impl.NewProxyConnection@7b0a1768: close() called more than once.
+DEBUG main org.springframework.beans.factory.support.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0'
+DEBUG Thread-5 org.activiti.engine.impl.interceptor.LogInterceptor - --- GetUnlockedTimersByDuedateCmd finished --------------------------------------------------------
+DEBUG Thread-5 org.activiti.engine.impl.interceptor.LogInterceptor -                                                                                                     
+DEBUG main org.springframework.beans.factory.support.DefaultListableBeanFactory - Returning cached instance of singleton bean 'processEngine'
+DEBUG Thread-5 org.activiti.engine.impl.jobexecutor.AcquireJobsRunnable - job acquisition thread sleeping for 5000 millis
+DEBUG main org.springframework.beans.factory.support.DefaultListableBeanFactory - Eagerly caching bean 'runtimeService' to allow for resolving potential circular references
+DEBUG main org.springframework.beans.factory.support.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0'
+DEBUG main org.springframework.beans.factory.support.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0'
+DEBUG main org.springframework.beans.factory.support.DefaultListableBeanFactory - Finished creating instance of bean 'runtimeService'
+DEBUG main org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'taskService'
+DEBUG main org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating instance of bean 'taskService'
+DEBUG main org.springframework.beans.factory.support.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0'
+DEBUG main org.springframework.beans.factory.support.DefaultListableBeanFactory - Returning cached instance of singleton bean 'processEngine'
+DEBUG main org.springframework.beans.factory.support.DefaultListableBeanFactory - Eagerly caching bean 'taskService' to allow for resolving potential circular references
+DEBUG main org.springframework.beans.factory.support.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0'
+DEBUG main org.springframework.beans.factory.support.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0'
+DEBUG main org.springframework.beans.factory.support.DefaultListableBeanFactory - Finished creating instance of bean 'taskService'
+DEBUG main org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'historyService'
+DEBUG main org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating instance of bean 'historyService'
+DEBUG main org.springframework.beans.factory.support.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0'
+DEBUG main org.springframework.beans.factory.support.DefaultListableBeanFactory - Returning cached instance of singleton bean 'processEngine'
+DEBUG main org.springframework.beans.factory.support.DefaultListableBeanFactory - Eagerly caching bean 'historyService' to allow for resolving potential circular references
+DEBUG main org.springframework.beans.factory.support.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0'
+DEBUG main org.springframework.beans.factory.support.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0'
+DEBUG main org.springframework.beans.factory.support.DefaultListableBeanFactory - Finished creating instance of bean 'historyService'
+DEBUG main org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'accountTypeCertMapper'
+DEBUG main org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating instance of bean 'accountTypeCertMapper'
+DEBUG main org.springframework.beans.factory.support.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0'
+DEBUG main org.springframework.beans.factory.support.DefaultListableBeanFactory - Eagerly caching bean 'accountTypeCertMapper' to allow for resolving potential circular references
+DEBUG main org.springframework.beans.factory.support.DefaultListableBeanFactory - Returning cached instance of singleton bean 'sqlSessionFactory'
+DEBUG main org.springframework.beans.factory.support.DefaultListableBeanFactory - Autowiring by type from bean name 'accountTypeCertMapper' via property 'sqlSessionFactory' to bean named 'sqlSessionFactory'
+DEBUG main org.springframework.beans.factory.support.DefaultListableBeanFactory - Invoking afterPropertiesSet() on bean with name 'accountTypeCertMapper'
+DEBUG main org.springframework.beans.factory.support.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0'
+DEBUG main org.springframework.beans.factory.support.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0'
+DEBUG main org.springframework.beans.factory.support.DefaultListableBeanFactory - Finished creating instance of bean 'accountTypeCertMapper'
+DEBUG main org.springframework.beans.factory.support.DefaultListableBeanFactory - Returning cached instance of singleton bean 'advertisementMapper'
+DEBUG main org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'certMapper'
+DEBUG main org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating instance of bean 'certMapper'
+DEBUG main org.springframework.beans.factory.support.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0'
+DEBUG main org.springframework.beans.factory.support.DefaultListableBeanFactory - Eagerly caching bean 'certMapper' to allow for resolving potential circular references
+DEBUG main org.springframework.beans.factory.support.DefaultListableBeanFactory - Returning cached instance of singleton bean 'sqlSessionFactory'
+DEBUG main org.springframework.beans.factory.support.DefaultListableBeanFactory - Autowiring by type from bean name 'certMapper' via property 'sqlSessionFactory' to bean named 'sqlSessionFactory'
+DEBUG main org.springframework.beans.factory.support.DefaultListableBeanFactory - Invoking afterPropertiesSet() on bean with name 'certMapper'
+DEBUG main org.springframework.beans.factory.support.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0'
+DEBUG main org.springframework.beans.factory.support.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0'
+DEBUG main org.springframework.beans.factory.support.DefaultListableBeanFactory - Finished creating instance of bean 'certMapper'
+DEBUG main org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'dictionaryMapper'
+DEBUG main org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating instance of bean 'dictionaryMapper'
+DEBUG main org.springframework.beans.factory.support.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0'
+DEBUG main org.springframework.beans.factory.support.DefaultListableBeanFactory - Eagerly caching bean 'dictionaryMapper' to allow for resolving potential circular references
+DEBUG main org.springframework.beans.factory.support.DefaultListableBeanFactory - Returning cached instance of singleton bean 'sqlSessionFactory'
+DEBUG main org.springframework.beans.factory.support.DefaultListableBeanFactory - Autowiring by type from bean name 'dictionaryMapper' via property 'sqlSessionFactory' to bean named 'sqlSessionFactory'
+DEBUG main org.springframework.beans.factory.support.DefaultListableBeanFactory - Invoking afterPropertiesSet() on bean with name 'dictionaryMapper'
+DEBUG main org.springframework.beans.factory.support.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0'
+DEBUG main org.springframework.beans.factory.support.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0'
+DEBUG main org.springframework.beans.factory.support.DefaultListableBeanFactory - Finished creating instance of bean 'dictionaryMapper'
+DEBUG main org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'messageMapper'
+DEBUG main org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating instance of bean 'messageMapper'
+DEBUG main org.springframework.beans.factory.support.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0'
+DEBUG main org.springframework.beans.factory.support.DefaultListableBeanFactory - Eagerly caching bean 'messageMapper' to allow for resolving potential circular references
+DEBUG main org.springframework.beans.factory.support.DefaultListableBeanFactory - Returning cached instance of singleton bean 'sqlSessionFactory'
+DEBUG main org.springframework.beans.factory.support.DefaultListableBeanFactory - Autowiring by type from bean name 'messageMapper' via property 'sqlSessionFactory' to bean named 'sqlSessionFactory'
+DEBUG main org.springframework.beans.factory.support.DefaultListableBeanFactory - Invoking afterPropertiesSet() on bean with name 'messageMapper'
+DEBUG main org.springframework.beans.factory.support.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0'
+DEBUG main org.springframework.beans.factory.support.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0'
+DEBUG main org.springframework.beans.factory.support.DefaultListableBeanFactory - Finished creating instance of bean 'messageMapper'
+DEBUG main org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'orderMapper'
+DEBUG main org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating instance of bean 'orderMapper'
+DEBUG main org.springframework.beans.factory.support.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0'
+DEBUG main org.springframework.beans.factory.support.DefaultListableBeanFactory - Eagerly caching bean 'orderMapper' to allow for resolving potential circular references
+DEBUG main org.springframework.beans.factory.support.DefaultListableBeanFactory - Returning cached instance of singleton bean 'sqlSessionFactory'
+DEBUG main org.springframework.beans.factory.support.DefaultListableBeanFactory - Autowiring by type from bean name 'orderMapper' via property 'sqlSessionFactory' to bean named 'sqlSessionFactory'
+DEBUG main org.springframework.beans.factory.support.DefaultListableBeanFactory - Invoking afterPropertiesSet() on bean with name 'orderMapper'
+DEBUG main org.springframework.beans.factory.support.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0'
+DEBUG main org.springframework.beans.factory.support.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0'
+DEBUG main org.springframework.beans.factory.support.DefaultListableBeanFactory - Finished creating instance of bean 'orderMapper'
+DEBUG main org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'paramMapper'
+DEBUG main org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating instance of bean 'paramMapper'
+DEBUG main org.springframework.beans.factory.support.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0'
+DEBUG main org.springframework.beans.factory.support.DefaultListableBeanFactory - Eagerly caching bean 'paramMapper' to allow for resolving potential circular references
+DEBUG main org.springframework.beans.factory.support.DefaultListableBeanFactory - Returning cached instance of singleton bean 'sqlSessionFactory'
+DEBUG main org.springframework.beans.factory.support.DefaultListableBeanFactory - Autowiring by type from bean name 'paramMapper' via property 'sqlSessionFactory' to bean named 'sqlSessionFactory'
+DEBUG main org.springframework.beans.factory.support.DefaultListableBeanFactory - Invoking afterPropertiesSet() on bean with name 'paramMapper'
+DEBUG main org.springframework.beans.factory.support.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0'
+DEBUG main org.springframework.beans.factory.support.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0'
+DEBUG main org.springframework.beans.factory.support.DefaultListableBeanFactory - Finished creating instance of bean 'paramMapper'
+DEBUG main org.springframework.beans.factory.support.DefaultListableBeanFactory - Returning cached instance of singleton bean 'permissionMapper'
+DEBUG main org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'projectMapper'
+DEBUG main org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating instance of bean 'projectMapper'
+DEBUG main org.springframework.beans.factory.support.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0'
+DEBUG main org.springframework.beans.factory.support.DefaultListableBeanFactory - Eagerly caching bean 'projectMapper' to allow for resolving potential circular references
+DEBUG main org.springframework.beans.factory.support.DefaultListableBeanFactory - Returning cached instance of singleton bean 'sqlSessionFactory'
+DEBUG main org.springframework.beans.factory.support.DefaultListableBeanFactory - Autowiring by type from bean name 'projectMapper' via property 'sqlSessionFactory' to bean named 'sqlSessionFactory'
+DEBUG main org.springframework.beans.factory.support.DefaultListableBeanFactory - Invoking afterPropertiesSet() on bean with name 'projectMapper'
+DEBUG main org.springframework.beans.factory.support.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0'
+DEBUG main org.springframework.beans.factory.support.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0'
+DEBUG main org.springframework.beans.factory.support.DefaultListableBeanFactory - Finished creating instance of bean 'projectMapper'
+DEBUG main org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'projectTagMapper'
+DEBUG main org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating instance of bean 'projectTagMapper'
+DEBUG main org.springframework.beans.factory.support.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0'
+DEBUG main org.springframework.beans.factory.support.DefaultListableBeanFactory - Eagerly caching bean 'projectTagMapper' to allow for resolving potential circular references
+DEBUG main org.springframework.beans.factory.support.DefaultListableBeanFactory - Returning cached instance of singleton bean 'sqlSessionFactory'
+DEBUG main org.springframework.beans.factory.support.DefaultListableBeanFactory - Autowiring by type from bean name 'projectTagMapper' via property 'sqlSessionFactory' to bean named 'sqlSessionFactory'
+DEBUG main org.springframework.beans.factory.support.DefaultListableBeanFactory - Invoking afterPropertiesSet() on bean with name 'projectTagMapper'
+DEBUG main org.springframework.beans.factory.support.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0'
+DEBUG main org.springframework.beans.factory.support.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0'
+DEBUG main org.springframework.beans.factory.support.DefaultListableBeanFactory - Finished creating instance of bean 'projectTagMapper'
+DEBUG main org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'projectTypeMapper'
+DEBUG main org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating instance of bean 'projectTypeMapper'
+DEBUG main org.springframework.beans.factory.support.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0'
+DEBUG main org.springframework.beans.factory.support.DefaultListableBeanFactory - Eagerly caching bean 'projectTypeMapper' to allow for resolving potential circular references
+DEBUG main org.springframework.beans.factory.support.DefaultListableBeanFactory - Returning cached instance of singleton bean 'sqlSessionFactory'
+DEBUG main org.springframework.beans.factory.support.DefaultListableBeanFactory - Autowiring by type from bean name 'projectTypeMapper' via property 'sqlSessionFactory' to bean named 'sqlSessionFactory'
+DEBUG main org.springframework.beans.factory.support.DefaultListableBeanFactory - Invoking afterPropertiesSet() on bean with name 'projectTypeMapper'
+DEBUG main org.springframework.beans.factory.support.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0'
+DEBUG main org.springframework.beans.factory.support.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0'
+DEBUG main org.springframework.beans.factory.support.DefaultListableBeanFactory - Finished creating instance of bean 'projectTypeMapper'
+DEBUG main org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'returnMapper'
+DEBUG main org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating instance of bean 'returnMapper'
+DEBUG main org.springframework.beans.factory.support.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0'
+DEBUG main org.springframework.beans.factory.support.DefaultListableBeanFactory - Eagerly caching bean 'returnMapper' to allow for resolving potential circular references
+DEBUG main org.springframework.beans.factory.support.DefaultListableBeanFactory - Returning cached instance of singleton bean 'sqlSessionFactory'
+DEBUG main org.springframework.beans.factory.support.DefaultListableBeanFactory - Autowiring by type from bean name 'returnMapper' via property 'sqlSessionFactory' to bean named 'sqlSessionFactory'
+DEBUG main org.springframework.beans.factory.support.DefaultListableBeanFactory - Invoking afterPropertiesSet() on bean with name 'returnMapper'
+DEBUG main org.springframework.beans.factory.support.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0'
+DEBUG main org.springframework.beans.factory.support.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0'
+DEBUG main org.springframework.beans.factory.support.DefaultListableBeanFactory - Finished creating instance of bean 'returnMapper'
+DEBUG main org.springframework.beans.factory.support.DefaultListableBeanFactory - Returning cached instance of singleton bean 'roleMapper'
+DEBUG main org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'rolePermissionMapper'
+DEBUG main org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating instance of bean 'rolePermissionMapper'
+DEBUG main org.springframework.beans.factory.support.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0'
+DEBUG main org.springframework.beans.factory.support.DefaultListableBeanFactory - Eagerly caching bean 'rolePermissionMapper' to allow for resolving potential circular references
+DEBUG main org.springframework.beans.factory.support.DefaultListableBeanFactory - Returning cached instance of singleton bean 'sqlSessionFactory'
+DEBUG main org.springframework.beans.factory.support.DefaultListableBeanFactory - Autowiring by type from bean name 'rolePermissionMapper' via property 'sqlSessionFactory' to bean named 'sqlSessionFactory'
+DEBUG main org.springframework.beans.factory.support.DefaultListableBeanFactory - Invoking afterPropertiesSet() on bean with name 'rolePermissionMapper'
+DEBUG main org.springframework.beans.factory.support.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0'
+DEBUG main org.springframework.beans.factory.support.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0'
+DEBUG main org.springframework.beans.factory.support.DefaultListableBeanFactory - Finished creating instance of bean 'rolePermissionMapper'
+DEBUG main org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'tagMapper'
+DEBUG main org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating instance of bean 'tagMapper'
+DEBUG main org.springframework.beans.factory.support.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0'
+DEBUG main org.springframework.beans.factory.support.DefaultListableBeanFactory - Eagerly caching bean 'tagMapper' to allow for resolving potential circular references
+DEBUG main org.springframework.beans.factory.support.DefaultListableBeanFactory - Returning cached instance of singleton bean 'sqlSessionFactory'
+DEBUG main org.springframework.beans.factory.support.DefaultListableBeanFactory - Autowiring by type from bean name 'tagMapper' via property 'sqlSessionFactory' to bean named 'sqlSessionFactory'
+DEBUG main org.springframework.beans.factory.support.DefaultListableBeanFactory - Invoking afterPropertiesSet() on bean with name 'tagMapper'
+DEBUG main org.springframework.beans.factory.support.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0'
+DEBUG main org.springframework.beans.factory.support.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0'
+DEBUG main org.springframework.beans.factory.support.DefaultListableBeanFactory - Finished creating instance of bean 'tagMapper'
+DEBUG main org.springframework.beans.factory.support.DefaultListableBeanFactory - Returning cached instance of singleton bean 'testDao'
+DEBUG main org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'typeMapper'
+DEBUG main org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating instance of bean 'typeMapper'
+DEBUG main org.springframework.beans.factory.support.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0'
+DEBUG main org.springframework.beans.factory.support.DefaultListableBeanFactory - Eagerly caching bean 'typeMapper' to allow for resolving potential circular references
+DEBUG main org.springframework.beans.factory.support.DefaultListableBeanFactory - Returning cached instance of singleton bean 'sqlSessionFactory'
+DEBUG main org.springframework.beans.factory.support.DefaultListableBeanFactory - Autowiring by type from bean name 'typeMapper' via property 'sqlSessionFactory' to bean named 'sqlSessionFactory'
+DEBUG main org.springframework.beans.factory.support.DefaultListableBeanFactory - Invoking afterPropertiesSet() on bean with name 'typeMapper'
+DEBUG main org.springframework.beans.factory.support.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0'
+DEBUG main org.springframework.beans.factory.support.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0'
+DEBUG main org.springframework.beans.factory.support.DefaultListableBeanFactory - Finished creating instance of bean 'typeMapper'
+DEBUG main org.springframework.beans.factory.support.DefaultListableBeanFactory - Returning cached instance of singleton bean 'userMapper'
+DEBUG main org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'userRoleMapper'
+DEBUG main org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating instance of bean 'userRoleMapper'
+DEBUG main org.springframework.beans.factory.support.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0'
+DEBUG main org.springframework.beans.factory.support.DefaultListableBeanFactory - Eagerly caching bean 'userRoleMapper' to allow for resolving potential circular references
+DEBUG main org.springframework.beans.factory.support.DefaultListableBeanFactory - Returning cached instance of singleton bean 'sqlSessionFactory'
+DEBUG main org.springframework.beans.factory.support.DefaultListableBeanFactory - Autowiring by type from bean name 'userRoleMapper' via property 'sqlSessionFactory' to bean named 'sqlSessionFactory'
+DEBUG main org.springframework.beans.factory.support.DefaultListableBeanFactory - Invoking afterPropertiesSet() on bean with name 'userRoleMapper'
+DEBUG main org.springframework.beans.factory.support.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0'
+DEBUG main org.springframework.beans.factory.support.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0'
+DEBUG main org.springframework.beans.factory.support.DefaultListableBeanFactory - Finished creating instance of bean 'userRoleMapper'
+DEBUG main org.springframework.beans.factory.support.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.context.event.internalEventListenerFactory'
+DEBUG main org.springframework.context.support.ClassPathXmlApplicationContext - Unable to locate LifecycleProcessor with name 'lifecycleProcessor': using default [org.springframework.context.support.DefaultLifecycleProcessor@56db847e]
+DEBUG main org.springframework.beans.factory.support.DefaultListableBeanFactory - Returning cached instance of singleton bean 'lifecycleProcessor'
+DEBUG main org.springframework.beans.factory.support.DefaultListableBeanFactory - Returning cached instance of singleton bean 'sqlSessionFactory'
+DEBUG main org.springframework.core.env.PropertySourcesPropertyResolver - Could not find key 'spring.liveBeansView.mbeanDomain' in any property source
+DEBUG main org.springframework.beans.factory.support.DefaultListableBeanFactory - Returning cached instance of singleton bean 'processEngine'
+DEBUG main org.activiti.engine.impl.interceptor.LogInterceptor -                                                                                                     
+DEBUG main org.activiti.engine.impl.interceptor.LogInterceptor - --- starting ProcessDefinitionQueryImpl --------------------------------------------------------
+DEBUG main org.activiti.spring.SpringTransactionInterceptor - Running command with propagation REQUIRED
+DEBUG main org.springframework.jdbc.datasource.DataSourceTransactionManager - Creating new transaction with name [null]: PROPAGATION_REQUIRED,ISOLATION_DEFAULT
+DEBUG main com.mchange.v2.resourcepool.BasicResourcePool - trace com.mchange.v2.resourcepool.BasicResourcePool@4212a0c8 [managed: 3, unused: 2, excluded: 0] (e.g. com.mchange.v2.c3p0.impl.NewPooledConnection@3e56ecc2)
+DEBUG main org.springframework.jdbc.datasource.DataSourceTransactionManager - Acquired Connection [com.mchange.v2.c3p0.impl.NewProxyConnection@5aabbb29] for JDBC transaction
+DEBUG main org.springframework.jdbc.datasource.DataSourceTransactionManager - Switching JDBC Connection [com.mchange.v2.c3p0.impl.NewProxyConnection@5aabbb29] to manual commit
+DEBUG main org.apache.ibatis.transaction.managed.ManagedTransaction - Opening JDBC Connection
+DEBUG main org.activiti.engine.impl.persistence.entity.ProcessDefinitionEntity.selectProcessDefinitionsByQueryCriteria_mysql - ==>  Preparing: select distinct RES.* from ACT_RE_PROCDEF RES WHERE RES.VERSION_ = (select max(VERSION_) from ACT_RE_PROCDEF where KEY_ = RES.KEY_ ) order by RES.ID_ asc LIMIT ? OFFSET ? 
+DEBUG main org.activiti.engine.impl.persistence.entity.ProcessDefinitionEntity.selectProcessDefinitionsByQueryCriteria_mysql - ==> Parameters: 2147483647(Integer), 0(Integer)
+DEBUG main org.activiti.engine.impl.persistence.entity.ProcessDefinitionEntity.selectProcessDefinitionsByQueryCriteria_mysql - <==      Total: 1
+DEBUG main org.activiti.engine.impl.db.DbSqlSession - flush summary: 0 insert, 0 update, 0 delete.
+DEBUG main org.activiti.engine.impl.db.DbSqlSession - now executing flush...
+DEBUG main org.apache.ibatis.transaction.managed.ManagedTransaction - Closing JDBC Connection [Transaction-aware proxy for target Connection [com.mchange.v2.c3p0.impl.NewProxyConnection@5aabbb29]]
+DEBUG main org.springframework.jdbc.datasource.DataSourceTransactionManager - Initiating transaction commit
+DEBUG main org.springframework.jdbc.datasource.DataSourceTransactionManager - Committing JDBC transaction on Connection [com.mchange.v2.c3p0.impl.NewProxyConnection@5aabbb29]
+DEBUG main org.springframework.jdbc.datasource.DataSourceTransactionManager - Releasing JDBC Connection [com.mchange.v2.c3p0.impl.NewProxyConnection@5aabbb29] after transaction
+DEBUG main org.springframework.jdbc.datasource.DataSourceUtils - Returning JDBC Connection to DataSource
+DEBUG main com.mchange.v2.resourcepool.BasicResourcePool - trace com.mchange.v2.resourcepool.BasicResourcePool@4212a0c8 [managed: 3, unused: 2, excluded: 0] (e.g. com.mchange.v2.c3p0.impl.NewPooledConnection@3e56ecc2)
+DEBUG main com.mchange.v2.c3p0.impl.NewProxyConnection - com.mchange.v2.c3p0.impl.NewProxyConnection@5aabbb29: close() called more than once.
+DEBUG main org.activiti.engine.impl.interceptor.LogInterceptor - --- ProcessDefinitionQueryImpl finished --------------------------------------------------------
+DEBUG main org.activiti.engine.impl.interceptor.LogInterceptor -                                                                                                     
+DEBUG main org.activiti.engine.impl.interceptor.LogInterceptor -                                                                                                     
+DEBUG main org.activiti.engine.impl.interceptor.LogInterceptor - --- starting StartProcessInstanceCmd --------------------------------------------------------
+DEBUG main org.activiti.spring.SpringTransactionInterceptor - Running command with propagation REQUIRED
+DEBUG main org.springframework.jdbc.datasource.DataSourceTransactionManager - Creating new transaction with name [null]: PROPAGATION_REQUIRED,ISOLATION_DEFAULT
+DEBUG main com.mchange.v2.resourcepool.BasicResourcePool - trace com.mchange.v2.resourcepool.BasicResourcePool@4212a0c8 [managed: 3, unused: 2, excluded: 0] (e.g. com.mchange.v2.c3p0.impl.NewPooledConnection@3e56ecc2)
+DEBUG main org.springframework.jdbc.datasource.DataSourceTransactionManager - Acquired Connection [com.mchange.v2.c3p0.impl.NewProxyConnection@77cf3f8b] for JDBC transaction
+DEBUG main org.springframework.jdbc.datasource.DataSourceTransactionManager - Switching JDBC Connection [com.mchange.v2.c3p0.impl.NewProxyConnection@77cf3f8b] to manual commit
+DEBUG main org.apache.ibatis.transaction.managed.ManagedTransaction - Opening JDBC Connection
+DEBUG main org.activiti.engine.impl.persistence.entity.ProcessDefinitionEntity.selectProcessDefinitionById - ==>  Preparing: select * from ACT_RE_PROCDEF where ID_ = ? 
+DEBUG main org.activiti.engine.impl.persistence.entity.ProcessDefinitionEntity.selectProcessDefinitionById - ==> Parameters: myProcess_1:2:204(String)
+DEBUG main org.activiti.engine.impl.persistence.entity.ProcessDefinitionEntity.selectProcessDefinitionById - <==      Total: 1
+DEBUG main org.activiti.engine.impl.persistence.entity.DeploymentEntity.selectDeploymentById - ==>  Preparing: select * from ACT_RE_DEPLOYMENT where ID_ = ? 
+DEBUG main org.activiti.engine.impl.persistence.entity.DeploymentEntity.selectDeploymentById - ==> Parameters: 201(String)
+DEBUG main org.activiti.engine.impl.persistence.entity.DeploymentEntity.selectDeploymentById - <==      Total: 1
+DEBUG main org.activiti.engine.impl.bpmn.deployer.BpmnDeployer - Processing deployment null
+DEBUG main org.activiti.engine.impl.persistence.entity.ResourceEntity.selectResourcesByDeploymentId - ==>  Preparing: select * from ACT_GE_BYTEARRAY where DEPLOYMENT_ID_ = ? order by NAME_ asc 
+DEBUG main org.activiti.engine.impl.persistence.entity.ResourceEntity.selectResourcesByDeploymentId - ==> Parameters: 201(String)
+DEBUG main org.activiti.engine.impl.persistence.entity.ResourceEntity.selectResourcesByDeploymentId - <==      Total: 2
+INFO main org.activiti.engine.impl.bpmn.deployer.BpmnDeployer - Processing resource MyProcess8.bpmn
+DEBUG main org.activiti.engine.impl.bpmn.parser.handler.ProcessParseHandler - Parsing process myProcess_1
+DEBUG main org.activiti.engine.impl.bpmn.parser.handler.AbstractBpmnParseHandler - Parsing activity mailtask1
+DEBUG main org.activiti.engine.impl.bpmn.parser.handler.AbstractBpmnParseHandler - Parsing activity _2
+DEBUG main org.activiti.engine.impl.bpmn.parser.handler.AbstractBpmnParseHandler - Parsing activity _4
+INFO main org.activiti.engine.impl.bpmn.deployer.BpmnDeployer - Processing resource MyProcess8.myProcess_1.png
+DEBUG main org.activiti.engine.impl.persistence.entity.ProcessDefinitionEntity.selectProcessDefinitionByDeploymentAndKey - ==>  Preparing: select * from ACT_RE_PROCDEF where DEPLOYMENT_ID_ = ? and KEY_ = ? and (TENANT_ID_ = '' or TENANT_ID_ is null) 
+DEBUG main org.activiti.engine.impl.persistence.entity.ProcessDefinitionEntity.selectProcessDefinitionByDeploymentAndKey - ==> Parameters: 201(String), myProcess_1(String)
+DEBUG main org.activiti.engine.impl.persistence.entity.ProcessDefinitionEntity.selectProcessDefinitionByDeploymentAndKey - <==      Total: 1
+DEBUG main org.activiti.engine.impl.interceptor.LogInterceptor -                                                                                                     
+DEBUG main org.activiti.engine.impl.interceptor.LogInterceptor - --- starting GetNextIdBlockCmd --------------------------------------------------------
+DEBUG main org.activiti.spring.SpringTransactionInterceptor - Running command with propagation REQUIRES_NEW
+DEBUG main org.springframework.jdbc.datasource.DataSourceTransactionManager - Suspending current transaction, creating new transaction with name [null]
+DEBUG main com.mchange.v2.resourcepool.BasicResourcePool - trace com.mchange.v2.resourcepool.BasicResourcePool@4212a0c8 [managed: 3, unused: 1, excluded: 0] (e.g. com.mchange.v2.c3p0.impl.NewPooledConnection@3e56ecc2)
+DEBUG main org.springframework.jdbc.datasource.DataSourceTransactionManager - Acquired Connection [com.mchange.v2.c3p0.impl.NewProxyConnection@3abd581e] for JDBC transaction
+DEBUG main org.springframework.jdbc.datasource.DataSourceTransactionManager - Switching JDBC Connection [com.mchange.v2.c3p0.impl.NewProxyConnection@3abd581e] to manual commit
+DEBUG main org.apache.ibatis.transaction.managed.ManagedTransaction - Opening JDBC Connection
+DEBUG main org.activiti.engine.impl.persistence.entity.PropertyEntity.selectProperty - ==>  Preparing: select * from ACT_GE_PROPERTY where NAME_ = ? 
+DEBUG main org.activiti.engine.impl.persistence.entity.PropertyEntity.selectProperty - ==> Parameters: next.dbid(String)
+DEBUG main org.activiti.engine.impl.persistence.entity.PropertyEntity.selectProperty - <==      Total: 1
+DEBUG main org.activiti.engine.impl.db.DbSqlSession - flush summary: 0 insert, 1 update, 0 delete.
+DEBUG main org.activiti.engine.impl.db.DbSqlSession -   update PropertyEntity[name=next.dbid, value=401]
+DEBUG main org.activiti.engine.impl.db.DbSqlSession - now executing flush...
+DEBUG main org.activiti.engine.impl.db.DbSqlSession - updating: PropertyEntity[name=next.dbid, value=401]
+DEBUG main org.activiti.engine.impl.persistence.entity.PropertyEntity.updateProperty - ==>  Preparing: update ACT_GE_PROPERTY SET REV_ = ?, VALUE_ = ? where NAME_ = ? and REV_ = ? 
+DEBUG main org.activiti.engine.impl.persistence.entity.PropertyEntity.updateProperty - ==> Parameters: 5(Integer), 401(String), next.dbid(String), 4(Integer)
+DEBUG main org.activiti.engine.impl.persistence.entity.PropertyEntity.updateProperty - <==    Updates: 1
+DEBUG main org.apache.ibatis.transaction.managed.ManagedTransaction - Closing JDBC Connection [Transaction-aware proxy for target Connection [com.mchange.v2.c3p0.impl.NewProxyConnection@3abd581e]]
+DEBUG main org.springframework.jdbc.datasource.DataSourceTransactionManager - Initiating transaction commit
+DEBUG main org.springframework.jdbc.datasource.DataSourceTransactionManager - Committing JDBC transaction on Connection [com.mchange.v2.c3p0.impl.NewProxyConnection@3abd581e]
+DEBUG main org.springframework.jdbc.datasource.DataSourceTransactionManager - Releasing JDBC Connection [com.mchange.v2.c3p0.impl.NewProxyConnection@3abd581e] after transaction
+DEBUG main org.springframework.jdbc.datasource.DataSourceUtils - Returning JDBC Connection to DataSource
+DEBUG main com.mchange.v2.resourcepool.BasicResourcePool - trace com.mchange.v2.resourcepool.BasicResourcePool@4212a0c8 [managed: 3, unused: 1, excluded: 0] (e.g. com.mchange.v2.c3p0.impl.NewPooledConnection@3e56ecc2)
+DEBUG main org.springframework.jdbc.datasource.DataSourceTransactionManager - Resuming suspended transaction after completion of inner transaction
+DEBUG main org.activiti.engine.impl.interceptor.LogInterceptor - --- GetNextIdBlockCmd finished --------------------------------------------------------
+DEBUG main org.activiti.engine.impl.interceptor.LogInterceptor -                                                                                                     
+DEBUG main org.activiti.engine.impl.persistence.entity.ExecutionEntity - initializing ProcessInstance[301]
+DEBUG main org.activiti.engine.impl.history.DefaultHistoryManager - Current history level: AUDIT, level required: ACTIVITY
+DEBUG main org.activiti.engine.impl.pvm.runtime.AtomicOperationActivityExecute - ProcessInstance[301] executes Activity(_2): org.activiti.engine.impl.bpmn.behavior.NoneStartEventActivityBehavior
+DEBUG main org.activiti.engine.impl.bpmn.behavior.BpmnActivityBehavior - Leaving activity '_2'
+DEBUG main org.activiti.engine.impl.history.DefaultHistoryManager - Current history level: AUDIT, level required: ACTIVITY
+DEBUG main org.activiti.engine.impl.pvm.runtime.AtomicOperationTransitionNotifyListenerTake - ProcessInstance[301] takes transition (_2)--_5-->(mailtask1)
+DEBUG main org.activiti.engine.impl.history.DefaultHistoryManager - Current history level: AUDIT, level required: ACTIVITY
+DEBUG main org.activiti.engine.impl.pvm.runtime.AtomicOperationActivityExecute - ProcessInstance[301] executes Activity(mailtask1): org.activiti.engine.impl.bpmn.behavior.MailActivityBehavior
+DEBUG main org.activiti.engine.impl.bpmn.behavior.BpmnActivityBehavior - Leaving activity 'mailtask1'
+DEBUG main org.activiti.engine.impl.history.DefaultHistoryManager - Current history level: AUDIT, level required: ACTIVITY
+DEBUG main org.activiti.engine.impl.pvm.runtime.AtomicOperationTransitionNotifyListenerTake - ProcessInstance[301] takes transition (mailtask1)--_6-->(_4)
+DEBUG main org.activiti.engine.impl.history.DefaultHistoryManager - Current history level: AUDIT, level required: ACTIVITY
+DEBUG main org.activiti.engine.impl.pvm.runtime.AtomicOperationActivityExecute - ProcessInstance[301] executes Activity(_4): org.activiti.engine.impl.bpmn.behavior.NoneEndEventActivityBehavior
+DEBUG main org.activiti.engine.impl.history.DefaultHistoryManager - Current history level: AUDIT, level required: ACTIVITY
+DEBUG main org.activiti.engine.impl.history.DefaultHistoryManager - Current history level: AUDIT, level required: ACTIVITY
+DEBUG main org.activiti.engine.impl.history.DefaultHistoryManager - Current history level: AUDIT
+DEBUG main org.activiti.engine.impl.persistence.entity.ExecutionEntity - destroying ProcessInstance[301]
+DEBUG main org.activiti.engine.impl.persistence.entity.IdentityLinkEntity.selectIdentityLinksByProcessInstance - ==>  Preparing: select * from ACT_RU_IDENTITYLINK where PROC_INST_ID_ = ? 
+DEBUG main org.activiti.engine.impl.persistence.entity.IdentityLinkEntity.selectIdentityLinksByProcessInstance - ==> Parameters: 301(String)
+DEBUG main org.activiti.engine.impl.persistence.entity.IdentityLinkEntity.selectIdentityLinksByProcessInstance - <==      Total: 0
+DEBUG main org.activiti.engine.impl.db.DbSqlSession - flush summary: 4 insert, 0 update, 0 delete.
+DEBUG main org.activiti.engine.impl.db.DbSqlSession -   insert HistoricProcessInstanceEntity[superProcessInstanceId=null]
+DEBUG main org.activiti.engine.impl.db.DbSqlSession -   insert HistoricActivityInstanceEntity[activityId=_2, activityName=StartEvent]
+DEBUG main org.activiti.engine.impl.db.DbSqlSession -   insert HistoricActivityInstanceEntity[activityId=mailtask1, activityName=MailTask]
+DEBUG main org.activiti.engine.impl.db.DbSqlSession -   insert HistoricActivityInstanceEntity[activityId=_4, activityName=EndEvent]
+DEBUG main org.activiti.engine.impl.db.DbSqlSession - now executing flush...
+DEBUG main org.activiti.engine.impl.db.DbSqlSession - inserting: HistoricProcessInstanceEntity[superProcessInstanceId=null]
+DEBUG main org.activiti.engine.impl.persistence.entity.HistoricProcessInstanceEntity.insertHistoricProcessInstance - ==>  Preparing: insert into ACT_HI_PROCINST ( ID_, PROC_INST_ID_, BUSINESS_KEY_, PROC_DEF_ID_, START_TIME_, END_TIME_, DURATION_, START_USER_ID_, START_ACT_ID_, END_ACT_ID_, SUPER_PROCESS_INSTANCE_ID_, DELETE_REASON_, TENANT_ID_ ) values ( ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ? ) 
+DEBUG main org.activiti.engine.impl.persistence.entity.HistoricProcessInstanceEntity.insertHistoricProcessInstance - ==> Parameters: 301(String), 301(String), null, myProcess_1:2:204(String), 2019-11-06 17:46:16.03(Timestamp), 2019-11-06 17:46:16.62(Timestamp), 590(Long), null, _2(String), _4(String), null, null, (String)
+DEBUG main org.activiti.engine.impl.persistence.entity.HistoricProcessInstanceEntity.insertHistoricProcessInstance - <==    Updates: 1
+DEBUG main org.activiti.engine.impl.db.DbSqlSession - inserting: HistoricActivityInstanceEntity[activityId=_2, activityName=StartEvent]
+DEBUG main org.activiti.engine.impl.persistence.entity.HistoricActivityInstanceEntity.insertHistoricActivityInstance - ==>  Preparing: insert into ACT_HI_ACTINST ( ID_, PROC_DEF_ID_, PROC_INST_ID_, EXECUTION_ID_, ACT_ID_, TASK_ID_, CALL_PROC_INST_ID_, ACT_NAME_, ACT_TYPE_, ASSIGNEE_, START_TIME_, END_TIME_, DURATION_, TENANT_ID_ ) values ( ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ? ) 
+DEBUG main org.activiti.engine.impl.persistence.entity.HistoricActivityInstanceEntity.insertHistoricActivityInstance - ==> Parameters: 302(String), myProcess_1:2:204(String), 301(String), 301(String), _2(String), null, null, StartEvent(String), startEvent(String), null, 2019-11-06 17:46:16.03(Timestamp), 2019-11-06 17:46:16.053(Timestamp), 23(Long), (String)
+DEBUG main org.activiti.engine.impl.persistence.entity.HistoricActivityInstanceEntity.insertHistoricActivityInstance - <==    Updates: 1
+DEBUG main org.activiti.engine.impl.db.DbSqlSession - inserting: HistoricActivityInstanceEntity[activityId=mailtask1, activityName=MailTask]
+DEBUG main org.activiti.engine.impl.persistence.entity.HistoricActivityInstanceEntity.insertHistoricActivityInstance - ==>  Preparing: insert into ACT_HI_ACTINST ( ID_, PROC_DEF_ID_, PROC_INST_ID_, EXECUTION_ID_, ACT_ID_, TASK_ID_, CALL_PROC_INST_ID_, ACT_NAME_, ACT_TYPE_, ASSIGNEE_, START_TIME_, END_TIME_, DURATION_, TENANT_ID_ ) values ( ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ? ) 
+DEBUG main org.activiti.engine.impl.persistence.entity.HistoricActivityInstanceEntity.insertHistoricActivityInstance - ==> Parameters: 303(String), myProcess_1:2:204(String), 301(String), 301(String), mailtask1(String), null, null, MailTask(String), serviceTask(String), null, 2019-11-06 17:46:16.055(Timestamp), 2019-11-06 17:46:16.615(Timestamp), 560(Long), (String)
+DEBUG main org.activiti.engine.impl.persistence.entity.HistoricActivityInstanceEntity.insertHistoricActivityInstance - <==    Updates: 1
+DEBUG main org.activiti.engine.impl.db.DbSqlSession - inserting: HistoricActivityInstanceEntity[activityId=_4, activityName=EndEvent]
+DEBUG main org.activiti.engine.impl.persistence.entity.HistoricActivityInstanceEntity.insertHistoricActivityInstance - ==>  Preparing: insert into ACT_HI_ACTINST ( ID_, PROC_DEF_ID_, PROC_INST_ID_, EXECUTION_ID_, ACT_ID_, TASK_ID_, CALL_PROC_INST_ID_, ACT_NAME_, ACT_TYPE_, ASSIGNEE_, START_TIME_, END_TIME_, DURATION_, TENANT_ID_ ) values ( ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ? ) 
+DEBUG main org.activiti.engine.impl.persistence.entity.HistoricActivityInstanceEntity.insertHistoricActivityInstance - ==> Parameters: 304(String), myProcess_1:2:204(String), 301(String), 301(String), _4(String), null, null, EndEvent(String), endEvent(String), null, 2019-11-06 17:46:16.616(Timestamp), 2019-11-06 17:46:16.618(Timestamp), 2(Long), (String)
+DEBUG main org.activiti.engine.impl.persistence.entity.HistoricActivityInstanceEntity.insertHistoricActivityInstance - <==    Updates: 1
+DEBUG main org.apache.ibatis.transaction.managed.ManagedTransaction - Closing JDBC Connection [Transaction-aware proxy for target Connection [com.mchange.v2.c3p0.impl.NewProxyConnection@77cf3f8b]]
+DEBUG main org.springframework.jdbc.datasource.DataSourceTransactionManager - Initiating transaction commit
+DEBUG main org.springframework.jdbc.datasource.DataSourceTransactionManager - Committing JDBC transaction on Connection [com.mchange.v2.c3p0.impl.NewProxyConnection@77cf3f8b]
+DEBUG main org.springframework.jdbc.datasource.DataSourceTransactionManager - Releasing JDBC Connection [com.mchange.v2.c3p0.impl.NewProxyConnection@77cf3f8b] after transaction
+DEBUG main org.springframework.jdbc.datasource.DataSourceUtils - Returning JDBC Connection to DataSource
+DEBUG main com.mchange.v2.resourcepool.BasicResourcePool - trace com.mchange.v2.resourcepool.BasicResourcePool@4212a0c8 [managed: 3, unused: 2, excluded: 0] (e.g. com.mchange.v2.c3p0.impl.NewPooledConnection@3e56ecc2)
+DEBUG main com.mchange.v2.c3p0.impl.NewProxyConnection - com.mchange.v2.c3p0.impl.NewProxyConnection@77cf3f8b: close() called more than once.
+DEBUG main org.activiti.engine.impl.interceptor.LogInterceptor - --- StartProcessInstanceCmd finished --------------------------------------------------------
+DEBUG main org.activiti.engine.impl.interceptor.LogInterceptor -                                                                                                     

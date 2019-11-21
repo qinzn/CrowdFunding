@@ -1,0 +1,105 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="Crowdfunding_main:war exploded">
+    <output-path>$PROJECT_DIR$/Crowdfunding_main/target/Crowdfunding_main</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <exploded>true</exploded>
+        <module>Crowdfunding_main</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="root">
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="Crowdfunding_main" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="archive" name="Crowdfunding_manager_impl-1.0-SNAPSHOT.jar">
+            <element id="module-output" name="Crowdfunding_manager_impl" />
+          </element>
+          <element id="archive" name="Crowdfunding_manager_api-1.0-SNAPSHOT.jar">
+            <element id="module-output" name="Crowdfunding_manager_api" />
+          </element>
+          <element id="archive" name="Crowdfunding_potal_api-1.0-SNAPSHOT.jar">
+            <element id="module-output" name="Crowdfunding_potal_api" />
+          </element>
+          <element id="archive" name="Crowdfunding_potal_impll-1.0-SNAPSHOT.jar">
+            <element id="module-output" name="Crowdfunding_potal_impll" />
+          </element>
+          <element id="archive" name="Crowdfunding_commonn-1.0-SNAPSHOT.jar">
+            <element id="module-output" name="Crowdfunding_commonn" />
+          </element>
+          <element id="archive" name="Crowdfunding_beans-1.0-SNAPSHOT.jar">
+            <element id="module-output" name="Crowdfunding_beans" />
+          </element>
+          <element id="library" level="project" name="Maven: org.springframework:spring-core:5.0.2.RELEASE" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-jcl:5.0.2.RELEASE" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-context:5.0.2.RELEASE" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-aop:5.0.2.RELEASE" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-beans:5.0.2.RELEASE" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-expression:5.0.2.RELEASE" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-jdbc:5.0.2.RELEASE" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-tx:5.0.2.RELEASE" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-orm:5.0.2.RELEASE" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-web:5.0.2.RELEASE" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-webmvc:5.0.2.RELEASE" />
+          <element id="library" level="project" name="Maven: c3p0:c3p0:0.9.1.2" />
+          <element id="library" level="project" name="Maven: cglib:cglib:2.2" />
+          <element id="library" level="project" name="Maven: asm:asm:3.1" />
+          <element id="library" level="project" name="Maven: org.aspectj:aspectjweaver:1.6.8" />
+          <element id="library" level="project" name="Maven: org.mybatis:mybatis:3.4.5" />
+          <element id="library" level="project" name="Maven: org.mybatis:mybatis-spring:1.3.0" />
+          <element id="library" level="project" name="Maven: log4j:log4j:1.2.17" />
+          <element id="library" level="project" name="Maven: org.slf4j:slf4j-api:1.7.7" />
+          <element id="library" level="project" name="Maven: org.slf4j:slf4j-log4j12:1.7.7" />
+          <element id="library" level="project" name="Maven: mysql:mysql-connector-java:8.0.11" />
+          <element id="library" level="project" name="Maven: com.google.protobuf:protobuf-java:2.6.0" />
+          <element id="library" level="project" name="Maven: jstl:jstl:1.2" />
+          <element id="library" level="project" name="Maven: net.sf.ehcache:ehcache:1.6.2" />
+          <element id="library" level="project" name="Maven: org.quartz-scheduler:quartz:2.2.3" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-context-support:5.0.2.RELEASE" />
+          <element id="library" level="project" name="Maven: commons-collections:commons-collections:3.1" />
+          <element id="library" level="project" name="Maven: com.fasterxml.jackson.core:jackson-databind:2.9.0" />
+          <element id="library" level="project" name="Maven: com.fasterxml.jackson.core:jackson-core:2.9.0" />
+          <element id="library" level="project" name="Maven: com.fasterxml.jackson.core:jackson-annotations:2.9.0" />
+          <element id="library" level="project" name="Maven: org.apache.poi:poi:3.9" />
+          <element id="library" level="project" name="Maven: commons-codec:commons-codec:1.5" />
+          <element id="library" level="project" name="Maven: org.jfree:jfreechart:1.0.19" />
+          <element id="library" level="project" name="Maven: org.jfree:jcommon:1.0.23" />
+          <element id="library" level="project" name="Maven: commons-fileupload:commons-fileupload:1.3.1" />
+          <element id="library" level="project" name="Maven: commons-io:commons-io:2.2" />
+          <element id="library" level="project" name="Maven: org.freemarker:freemarker:2.3.19" />
+          <element id="library" level="project" name="Maven: org.activiti:activiti-engine:5.15.1" />
+          <element id="library" level="project" name="Maven: org.activiti:activiti-bpmn-converter:5.15.1" />
+          <element id="library" level="project" name="Maven: org.activiti:activiti-bpmn-model:5.15.1" />
+          <element id="library" level="project" name="Maven: org.activiti:activiti-process-validation:5.15.1" />
+          <element id="library" level="project" name="Maven: org.apache.commons:commons-lang3:3.1" />
+          <element id="library" level="project" name="Maven: joda-time:joda-time:2.1" />
+          <element id="library" level="project" name="Maven: org.slf4j:jcl-over-slf4j:1.7.6" />
+          <element id="library" level="project" name="Maven: org.activiti:activiti-spring:5.15.1" />
+          <element id="library" level="project" name="Maven: commons-dbcp:commons-dbcp:1.4" />
+          <element id="library" level="project" name="Maven: commons-pool:commons-pool:1.5.4" />
+          <element id="library" level="project" name="Maven: org.apache.commons:commons-email:1.3.1" />
+          <element id="library" level="project" name="Maven: javax.mail:mail:1.4.5" />
+          <element id="library" level="project" name="Maven: javax.activation:activation:1.1.1" />
+          <element id="library" level="project" name="Maven: org.activiti:activiti-explorer:5.15.1" />
+          <element id="library" level="project" name="Maven: org.activiti:activiti-json-converter:5.15.1" />
+          <element id="library" level="project" name="Maven: org.codehaus.jackson:jackson-core-asl:1.9.9" />
+          <element id="library" level="project" name="Maven: org.codehaus.jackson:jackson-mapper-asl:1.9.9" />
+          <element id="library" level="project" name="Maven: math.geom2d:javaGeom:0.11.1" />
+          <element id="library" level="project" name="Maven: org.activiti:activiti-simple-workflow:5.15.1" />
+          <element id="library" level="project" name="Maven: org.activiti:activiti-bpmn-layout:5.15.1" />
+          <element id="library" level="project" name="Maven: org.tinyjee.jgraphx:jgraphx:1.10.4.1" />
+          <element id="library" level="project" name="Maven: com.vaadin:vaadin:6.8.8" />
+          <element id="library" level="project" name="Maven: com.h2database:h2:1.3.170" />
+          <element id="library" level="project" name="Maven: org.imgscalr:imgscalr-lib:4.2" />
+          <element id="library" level="project" name="Maven: org.vaadin.addons:dcharts-widget:0.10.0" />
+        </element>
+      </element>
+      <element id="directory" name="META-INF">
+        <element id="file-copy" path="$PROJECT_DIR$/Crowdfunding_main/target/Crowdfunding_main/META-INF/MANIFEST.MF" />
+      </element>
+      <element id="javaee-facet-resources" facet="Crowdfunding_main/web/Web" />
+    </root>
+  </artifact>
+</component>

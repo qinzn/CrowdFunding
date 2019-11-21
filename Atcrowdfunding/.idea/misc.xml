@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="FrameworkDetectionExcludesConfiguration">
+    <file type="web" url="file://$PROJECT_DIR$/Crowdfunding_main" />
+  </component>
+  <component name="JavaScriptSettings">
+    <option name="languageLevel" value="ES6" />
+  </component>
+  <component name="MavenProjectsManager">
+    <option name="originalFiles">
+      <list>
+        <option value="$PROJECT_DIR$/Crowdfunding_main/pom.xml" />
+        <option value="$PROJECT_DIR$/Crowdfunding_parent/pom.xml" />
+        <option value="$PROJECT_DIR$/Crowdfunding_manager_api/pom.xml" />
+        <option value="$PROJECT_DIR$/Crowdfunding_manager_impl/pom.xml" />
+        <option value="$PROJECT_DIR$/Crowdfunding_potal_api/pom.xml" />
+        <option value="$PROJECT_DIR$/Crowdfunding_potal_impll/pom.xml" />
+        <option value="$PROJECT_DIR$/Crowdfunding_commonn/pom.xml" />
+        <option value="$PROJECT_DIR$/Crowdfunding_beans/pom.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_7" default="false" project-jdk-name="1.7" project-jdk-type="JavaSDK" />
+</project>

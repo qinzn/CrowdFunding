@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.qzn.crowdfunding.manager.dao.RoleMapper" >
+  <resultMap id="BaseResultMap" type="com.qzn.crowdfunding.bean.Role" >
+    <id column="id" property="id" jdbcType="INTEGER" />
+    <result column="name" property="name" jdbcType="VARCHAR" />
+  </resultMap>
+  <delete id="deleteByPrimaryKey" parameterType="java.lang.Integer" >
+    delete from t_role
+    where id = #{id,jdbcType=INTEGER}
+  </delete>
+  <insert id="insert" parameterType="com.qzn.crowdfunding.bean.Role" >
+    insert into t_role (id, name)
+    values (#{id,jdbcType=INTEGER}, #{name,jdbcType=VARCHAR})
+  </insert>
+  <update id="updateByPrimaryKey" parameterType="com.qzn.crowdfunding.bean.Role" >
+    update t_role
+    set name = #{name,jdbcType=VARCHAR}
+    where id = #{id,jdbcType=INTEGER}
+  </update>
+  <select id="selectByPrimaryKey" resultMap="BaseResultMap" parameterType="java.lang.Integer" >
+    select id, name
+    from t_role
+    where id = #{id,jdbcType=INTEGER}
+  </select>
+  <select id="selectAll" resultMap="BaseResultMap" >
+    select id, name
+    from t_role
+  </select>
+
+  <delete id="deleteRoleBatchByVo">
+    delete from t_role
+    where id in
+    <foreach collection="datas" open="(" close=")" separator="," item="role">
+      #{role.id}
+    </foreach>
+  </delete>
+
+  <select id="queryList" resultMap="BaseResultMap">
+    select id, name
+    from t_role
+    <where>
+      <if test="queryText!=null">name like concat("%",#{queryText},"%")</if>
+    </where>
+    limit #{startIndex},#{pagesize}
+  </select>
+
+  <select id="queryCount" resultType="int">
+    select count(*)
+    from t_role
+    <where>
+      <if test="queryText!=null">name like concat("%",#{queryText},"%") </if>
+    </where>
+  </select>
+
+  <select id="queryAllPermission" resultType="Permission">
+    select * from t_permission
+  </select>
+
+  <select id="queryPermissionIdsByRoleid" parameterType="int" resultType="int">
+    select permissionid from t_role_permission where roleid=#{roleid}
+  </select>
+
+  <insert id="saveRolePermissionRelationship">
+    <foreach collection="data.ids" item="permissionid" separator=";">
+      insert into t_role_permission (roleid,permissionid) values(#{roleid},#{permissionid})
+    </foreach>
+  </insert>
+
+  <delete id="deleteRolePermissionRelationship">
+    delete from t_role_permission where roleid=#{roleid}
+  </delete>
+</mapper>

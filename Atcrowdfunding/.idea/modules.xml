@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/Atcrowdfunding.iml" filepath="$PROJECT_DIR$/.idea/Atcrowdfunding.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Crowdfunding_beans/Crowdfunding_beans.iml" filepath="$PROJECT_DIR$/Crowdfunding_beans/Crowdfunding_beans.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Crowdfunding_commonn/Crowdfunding_commonn.iml" filepath="$PROJECT_DIR$/Crowdfunding_commonn/Crowdfunding_commonn.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Crowdfunding_main/Crowdfunding_main.iml" filepath="$PROJECT_DIR$/Crowdfunding_main/Crowdfunding_main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Crowdfunding_manager_api/Crowdfunding_manager_api.iml" filepath="$PROJECT_DIR$/Crowdfunding_manager_api/Crowdfunding_manager_api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Crowdfunding_manager_impl/Crowdfunding_manager_impl.iml" filepath="$PROJECT_DIR$/Crowdfunding_manager_impl/Crowdfunding_manager_impl.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Crowdfunding_parent/Crowdfunding_parent.iml" filepath="$PROJECT_DIR$/Crowdfunding_parent/Crowdfunding_parent.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Crowdfunding_potal_api/Crowdfunding_potal_api.iml" filepath="$PROJECT_DIR$/Crowdfunding_potal_api/Crowdfunding_potal_api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Crowdfunding_potal_impll/Crowdfunding_potal_impll.iml" filepath="$PROJECT_DIR$/Crowdfunding_potal_impll/Crowdfunding_potal_impll.iml" />
+    </modules>
+  </component>
+</project>

@@ -1,0 +1,617 @@
+DEBUG main org.springframework.jdbc.datasource.DataSourceTransactionManager - Committing JDBC transaction on Connection [com.mchange.v2.c3p0.impl.NewProxyConnection@6bf13698]
+DEBUG main org.springframework.jdbc.datasource.DataSourceTransactionManager - Releasing JDBC Connection [com.mchange.v2.c3p0.impl.NewProxyConnection@6bf13698] after transaction
+DEBUG main org.springframework.jdbc.datasource.DataSourceUtils - Returning JDBC Connection to DataSource
+DEBUG main com.mchange.v2.resourcepool.BasicResourcePool - trace com.mchange.v2.resourcepool.BasicResourcePool@36546a22 [managed: 3, unused: 2, excluded: 0] (e.g. com.mchange.v2.c3p0.impl.NewPooledConnection@1aaf0877)
+DEBUG main org.springframework.jdbc.datasource.DataSourceTransactionManager - Creating new transaction with name [com.qzn.crowdfunding.manager.service.impl.UserServiceImpl.saveUser]: PROPAGATION_REQUIRED,ISOLATION_DEFAULT,-java.lang.Exception
+DEBUG main com.mchange.v2.resourcepool.BasicResourcePool - trace com.mchange.v2.resourcepool.BasicResourcePool@36546a22 [managed: 3, unused: 2, excluded: 0] (e.g. com.mchange.v2.c3p0.impl.NewPooledConnection@1aaf0877)
+DEBUG main org.springframework.jdbc.datasource.DataSourceTransactionManager - Acquired Connection [com.mchange.v2.c3p0.impl.NewProxyConnection@71f96dfb] for JDBC transaction
+DEBUG main org.springframework.jdbc.datasource.DataSourceTransactionManager - Switching JDBC Connection [com.mchange.v2.c3p0.impl.NewProxyConnection@71f96dfb] to manual commit
+DEBUG main org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+DEBUG main org.mybatis.spring.SqlSessionUtils - Registering transaction synchronization for SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@5d1b9c3d]
+DEBUG main org.mybatis.spring.transaction.SpringManagedTransaction - JDBC Connection [com.mchange.v2.c3p0.impl.NewProxyConnection@71f96dfb] will be managed by Spring
+DEBUG main com.qzn.crowdfunding.manager.dao.UserMapper.insert - ==>  Preparing: insert into t_user (id, loginacct, userpswd, username, email, createtime ) values (?, ?, ?, ?, ?, ? ) 
+DEBUG main com.qzn.crowdfunding.manager.dao.UserMapper.insert - ==> Parameters: null, test83(String), 202cb962ac59075b964b07152d234b70(String), test83(String), test83@qq.com(String), 2019-11-07 20:43:58(String)
+DEBUG main com.qzn.crowdfunding.manager.dao.UserMapper.insert - <==    Updates: 1
+DEBUG main org.mybatis.spring.SqlSessionUtils - Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@5d1b9c3d]
+DEBUG main org.mybatis.spring.SqlSessionUtils - Transaction synchronization committing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@5d1b9c3d]
+DEBUG main org.mybatis.spring.SqlSessionUtils - Transaction synchronization deregistering SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@5d1b9c3d]
+DEBUG main org.mybatis.spring.SqlSessionUtils - Transaction synchronization closing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@5d1b9c3d]
+DEBUG main org.springframework.jdbc.datasource.DataSourceTransactionManager - Initiating transaction commit
+DEBUG main org.springframework.jdbc.datasource.DataSourceTransactionManager - Committing JDBC transaction on Connection [com.mchange.v2.c3p0.impl.NewProxyConnection@71f96dfb]
+DEBUG main org.springframework.jdbc.datasource.DataSourceTransactionManager - Releasing JDBC Connection [com.mchange.v2.c3p0.impl.NewProxyConnection@71f96dfb] after transaction
+DEBUG main org.springframework.jdbc.datasource.DataSourceUtils - Returning JDBC Connection to DataSource
+DEBUG main com.mchange.v2.resourcepool.BasicResourcePool - trace com.mchange.v2.resourcepool.BasicResourcePool@36546a22 [managed: 3, unused: 2, excluded: 0] (e.g. com.mchange.v2.c3p0.impl.NewPooledConnection@1aaf0877)
+DEBUG main org.springframework.jdbc.datasource.DataSourceTransactionManager - Creating new transaction with name [com.qzn.crowdfunding.manager.service.impl.UserServiceImpl.saveUser]: PROPAGATION_REQUIRED,ISOLATION_DEFAULT,-java.lang.Exception
+DEBUG main com.mchange.v2.resourcepool.BasicResourcePool - trace com.mchange.v2.resourcepool.BasicResourcePool@36546a22 [managed: 3, unused: 2, excluded: 0] (e.g. com.mchange.v2.c3p0.impl.NewPooledConnection@1aaf0877)
+DEBUG main org.springframework.jdbc.datasource.DataSourceTransactionManager - Acquired Connection [com.mchange.v2.c3p0.impl.NewProxyConnection@1eb2d371] for JDBC transaction
+DEBUG main org.springframework.jdbc.datasource.DataSourceTransactionManager - Switching JDBC Connection [com.mchange.v2.c3p0.impl.NewProxyConnection@1eb2d371] to manual commit
+DEBUG main org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+DEBUG main org.mybatis.spring.SqlSessionUtils - Registering transaction synchronization for SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@2babf189]
+DEBUG main org.mybatis.spring.transaction.SpringManagedTransaction - JDBC Connection [com.mchange.v2.c3p0.impl.NewProxyConnection@1eb2d371] will be managed by Spring
+DEBUG main com.qzn.crowdfunding.manager.dao.UserMapper.insert - ==>  Preparing: insert into t_user (id, loginacct, userpswd, username, email, createtime ) values (?, ?, ?, ?, ?, ? ) 
+DEBUG main com.qzn.crowdfunding.manager.dao.UserMapper.insert - ==> Parameters: null, test84(String), 202cb962ac59075b964b07152d234b70(String), test84(String), test84@qq.com(String), 2019-11-07 20:43:58(String)
+DEBUG main com.qzn.crowdfunding.manager.dao.UserMapper.insert - <==    Updates: 1
+DEBUG main org.mybatis.spring.SqlSessionUtils - Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@2babf189]
+DEBUG main org.mybatis.spring.SqlSessionUtils - Transaction synchronization committing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@2babf189]
+DEBUG main org.mybatis.spring.SqlSessionUtils - Transaction synchronization deregistering SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@2babf189]
+DEBUG main org.mybatis.spring.SqlSessionUtils - Transaction synchronization closing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@2babf189]
+DEBUG main org.springframework.jdbc.datasource.DataSourceTransactionManager - Initiating transaction commit
+DEBUG main org.springframework.jdbc.datasource.DataSourceTransactionManager - Committing JDBC transaction on Connection [com.mchange.v2.c3p0.impl.NewProxyConnection@1eb2d371]
+DEBUG main org.springframework.jdbc.datasource.DataSourceTransactionManager - Releasing JDBC Connection [com.mchange.v2.c3p0.impl.NewProxyConnection@1eb2d371] after transaction
+DEBUG main org.springframework.jdbc.datasource.DataSourceUtils - Returning JDBC Connection to DataSource
+DEBUG main com.mchange.v2.resourcepool.BasicResourcePool - trace com.mchange.v2.resourcepool.BasicResourcePool@36546a22 [managed: 3, unused: 2, excluded: 0] (e.g. com.mchange.v2.c3p0.impl.NewPooledConnection@1aaf0877)
+DEBUG main org.springframework.jdbc.datasource.DataSourceTransactionManager - Creating new transaction with name [com.qzn.crowdfunding.manager.service.impl.UserServiceImpl.saveUser]: PROPAGATION_REQUIRED,ISOLATION_DEFAULT,-java.lang.Exception
+DEBUG main com.mchange.v2.resourcepool.BasicResourcePool - trace com.mchange.v2.resourcepool.BasicResourcePool@36546a22 [managed: 3, unused: 2, excluded: 0] (e.g. com.mchange.v2.c3p0.impl.NewPooledConnection@1aaf0877)
+DEBUG main org.springframework.jdbc.datasource.DataSourceTransactionManager - Acquired Connection [com.mchange.v2.c3p0.impl.NewProxyConnection@7063686f] for JDBC transaction
+DEBUG main org.springframework.jdbc.datasource.DataSourceTransactionManager - Switching JDBC Connection [com.mchange.v2.c3p0.impl.NewProxyConnection@7063686f] to manual commit
+DEBUG main org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+DEBUG main org.mybatis.spring.SqlSessionUtils - Registering transaction synchronization for SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@c3177d5]
+DEBUG main org.mybatis.spring.transaction.SpringManagedTransaction - JDBC Connection [com.mchange.v2.c3p0.impl.NewProxyConnection@7063686f] will be managed by Spring
+DEBUG main com.qzn.crowdfunding.manager.dao.UserMapper.insert - ==>  Preparing: insert into t_user (id, loginacct, userpswd, username, email, createtime ) values (?, ?, ?, ?, ?, ? ) 
+DEBUG main com.qzn.crowdfunding.manager.dao.UserMapper.insert - ==> Parameters: null, test85(String), 202cb962ac59075b964b07152d234b70(String), test85(String), test85@qq.com(String), 2019-11-07 20:43:58(String)
+DEBUG main com.qzn.crowdfunding.manager.dao.UserMapper.insert - <==    Updates: 1
+DEBUG main org.mybatis.spring.SqlSessionUtils - Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@c3177d5]
+DEBUG main org.mybatis.spring.SqlSessionUtils - Transaction synchronization committing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@c3177d5]
+DEBUG main org.mybatis.spring.SqlSessionUtils - Transaction synchronization deregistering SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@c3177d5]
+DEBUG main org.mybatis.spring.SqlSessionUtils - Transaction synchronization closing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@c3177d5]
+DEBUG main org.springframework.jdbc.datasource.DataSourceTransactionManager - Initiating transaction commit
+DEBUG main org.springframework.jdbc.datasource.DataSourceTransactionManager - Committing JDBC transaction on Connection [com.mchange.v2.c3p0.impl.NewProxyConnection@7063686f]
+DEBUG main org.springframework.jdbc.datasource.DataSourceTransactionManager - Releasing JDBC Connection [com.mchange.v2.c3p0.impl.NewProxyConnection@7063686f] after transaction
+DEBUG main org.springframework.jdbc.datasource.DataSourceUtils - Returning JDBC Connection to DataSource
+DEBUG main com.mchange.v2.resourcepool.BasicResourcePool - trace com.mchange.v2.resourcepool.BasicResourcePool@36546a22 [managed: 3, unused: 2, excluded: 0] (e.g. com.mchange.v2.c3p0.impl.NewPooledConnection@1aaf0877)
+DEBUG main org.springframework.jdbc.datasource.DataSourceTransactionManager - Creating new transaction with name [com.qzn.crowdfunding.manager.service.impl.UserServiceImpl.saveUser]: PROPAGATION_REQUIRED,ISOLATION_DEFAULT,-java.lang.Exception
+DEBUG main com.mchange.v2.resourcepool.BasicResourcePool - trace com.mchange.v2.resourcepool.BasicResourcePool@36546a22 [managed: 3, unused: 2, excluded: 0] (e.g. com.mchange.v2.c3p0.impl.NewPooledConnection@1aaf0877)
+DEBUG main org.springframework.jdbc.datasource.DataSourceTransactionManager - Acquired Connection [com.mchange.v2.c3p0.impl.NewProxyConnection@3491e86e] for JDBC transaction
+DEBUG main org.springframework.jdbc.datasource.DataSourceTransactionManager - Switching JDBC Connection [com.mchange.v2.c3p0.impl.NewProxyConnection@3491e86e] to manual commit
+DEBUG main org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+DEBUG main org.mybatis.spring.SqlSessionUtils - Registering transaction synchronization for SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@68f32020]
+DEBUG main org.mybatis.spring.transaction.SpringManagedTransaction - JDBC Connection [com.mchange.v2.c3p0.impl.NewProxyConnection@3491e86e] will be managed by Spring
+DEBUG main com.qzn.crowdfunding.manager.dao.UserMapper.insert - ==>  Preparing: insert into t_user (id, loginacct, userpswd, username, email, createtime ) values (?, ?, ?, ?, ?, ? ) 
+DEBUG main com.qzn.crowdfunding.manager.dao.UserMapper.insert - ==> Parameters: null, test86(String), 202cb962ac59075b964b07152d234b70(String), test86(String), test86@qq.com(String), 2019-11-07 20:43:58(String)
+DEBUG main com.qzn.crowdfunding.manager.dao.UserMapper.insert - <==    Updates: 1
+DEBUG main org.mybatis.spring.SqlSessionUtils - Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@68f32020]
+DEBUG main org.mybatis.spring.SqlSessionUtils - Transaction synchronization committing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@68f32020]
+DEBUG main org.mybatis.spring.SqlSessionUtils - Transaction synchronization deregistering SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@68f32020]
+DEBUG main org.mybatis.spring.SqlSessionUtils - Transaction synchronization closing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@68f32020]
+DEBUG main org.springframework.jdbc.datasource.DataSourceTransactionManager - Initiating transaction commit
+DEBUG main org.springframework.jdbc.datasource.DataSourceTransactionManager - Committing JDBC transaction on Connection [com.mchange.v2.c3p0.impl.NewProxyConnection@3491e86e]
+DEBUG main org.springframework.jdbc.datasource.DataSourceTransactionManager - Releasing JDBC Connection [com.mchange.v2.c3p0.impl.NewProxyConnection@3491e86e] after transaction
+DEBUG main org.springframework.jdbc.datasource.DataSourceUtils - Returning JDBC Connection to DataSource
+DEBUG main com.mchange.v2.resourcepool.BasicResourcePool - trace com.mchange.v2.resourcepool.BasicResourcePool@36546a22 [managed: 3, unused: 2, excluded: 0] (e.g. com.mchange.v2.c3p0.impl.NewPooledConnection@1aaf0877)
+DEBUG main org.springframework.jdbc.datasource.DataSourceTransactionManager - Creating new transaction with name [com.qzn.crowdfunding.manager.service.impl.UserServiceImpl.saveUser]: PROPAGATION_REQUIRED,ISOLATION_DEFAULT,-java.lang.Exception
+DEBUG main com.mchange.v2.resourcepool.BasicResourcePool - trace com.mchange.v2.resourcepool.BasicResourcePool@36546a22 [managed: 3, unused: 2, excluded: 0] (e.g. com.mchange.v2.c3p0.impl.NewPooledConnection@1aaf0877)
+DEBUG main org.springframework.jdbc.datasource.DataSourceTransactionManager - Acquired Connection [com.mchange.v2.c3p0.impl.NewProxyConnection@2b329bbd] for JDBC transaction
+DEBUG main org.springframework.jdbc.datasource.DataSourceTransactionManager - Switching JDBC Connection [com.mchange.v2.c3p0.impl.NewProxyConnection@2b329bbd] to manual commit
+DEBUG main org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+DEBUG main org.mybatis.spring.SqlSessionUtils - Registering transaction synchronization for SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@34819867]
+DEBUG main org.mybatis.spring.transaction.SpringManagedTransaction - JDBC Connection [com.mchange.v2.c3p0.impl.NewProxyConnection@2b329bbd] will be managed by Spring
+DEBUG main com.qzn.crowdfunding.manager.dao.UserMapper.insert - ==>  Preparing: insert into t_user (id, loginacct, userpswd, username, email, createtime ) values (?, ?, ?, ?, ?, ? ) 
+DEBUG main com.qzn.crowdfunding.manager.dao.UserMapper.insert - ==> Parameters: null, test87(String), 202cb962ac59075b964b07152d234b70(String), test87(String), test87@qq.com(String), 2019-11-07 20:43:58(String)
+DEBUG main com.qzn.crowdfunding.manager.dao.UserMapper.insert - <==    Updates: 1
+DEBUG main org.mybatis.spring.SqlSessionUtils - Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@34819867]
+DEBUG main org.mybatis.spring.SqlSessionUtils - Transaction synchronization committing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@34819867]
+DEBUG main org.mybatis.spring.SqlSessionUtils - Transaction synchronization deregistering SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@34819867]
+DEBUG main org.mybatis.spring.SqlSessionUtils - Transaction synchronization closing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@34819867]
+DEBUG main org.springframework.jdbc.datasource.DataSourceTransactionManager - Initiating transaction commit
+DEBUG main org.springframework.jdbc.datasource.DataSourceTransactionManager - Committing JDBC transaction on Connection [com.mchange.v2.c3p0.impl.NewProxyConnection@2b329bbd]
+DEBUG main org.springframework.jdbc.datasource.DataSourceTransactionManager - Releasing JDBC Connection [com.mchange.v2.c3p0.impl.NewProxyConnection@2b329bbd] after transaction
+DEBUG main org.springframework.jdbc.datasource.DataSourceUtils - Returning JDBC Connection to DataSource
+DEBUG main com.mchange.v2.resourcepool.BasicResourcePool - trace com.mchange.v2.resourcepool.BasicResourcePool@36546a22 [managed: 3, unused: 2, excluded: 0] (e.g. com.mchange.v2.c3p0.impl.NewPooledConnection@1aaf0877)
+DEBUG main org.springframework.jdbc.datasource.DataSourceTransactionManager - Creating new transaction with name [com.qzn.crowdfunding.manager.service.impl.UserServiceImpl.saveUser]: PROPAGATION_REQUIRED,ISOLATION_DEFAULT,-java.lang.Exception
+DEBUG main com.mchange.v2.resourcepool.BasicResourcePool - trace com.mchange.v2.resourcepool.BasicResourcePool@36546a22 [managed: 3, unused: 1, excluded: 0] (e.g. com.mchange.v2.c3p0.impl.NewPooledConnection@1aaf0877)
+DEBUG main org.springframework.jdbc.datasource.DataSourceTransactionManager - Acquired Connection [com.mchange.v2.c3p0.impl.NewProxyConnection@1da4b6b3] for JDBC transaction
+DEBUG main org.springframework.jdbc.datasource.DataSourceTransactionManager - Switching JDBC Connection [com.mchange.v2.c3p0.impl.NewProxyConnection@1da4b6b3] to manual commit
+DEBUG main org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+DEBUG main org.mybatis.spring.SqlSessionUtils - Registering transaction synchronization for SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@b2f4ece]
+DEBUG main org.mybatis.spring.transaction.SpringManagedTransaction - JDBC Connection [com.mchange.v2.c3p0.impl.NewProxyConnection@1da4b6b3] will be managed by Spring
+DEBUG main com.qzn.crowdfunding.manager.dao.UserMapper.insert - ==>  Preparing: insert into t_user (id, loginacct, userpswd, username, email, createtime ) values (?, ?, ?, ?, ?, ? ) 
+DEBUG main com.qzn.crowdfunding.manager.dao.UserMapper.insert - ==> Parameters: null, test88(String), 202cb962ac59075b964b07152d234b70(String), test88(String), test88@qq.com(String), 2019-11-07 20:43:58(String)
+DEBUG main com.qzn.crowdfunding.manager.dao.UserMapper.insert - <==    Updates: 1
+DEBUG main org.mybatis.spring.SqlSessionUtils - Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@b2f4ece]
+DEBUG main org.mybatis.spring.SqlSessionUtils - Transaction synchronization committing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@b2f4ece]
+DEBUG main org.mybatis.spring.SqlSessionUtils - Transaction synchronization deregistering SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@b2f4ece]
+DEBUG main org.mybatis.spring.SqlSessionUtils - Transaction synchronization closing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@b2f4ece]
+DEBUG main org.springframework.jdbc.datasource.DataSourceTransactionManager - Initiating transaction commit
+DEBUG main org.springframework.jdbc.datasource.DataSourceTransactionManager - Committing JDBC transaction on Connection [com.mchange.v2.c3p0.impl.NewProxyConnection@1da4b6b3]
+DEBUG main org.springframework.jdbc.datasource.DataSourceTransactionManager - Releasing JDBC Connection [com.mchange.v2.c3p0.impl.NewProxyConnection@1da4b6b3] after transaction
+DEBUG main org.springframework.jdbc.datasource.DataSourceUtils - Returning JDBC Connection to DataSource
+DEBUG main com.mchange.v2.resourcepool.BasicResourcePool - trace com.mchange.v2.resourcepool.BasicResourcePool@36546a22 [managed: 3, unused: 2, excluded: 0] (e.g. com.mchange.v2.c3p0.impl.NewPooledConnection@1aaf0877)
+DEBUG main org.springframework.jdbc.datasource.DataSourceTransactionManager - Creating new transaction with name [com.qzn.crowdfunding.manager.service.impl.UserServiceImpl.saveUser]: PROPAGATION_REQUIRED,ISOLATION_DEFAULT,-java.lang.Exception
+DEBUG main com.mchange.v2.resourcepool.BasicResourcePool - trace com.mchange.v2.resourcepool.BasicResourcePool@36546a22 [managed: 3, unused: 2, excluded: 0] (e.g. com.mchange.v2.c3p0.impl.NewPooledConnection@1aaf0877)
+DEBUG main org.springframework.jdbc.datasource.DataSourceTransactionManager - Acquired Connection [com.mchange.v2.c3p0.impl.NewProxyConnection@4d6ee47] for JDBC transaction
+DEBUG main org.springframework.jdbc.datasource.DataSourceTransactionManager - Switching JDBC Connection [com.mchange.v2.c3p0.impl.NewProxyConnection@4d6ee47] to manual commit
+DEBUG main org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+DEBUG main org.mybatis.spring.SqlSessionUtils - Registering transaction synchronization for SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@a33b4e3]
+DEBUG main org.mybatis.spring.transaction.SpringManagedTransaction - JDBC Connection [com.mchange.v2.c3p0.impl.NewProxyConnection@4d6ee47] will be managed by Spring
+DEBUG main com.qzn.crowdfunding.manager.dao.UserMapper.insert - ==>  Preparing: insert into t_user (id, loginacct, userpswd, username, email, createtime ) values (?, ?, ?, ?, ?, ? ) 
+DEBUG main com.qzn.crowdfunding.manager.dao.UserMapper.insert - ==> Parameters: null, test89(String), 202cb962ac59075b964b07152d234b70(String), test89(String), test89@qq.com(String), 2019-11-07 20:43:58(String)
+DEBUG main com.qzn.crowdfunding.manager.dao.UserMapper.insert - <==    Updates: 1
+DEBUG main org.mybatis.spring.SqlSessionUtils - Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@a33b4e3]
+DEBUG main org.mybatis.spring.SqlSessionUtils - Transaction synchronization committing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@a33b4e3]
+DEBUG main org.mybatis.spring.SqlSessionUtils - Transaction synchronization deregistering SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@a33b4e3]
+DEBUG main org.mybatis.spring.SqlSessionUtils - Transaction synchronization closing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@a33b4e3]
+DEBUG main org.springframework.jdbc.datasource.DataSourceTransactionManager - Initiating transaction commit
+DEBUG main org.springframework.jdbc.datasource.DataSourceTransactionManager - Committing JDBC transaction on Connection [com.mchange.v2.c3p0.impl.NewProxyConnection@4d6ee47]
+DEBUG main org.springframework.jdbc.datasource.DataSourceTransactionManager - Releasing JDBC Connection [com.mchange.v2.c3p0.impl.NewProxyConnection@4d6ee47] after transaction
+DEBUG main org.springframework.jdbc.datasource.DataSourceUtils - Returning JDBC Connection to DataSource
+DEBUG main com.mchange.v2.resourcepool.BasicResourcePool - trace com.mchange.v2.resourcepool.BasicResourcePool@36546a22 [managed: 3, unused: 2, excluded: 0] (e.g. com.mchange.v2.c3p0.impl.NewPooledConnection@1aaf0877)
+DEBUG main org.springframework.jdbc.datasource.DataSourceTransactionManager - Creating new transaction with name [com.qzn.crowdfunding.manager.service.impl.UserServiceImpl.saveUser]: PROPAGATION_REQUIRED,ISOLATION_DEFAULT,-java.lang.Exception
+DEBUG main com.mchange.v2.resourcepool.BasicResourcePool - trace com.mchange.v2.resourcepool.BasicResourcePool@36546a22 [managed: 3, unused: 2, excluded: 0] (e.g. com.mchange.v2.c3p0.impl.NewPooledConnection@1aaf0877)
+DEBUG main org.springframework.jdbc.datasource.DataSourceTransactionManager - Acquired Connection [com.mchange.v2.c3p0.impl.NewProxyConnection@3874b815] for JDBC transaction
+DEBUG main org.springframework.jdbc.datasource.DataSourceTransactionManager - Switching JDBC Connection [com.mchange.v2.c3p0.impl.NewProxyConnection@3874b815] to manual commit
+DEBUG main org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+DEBUG main org.mybatis.spring.SqlSessionUtils - Registering transaction synchronization for SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@5d7835a8]
+DEBUG main org.mybatis.spring.transaction.SpringManagedTransaction - JDBC Connection [com.mchange.v2.c3p0.impl.NewProxyConnection@3874b815] will be managed by Spring
+DEBUG main com.qzn.crowdfunding.manager.dao.UserMapper.insert - ==>  Preparing: insert into t_user (id, loginacct, userpswd, username, email, createtime ) values (?, ?, ?, ?, ?, ? ) 
+DEBUG main com.qzn.crowdfunding.manager.dao.UserMapper.insert - ==> Parameters: null, test90(String), 202cb962ac59075b964b07152d234b70(String), test90(String), test90@qq.com(String), 2019-11-07 20:43:58(String)
+DEBUG main com.qzn.crowdfunding.manager.dao.UserMapper.insert - <==    Updates: 1
+DEBUG main org.mybatis.spring.SqlSessionUtils - Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@5d7835a8]
+DEBUG main org.mybatis.spring.SqlSessionUtils - Transaction synchronization committing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@5d7835a8]
+DEBUG main org.mybatis.spring.SqlSessionUtils - Transaction synchronization deregistering SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@5d7835a8]
+DEBUG main org.mybatis.spring.SqlSessionUtils - Transaction synchronization closing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@5d7835a8]
+DEBUG main org.springframework.jdbc.datasource.DataSourceTransactionManager - Initiating transaction commit
+DEBUG main org.springframework.jdbc.datasource.DataSourceTransactionManager - Committing JDBC transaction on Connection [com.mchange.v2.c3p0.impl.NewProxyConnection@3874b815]
+DEBUG main org.springframework.jdbc.datasource.DataSourceTransactionManager - Releasing JDBC Connection [com.mchange.v2.c3p0.impl.NewProxyConnection@3874b815] after transaction
+DEBUG main org.springframework.jdbc.datasource.DataSourceUtils - Returning JDBC Connection to DataSource
+DEBUG main com.mchange.v2.resourcepool.BasicResourcePool - trace com.mchange.v2.resourcepool.BasicResourcePool@36546a22 [managed: 3, unused: 2, excluded: 0] (e.g. com.mchange.v2.c3p0.impl.NewPooledConnection@1aaf0877)
+DEBUG main org.springframework.jdbc.datasource.DataSourceTransactionManager - Creating new transaction with name [com.qzn.crowdfunding.manager.service.impl.UserServiceImpl.saveUser]: PROPAGATION_REQUIRED,ISOLATION_DEFAULT,-java.lang.Exception
+DEBUG main com.mchange.v2.resourcepool.BasicResourcePool - trace com.mchange.v2.resourcepool.BasicResourcePool@36546a22 [managed: 3, unused: 2, excluded: 0] (e.g. com.mchange.v2.c3p0.impl.NewPooledConnection@1aaf0877)
+DEBUG main org.springframework.jdbc.datasource.DataSourceTransactionManager - Acquired Connection [com.mchange.v2.c3p0.impl.NewProxyConnection@162b3d47] for JDBC transaction
+DEBUG main org.springframework.jdbc.datasource.DataSourceTransactionManager - Switching JDBC Connection [com.mchange.v2.c3p0.impl.NewProxyConnection@162b3d47] to manual commit
+DEBUG main org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+DEBUG main org.mybatis.spring.SqlSessionUtils - Registering transaction synchronization for SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@783115d9]
+DEBUG main org.mybatis.spring.transaction.SpringManagedTransaction - JDBC Connection [com.mchange.v2.c3p0.impl.NewProxyConnection@162b3d47] will be managed by Spring
+DEBUG main com.qzn.crowdfunding.manager.dao.UserMapper.insert - ==>  Preparing: insert into t_user (id, loginacct, userpswd, username, email, createtime ) values (?, ?, ?, ?, ?, ? ) 
+DEBUG main com.qzn.crowdfunding.manager.dao.UserMapper.insert - ==> Parameters: null, test91(String), 202cb962ac59075b964b07152d234b70(String), test91(String), test91@qq.com(String), 2019-11-07 20:43:58(String)
+DEBUG main com.qzn.crowdfunding.manager.dao.UserMapper.insert - <==    Updates: 1
+DEBUG main org.mybatis.spring.SqlSessionUtils - Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@783115d9]
+DEBUG main org.mybatis.spring.SqlSessionUtils - Transaction synchronization committing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@783115d9]
+DEBUG main org.mybatis.spring.SqlSessionUtils - Transaction synchronization deregistering SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@783115d9]
+DEBUG main org.mybatis.spring.SqlSessionUtils - Transaction synchronization closing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@783115d9]
+DEBUG main org.springframework.jdbc.datasource.DataSourceTransactionManager - Initiating transaction commit
+DEBUG main org.springframework.jdbc.datasource.DataSourceTransactionManager - Committing JDBC transaction on Connection [com.mchange.v2.c3p0.impl.NewProxyConnection@162b3d47]
+DEBUG main org.springframework.jdbc.datasource.DataSourceTransactionManager - Releasing JDBC Connection [com.mchange.v2.c3p0.impl.NewProxyConnection@162b3d47] after transaction
+DEBUG main org.springframework.jdbc.datasource.DataSourceUtils - Returning JDBC Connection to DataSource
+DEBUG main com.mchange.v2.resourcepool.BasicResourcePool - trace com.mchange.v2.resourcepool.BasicResourcePool@36546a22 [managed: 3, unused: 2, excluded: 0] (e.g. com.mchange.v2.c3p0.impl.NewPooledConnection@1aaf0877)
+DEBUG main org.springframework.jdbc.datasource.DataSourceTransactionManager - Creating new transaction with name [com.qzn.crowdfunding.manager.service.impl.UserServiceImpl.saveUser]: PROPAGATION_REQUIRED,ISOLATION_DEFAULT,-java.lang.Exception
+DEBUG main com.mchange.v2.resourcepool.BasicResourcePool - trace com.mchange.v2.resourcepool.BasicResourcePool@36546a22 [managed: 3, unused: 2, excluded: 0] (e.g. com.mchange.v2.c3p0.impl.NewPooledConnection@1aaf0877)
+DEBUG main org.springframework.jdbc.datasource.DataSourceTransactionManager - Acquired Connection [com.mchange.v2.c3p0.impl.NewProxyConnection@499683c4] for JDBC transaction
+DEBUG main org.springframework.jdbc.datasource.DataSourceTransactionManager - Switching JDBC Connection [com.mchange.v2.c3p0.impl.NewProxyConnection@499683c4] to manual commit
+DEBUG main org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+DEBUG main org.mybatis.spring.SqlSessionUtils - Registering transaction synchronization for SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@25da615a]
+DEBUG main org.mybatis.spring.transaction.SpringManagedTransaction - JDBC Connection [com.mchange.v2.c3p0.impl.NewProxyConnection@499683c4] will be managed by Spring
+DEBUG main com.qzn.crowdfunding.manager.dao.UserMapper.insert - ==>  Preparing: insert into t_user (id, loginacct, userpswd, username, email, createtime ) values (?, ?, ?, ?, ?, ? ) 
+DEBUG main com.qzn.crowdfunding.manager.dao.UserMapper.insert - ==> Parameters: null, test92(String), 202cb962ac59075b964b07152d234b70(String), test92(String), test92@qq.com(String), 2019-11-07 20:43:58(String)
+DEBUG main com.qzn.crowdfunding.manager.dao.UserMapper.insert - <==    Updates: 1
+DEBUG main org.mybatis.spring.SqlSessionUtils - Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@25da615a]
+DEBUG main org.mybatis.spring.SqlSessionUtils - Transaction synchronization committing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@25da615a]
+DEBUG main org.mybatis.spring.SqlSessionUtils - Transaction synchronization deregistering SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@25da615a]
+DEBUG main org.mybatis.spring.SqlSessionUtils - Transaction synchronization closing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@25da615a]
+DEBUG main org.springframework.jdbc.datasource.DataSourceTransactionManager - Initiating transaction commit
+DEBUG main org.springframework.jdbc.datasource.DataSourceTransactionManager - Committing JDBC transaction on Connection [com.mchange.v2.c3p0.impl.NewProxyConnection@499683c4]
+DEBUG main org.springframework.jdbc.datasource.DataSourceTransactionManager - Releasing JDBC Connection [com.mchange.v2.c3p0.impl.NewProxyConnection@499683c4] after transaction
+DEBUG main org.springframework.jdbc.datasource.DataSourceUtils - Returning JDBC Connection to DataSource
+DEBUG main com.mchange.v2.resourcepool.BasicResourcePool - trace com.mchange.v2.resourcepool.BasicResourcePool@36546a22 [managed: 3, unused: 2, excluded: 0] (e.g. com.mchange.v2.c3p0.impl.NewPooledConnection@1aaf0877)
+DEBUG main org.springframework.jdbc.datasource.DataSourceTransactionManager - Creating new transaction with name [com.qzn.crowdfunding.manager.service.impl.UserServiceImpl.saveUser]: PROPAGATION_REQUIRED,ISOLATION_DEFAULT,-java.lang.Exception
+DEBUG main com.mchange.v2.resourcepool.BasicResourcePool - trace com.mchange.v2.resourcepool.BasicResourcePool@36546a22 [managed: 3, unused: 2, excluded: 0] (e.g. com.mchange.v2.c3p0.impl.NewPooledConnection@1aaf0877)
+DEBUG main org.springframework.jdbc.datasource.DataSourceTransactionManager - Acquired Connection [com.mchange.v2.c3p0.impl.NewProxyConnection@7fb33394] for JDBC transaction
+DEBUG main org.springframework.jdbc.datasource.DataSourceTransactionManager - Switching JDBC Connection [com.mchange.v2.c3p0.impl.NewProxyConnection@7fb33394] to manual commit
+DEBUG main org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+DEBUG main org.mybatis.spring.SqlSessionUtils - Registering transaction synchronization for SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@41bf79da]
+DEBUG main org.mybatis.spring.transaction.SpringManagedTransaction - JDBC Connection [com.mchange.v2.c3p0.impl.NewProxyConnection@7fb33394] will be managed by Spring
+DEBUG main com.qzn.crowdfunding.manager.dao.UserMapper.insert - ==>  Preparing: insert into t_user (id, loginacct, userpswd, username, email, createtime ) values (?, ?, ?, ?, ?, ? ) 
+DEBUG main com.qzn.crowdfunding.manager.dao.UserMapper.insert - ==> Parameters: null, test93(String), 202cb962ac59075b964b07152d234b70(String), test93(String), test93@qq.com(String), 2019-11-07 20:43:58(String)
+DEBUG main com.qzn.crowdfunding.manager.dao.UserMapper.insert - <==    Updates: 1
+DEBUG main org.mybatis.spring.SqlSessionUtils - Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@41bf79da]
+DEBUG main org.mybatis.spring.SqlSessionUtils - Transaction synchronization committing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@41bf79da]
+DEBUG main org.mybatis.spring.SqlSessionUtils - Transaction synchronization deregistering SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@41bf79da]
+DEBUG main org.mybatis.spring.SqlSessionUtils - Transaction synchronization closing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@41bf79da]
+DEBUG main org.springframework.jdbc.datasource.DataSourceTransactionManager - Initiating transaction commit
+DEBUG main org.springframework.jdbc.datasource.DataSourceTransactionManager - Committing JDBC transaction on Connection [com.mchange.v2.c3p0.impl.NewProxyConnection@7fb33394]
+DEBUG main org.springframework.jdbc.datasource.DataSourceTransactionManager - Releasing JDBC Connection [com.mchange.v2.c3p0.impl.NewProxyConnection@7fb33394] after transaction
+DEBUG main org.springframework.jdbc.datasource.DataSourceUtils - Returning JDBC Connection to DataSource
+DEBUG main com.mchange.v2.resourcepool.BasicResourcePool - trace com.mchange.v2.resourcepool.BasicResourcePool@36546a22 [managed: 3, unused: 2, excluded: 0] (e.g. com.mchange.v2.c3p0.impl.NewPooledConnection@1aaf0877)
+DEBUG main org.springframework.jdbc.datasource.DataSourceTransactionManager - Creating new transaction with name [com.qzn.crowdfunding.manager.service.impl.UserServiceImpl.saveUser]: PROPAGATION_REQUIRED,ISOLATION_DEFAULT,-java.lang.Exception
+DEBUG main com.mchange.v2.resourcepool.BasicResourcePool - trace com.mchange.v2.resourcepool.BasicResourcePool@36546a22 [managed: 3, unused: 2, excluded: 0] (e.g. com.mchange.v2.c3p0.impl.NewPooledConnection@1aaf0877)
+DEBUG main org.springframework.jdbc.datasource.DataSourceTransactionManager - Acquired Connection [com.mchange.v2.c3p0.impl.NewProxyConnection@5c20aab9] for JDBC transaction
+DEBUG main org.springframework.jdbc.datasource.DataSourceTransactionManager - Switching JDBC Connection [com.mchange.v2.c3p0.impl.NewProxyConnection@5c20aab9] to manual commit
+DEBUG main org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+DEBUG main org.mybatis.spring.SqlSessionUtils - Registering transaction synchronization for SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@4b7c4456]
+DEBUG main org.mybatis.spring.transaction.SpringManagedTransaction - JDBC Connection [com.mchange.v2.c3p0.impl.NewProxyConnection@5c20aab9] will be managed by Spring
+DEBUG main com.qzn.crowdfunding.manager.dao.UserMapper.insert - ==>  Preparing: insert into t_user (id, loginacct, userpswd, username, email, createtime ) values (?, ?, ?, ?, ?, ? ) 
+DEBUG main com.qzn.crowdfunding.manager.dao.UserMapper.insert - ==> Parameters: null, test94(String), 202cb962ac59075b964b07152d234b70(String), test94(String), test94@qq.com(String), 2019-11-07 20:43:58(String)
+DEBUG main com.qzn.crowdfunding.manager.dao.UserMapper.insert - <==    Updates: 1
+DEBUG main org.mybatis.spring.SqlSessionUtils - Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@4b7c4456]
+DEBUG main org.mybatis.spring.SqlSessionUtils - Transaction synchronization committing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@4b7c4456]
+DEBUG main org.mybatis.spring.SqlSessionUtils - Transaction synchronization deregistering SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@4b7c4456]
+DEBUG main org.mybatis.spring.SqlSessionUtils - Transaction synchronization closing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@4b7c4456]
+DEBUG main org.springframework.jdbc.datasource.DataSourceTransactionManager - Initiating transaction commit
+DEBUG main org.springframework.jdbc.datasource.DataSourceTransactionManager - Committing JDBC transaction on Connection [com.mchange.v2.c3p0.impl.NewProxyConnection@5c20aab9]
+DEBUG main org.springframework.jdbc.datasource.DataSourceTransactionManager - Releasing JDBC Connection [com.mchange.v2.c3p0.impl.NewProxyConnection@5c20aab9] after transaction
+DEBUG main org.springframework.jdbc.datasource.DataSourceUtils - Returning JDBC Connection to DataSource
+DEBUG main com.mchange.v2.resourcepool.BasicResourcePool - trace com.mchange.v2.resourcepool.BasicResourcePool@36546a22 [managed: 3, unused: 2, excluded: 0] (e.g. com.mchange.v2.c3p0.impl.NewPooledConnection@1aaf0877)
+DEBUG main org.springframework.jdbc.datasource.DataSourceTransactionManager - Creating new transaction with name [com.qzn.crowdfunding.manager.service.impl.UserServiceImpl.saveUser]: PROPAGATION_REQUIRED,ISOLATION_DEFAULT,-java.lang.Exception
+DEBUG main com.mchange.v2.resourcepool.BasicResourcePool - trace com.mchange.v2.resourcepool.BasicResourcePool@36546a22 [managed: 3, unused: 2, excluded: 0] (e.g. com.mchange.v2.c3p0.impl.NewPooledConnection@1aaf0877)
+DEBUG main org.springframework.jdbc.datasource.DataSourceTransactionManager - Acquired Connection [com.mchange.v2.c3p0.impl.NewProxyConnection@2a32fb6] for JDBC transaction
+DEBUG main org.springframework.jdbc.datasource.DataSourceTransactionManager - Switching JDBC Connection [com.mchange.v2.c3p0.impl.NewProxyConnection@2a32fb6] to manual commit
+DEBUG main org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+DEBUG main org.mybatis.spring.SqlSessionUtils - Registering transaction synchronization for SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@6107165]
+DEBUG main org.mybatis.spring.transaction.SpringManagedTransaction - JDBC Connection [com.mchange.v2.c3p0.impl.NewProxyConnection@2a32fb6] will be managed by Spring
+DEBUG main com.qzn.crowdfunding.manager.dao.UserMapper.insert - ==>  Preparing: insert into t_user (id, loginacct, userpswd, username, email, createtime ) values (?, ?, ?, ?, ?, ? ) 
+DEBUG main com.qzn.crowdfunding.manager.dao.UserMapper.insert - ==> Parameters: null, test95(String), 202cb962ac59075b964b07152d234b70(String), test95(String), test95@qq.com(String), 2019-11-07 20:43:58(String)
+DEBUG main com.qzn.crowdfunding.manager.dao.UserMapper.insert - <==    Updates: 1
+DEBUG main org.mybatis.spring.SqlSessionUtils - Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@6107165]
+DEBUG main org.mybatis.spring.SqlSessionUtils - Transaction synchronization committing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@6107165]
+DEBUG main org.mybatis.spring.SqlSessionUtils - Transaction synchronization deregistering SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@6107165]
+DEBUG main org.mybatis.spring.SqlSessionUtils - Transaction synchronization closing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@6107165]
+DEBUG main org.springframework.jdbc.datasource.DataSourceTransactionManager - Initiating transaction commit
+DEBUG main org.springframework.jdbc.datasource.DataSourceTransactionManager - Committing JDBC transaction on Connection [com.mchange.v2.c3p0.impl.NewProxyConnection@2a32fb6]
+DEBUG main org.springframework.jdbc.datasource.DataSourceTransactionManager - Releasing JDBC Connection [com.mchange.v2.c3p0.impl.NewProxyConnection@2a32fb6] after transaction
+DEBUG main org.springframework.jdbc.datasource.DataSourceUtils - Returning JDBC Connection to DataSource
+DEBUG main com.mchange.v2.resourcepool.BasicResourcePool - trace com.mchange.v2.resourcepool.BasicResourcePool@36546a22 [managed: 3, unused: 2, excluded: 0] (e.g. com.mchange.v2.c3p0.impl.NewPooledConnection@1aaf0877)
+DEBUG main org.springframework.jdbc.datasource.DataSourceTransactionManager - Creating new transaction with name [com.qzn.crowdfunding.manager.service.impl.UserServiceImpl.saveUser]: PROPAGATION_REQUIRED,ISOLATION_DEFAULT,-java.lang.Exception
+DEBUG main com.mchange.v2.resourcepool.BasicResourcePool - trace com.mchange.v2.resourcepool.BasicResourcePool@36546a22 [managed: 3, unused: 2, excluded: 0] (e.g. com.mchange.v2.c3p0.impl.NewPooledConnection@1aaf0877)
+DEBUG main org.springframework.jdbc.datasource.DataSourceTransactionManager - Acquired Connection [com.mchange.v2.c3p0.impl.NewProxyConnection@75769ab0] for JDBC transaction
+DEBUG main org.springframework.jdbc.datasource.DataSourceTransactionManager - Switching JDBC Connection [com.mchange.v2.c3p0.impl.NewProxyConnection@75769ab0] to manual commit
+DEBUG main org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+DEBUG main org.mybatis.spring.SqlSessionUtils - Registering transaction synchronization for SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@6869a3b3]
+DEBUG main org.mybatis.spring.transaction.SpringManagedTransaction - JDBC Connection [com.mchange.v2.c3p0.impl.NewProxyConnection@75769ab0] will be managed by Spring
+DEBUG main com.qzn.crowdfunding.manager.dao.UserMapper.insert - ==>  Preparing: insert into t_user (id, loginacct, userpswd, username, email, createtime ) values (?, ?, ?, ?, ?, ? ) 
+DEBUG main com.qzn.crowdfunding.manager.dao.UserMapper.insert - ==> Parameters: null, test96(String), 202cb962ac59075b964b07152d234b70(String), test96(String), test96@qq.com(String), 2019-11-07 20:43:58(String)
+DEBUG main com.qzn.crowdfunding.manager.dao.UserMapper.insert - <==    Updates: 1
+DEBUG main org.mybatis.spring.SqlSessionUtils - Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@6869a3b3]
+DEBUG main org.mybatis.spring.SqlSessionUtils - Transaction synchronization committing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@6869a3b3]
+DEBUG main org.mybatis.spring.SqlSessionUtils - Transaction synchronization deregistering SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@6869a3b3]
+DEBUG main org.mybatis.spring.SqlSessionUtils - Transaction synchronization closing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@6869a3b3]
+DEBUG main org.springframework.jdbc.datasource.DataSourceTransactionManager - Initiating transaction commit
+DEBUG main org.springframework.jdbc.datasource.DataSourceTransactionManager - Committing JDBC transaction on Connection [com.mchange.v2.c3p0.impl.NewProxyConnection@75769ab0]
+DEBUG main org.springframework.jdbc.datasource.DataSourceTransactionManager - Releasing JDBC Connection [com.mchange.v2.c3p0.impl.NewProxyConnection@75769ab0] after transaction
+DEBUG main org.springframework.jdbc.datasource.DataSourceUtils - Returning JDBC Connection to DataSource
+DEBUG main com.mchange.v2.resourcepool.BasicResourcePool - trace com.mchange.v2.resourcepool.BasicResourcePool@36546a22 [managed: 3, unused: 2, excluded: 0] (e.g. com.mchange.v2.c3p0.impl.NewPooledConnection@1aaf0877)
+DEBUG main org.springframework.jdbc.datasource.DataSourceTransactionManager - Creating new transaction with name [com.qzn.crowdfunding.manager.service.impl.UserServiceImpl.saveUser]: PROPAGATION_REQUIRED,ISOLATION_DEFAULT,-java.lang.Exception
+DEBUG main com.mchange.v2.resourcepool.BasicResourcePool - trace com.mchange.v2.resourcepool.BasicResourcePool@36546a22 [managed: 3, unused: 2, excluded: 0] (e.g. com.mchange.v2.c3p0.impl.NewPooledConnection@1aaf0877)
+DEBUG main org.springframework.jdbc.datasource.DataSourceTransactionManager - Acquired Connection [com.mchange.v2.c3p0.impl.NewProxyConnection@63bde6c2] for JDBC transaction
+DEBUG main org.springframework.jdbc.datasource.DataSourceTransactionManager - Switching JDBC Connection [com.mchange.v2.c3p0.impl.NewProxyConnection@63bde6c2] to manual commit
+DEBUG main org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+DEBUG main org.mybatis.spring.SqlSessionUtils - Registering transaction synchronization for SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@6ea04618]
+DEBUG main org.mybatis.spring.transaction.SpringManagedTransaction - JDBC Connection [com.mchange.v2.c3p0.impl.NewProxyConnection@63bde6c2] will be managed by Spring
+DEBUG main com.qzn.crowdfunding.manager.dao.UserMapper.insert - ==>  Preparing: insert into t_user (id, loginacct, userpswd, username, email, createtime ) values (?, ?, ?, ?, ?, ? ) 
+DEBUG main com.qzn.crowdfunding.manager.dao.UserMapper.insert - ==> Parameters: null, test97(String), 202cb962ac59075b964b07152d234b70(String), test97(String), test97@qq.com(String), 2019-11-07 20:43:58(String)
+DEBUG main com.qzn.crowdfunding.manager.dao.UserMapper.insert - <==    Updates: 1
+DEBUG main org.mybatis.spring.SqlSessionUtils - Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@6ea04618]
+DEBUG main org.mybatis.spring.SqlSessionUtils - Transaction synchronization committing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@6ea04618]
+DEBUG main org.mybatis.spring.SqlSessionUtils - Transaction synchronization deregistering SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@6ea04618]
+DEBUG main org.mybatis.spring.SqlSessionUtils - Transaction synchronization closing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@6ea04618]
+DEBUG main org.springframework.jdbc.datasource.DataSourceTransactionManager - Initiating transaction commit
+DEBUG main org.springframework.jdbc.datasource.DataSourceTransactionManager - Committing JDBC transaction on Connection [com.mchange.v2.c3p0.impl.NewProxyConnection@63bde6c2]
+DEBUG main org.springframework.jdbc.datasource.DataSourceTransactionManager - Releasing JDBC Connection [com.mchange.v2.c3p0.impl.NewProxyConnection@63bde6c2] after transaction
+DEBUG main org.springframework.jdbc.datasource.DataSourceUtils - Returning JDBC Connection to DataSource
+DEBUG main com.mchange.v2.resourcepool.BasicResourcePool - trace com.mchange.v2.resourcepool.BasicResourcePool@36546a22 [managed: 3, unused: 2, excluded: 0] (e.g. com.mchange.v2.c3p0.impl.NewPooledConnection@1aaf0877)
+DEBUG main org.springframework.jdbc.datasource.DataSourceTransactionManager - Creating new transaction with name [com.qzn.crowdfunding.manager.service.impl.UserServiceImpl.saveUser]: PROPAGATION_REQUIRED,ISOLATION_DEFAULT,-java.lang.Exception
+DEBUG main com.mchange.v2.resourcepool.BasicResourcePool - trace com.mchange.v2.resourcepool.BasicResourcePool@36546a22 [managed: 3, unused: 2, excluded: 0] (e.g. com.mchange.v2.c3p0.impl.NewPooledConnection@1aaf0877)
+DEBUG main org.springframework.jdbc.datasource.DataSourceTransactionManager - Acquired Connection [com.mchange.v2.c3p0.impl.NewProxyConnection@7cb8437d] for JDBC transaction
+DEBUG main org.springframework.jdbc.datasource.DataSourceTransactionManager - Switching JDBC Connection [com.mchange.v2.c3p0.impl.NewProxyConnection@7cb8437d] to manual commit
+DEBUG main org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+DEBUG main org.mybatis.spring.SqlSessionUtils - Registering transaction synchronization for SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@62a4417]
+DEBUG main org.mybatis.spring.transaction.SpringManagedTransaction - JDBC Connection [com.mchange.v2.c3p0.impl.NewProxyConnection@7cb8437d] will be managed by Spring
+DEBUG main com.qzn.crowdfunding.manager.dao.UserMapper.insert - ==>  Preparing: insert into t_user (id, loginacct, userpswd, username, email, createtime ) values (?, ?, ?, ?, ?, ? ) 
+DEBUG main com.qzn.crowdfunding.manager.dao.UserMapper.insert - ==> Parameters: null, test98(String), 202cb962ac59075b964b07152d234b70(String), test98(String), test98@qq.com(String), 2019-11-07 20:43:58(String)
+DEBUG main com.qzn.crowdfunding.manager.dao.UserMapper.insert - <==    Updates: 1
+DEBUG main org.mybatis.spring.SqlSessionUtils - Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@62a4417]
+DEBUG main org.mybatis.spring.SqlSessionUtils - Transaction synchronization committing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@62a4417]
+DEBUG main org.mybatis.spring.SqlSessionUtils - Transaction synchronization deregistering SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@62a4417]
+DEBUG main org.mybatis.spring.SqlSessionUtils - Transaction synchronization closing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@62a4417]
+DEBUG main org.springframework.jdbc.datasource.DataSourceTransactionManager - Initiating transaction commit
+DEBUG main org.springframework.jdbc.datasource.DataSourceTransactionManager - Committing JDBC transaction on Connection [com.mchange.v2.c3p0.impl.NewProxyConnection@7cb8437d]
+DEBUG main org.springframework.jdbc.datasource.DataSourceTransactionManager - Releasing JDBC Connection [com.mchange.v2.c3p0.impl.NewProxyConnection@7cb8437d] after transaction
+DEBUG main org.springframework.jdbc.datasource.DataSourceUtils - Returning JDBC Connection to DataSource
+DEBUG main com.mchange.v2.resourcepool.BasicResourcePool - trace com.mchange.v2.resourcepool.BasicResourcePool@36546a22 [managed: 3, unused: 2, excluded: 0] (e.g. com.mchange.v2.c3p0.impl.NewPooledConnection@1aaf0877)
+DEBUG main org.springframework.jdbc.datasource.DataSourceTransactionManager - Creating new transaction with name [com.qzn.crowdfunding.manager.service.impl.UserServiceImpl.saveUser]: PROPAGATION_REQUIRED,ISOLATION_DEFAULT,-java.lang.Exception
+DEBUG main com.mchange.v2.resourcepool.BasicResourcePool - trace com.mchange.v2.resourcepool.BasicResourcePool@36546a22 [managed: 3, unused: 2, excluded: 0] (e.g. com.mchange.v2.c3p0.impl.NewPooledConnection@1aaf0877)
+DEBUG main org.springframework.jdbc.datasource.DataSourceTransactionManager - Acquired Connection [com.mchange.v2.c3p0.impl.NewProxyConnection@39c1fe0b] for JDBC transaction
+DEBUG main org.springframework.jdbc.datasource.DataSourceTransactionManager - Switching JDBC Connection [com.mchange.v2.c3p0.impl.NewProxyConnection@39c1fe0b] to manual commit
+DEBUG main org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+DEBUG main org.mybatis.spring.SqlSessionUtils - Registering transaction synchronization for SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@5ae95707]
+DEBUG main org.mybatis.spring.transaction.SpringManagedTransaction - JDBC Connection [com.mchange.v2.c3p0.impl.NewProxyConnection@39c1fe0b] will be managed by Spring
+DEBUG main com.qzn.crowdfunding.manager.dao.UserMapper.insert - ==>  Preparing: insert into t_user (id, loginacct, userpswd, username, email, createtime ) values (?, ?, ?, ?, ?, ? ) 
+DEBUG main com.qzn.crowdfunding.manager.dao.UserMapper.insert - ==> Parameters: null, test99(String), 202cb962ac59075b964b07152d234b70(String), test99(String), test99@qq.com(String), 2019-11-07 20:43:58(String)
+DEBUG main com.qzn.crowdfunding.manager.dao.UserMapper.insert - <==    Updates: 1
+DEBUG main org.mybatis.spring.SqlSessionUtils - Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@5ae95707]
+DEBUG main org.mybatis.spring.SqlSessionUtils - Transaction synchronization committing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@5ae95707]
+DEBUG main org.mybatis.spring.SqlSessionUtils - Transaction synchronization deregistering SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@5ae95707]
+DEBUG main org.mybatis.spring.SqlSessionUtils - Transaction synchronization closing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@5ae95707]
+DEBUG main org.springframework.jdbc.datasource.DataSourceTransactionManager - Initiating transaction commit
+DEBUG main org.springframework.jdbc.datasource.DataSourceTransactionManager - Committing JDBC transaction on Connection [com.mchange.v2.c3p0.impl.NewProxyConnection@39c1fe0b]
+DEBUG main org.springframework.jdbc.datasource.DataSourceTransactionManager - Releasing JDBC Connection [com.mchange.v2.c3p0.impl.NewProxyConnection@39c1fe0b] after transaction
+DEBUG main org.springframework.jdbc.datasource.DataSourceUtils - Returning JDBC Connection to DataSource
+DEBUG main com.mchange.v2.resourcepool.BasicResourcePool - trace com.mchange.v2.resourcepool.BasicResourcePool@36546a22 [managed: 3, unused: 2, excluded: 0] (e.g. com.mchange.v2.c3p0.impl.NewPooledConnection@1aaf0877)
+DEBUG main org.springframework.jdbc.datasource.DataSourceTransactionManager - Creating new transaction with name [com.qzn.crowdfunding.manager.service.impl.UserServiceImpl.saveUser]: PROPAGATION_REQUIRED,ISOLATION_DEFAULT,-java.lang.Exception
+DEBUG main com.mchange.v2.resourcepool.BasicResourcePool - trace com.mchange.v2.resourcepool.BasicResourcePool@36546a22 [managed: 3, unused: 2, excluded: 0] (e.g. com.mchange.v2.c3p0.impl.NewPooledConnection@1aaf0877)
+DEBUG main org.springframework.jdbc.datasource.DataSourceTransactionManager - Acquired Connection [com.mchange.v2.c3p0.impl.NewProxyConnection@4c48fe92] for JDBC transaction
+DEBUG main org.springframework.jdbc.datasource.DataSourceTransactionManager - Switching JDBC Connection [com.mchange.v2.c3p0.impl.NewProxyConnection@4c48fe92] to manual commit
+DEBUG main org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+DEBUG main org.mybatis.spring.SqlSessionUtils - Registering transaction synchronization for SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@732c9b5c]
+DEBUG main org.mybatis.spring.transaction.SpringManagedTransaction - JDBC Connection [com.mchange.v2.c3p0.impl.NewProxyConnection@4c48fe92] will be managed by Spring
+DEBUG main com.qzn.crowdfunding.manager.dao.UserMapper.insert - ==>  Preparing: insert into t_user (id, loginacct, userpswd, username, email, createtime ) values (?, ?, ?, ?, ?, ? ) 
+DEBUG main com.qzn.crowdfunding.manager.dao.UserMapper.insert - ==> Parameters: null, test100(String), 202cb962ac59075b964b07152d234b70(String), test100(String), test100@qq.com(String), 2019-11-07 20:43:58(String)
+DEBUG main com.qzn.crowdfunding.manager.dao.UserMapper.insert - <==    Updates: 1
+DEBUG main org.mybatis.spring.SqlSessionUtils - Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@732c9b5c]
+DEBUG main org.mybatis.spring.SqlSessionUtils - Transaction synchronization committing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@732c9b5c]
+DEBUG main org.mybatis.spring.SqlSessionUtils - Transaction synchronization deregistering SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@732c9b5c]
+DEBUG main org.mybatis.spring.SqlSessionUtils - Transaction synchronization closing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@732c9b5c]
+DEBUG main org.springframework.jdbc.datasource.DataSourceTransactionManager - Initiating transaction commit
+DEBUG main org.springframework.jdbc.datasource.DataSourceTransactionManager - Committing JDBC transaction on Connection [com.mchange.v2.c3p0.impl.NewProxyConnection@4c48fe92]
+DEBUG main org.springframework.jdbc.datasource.DataSourceTransactionManager - Releasing JDBC Connection [com.mchange.v2.c3p0.impl.NewProxyConnection@4c48fe92] after transaction
+DEBUG main org.springframework.jdbc.datasource.DataSourceUtils - Returning JDBC Connection to DataSource
+DEBUG main com.mchange.v2.resourcepool.BasicResourcePool - trace com.mchange.v2.resourcepool.BasicResourcePool@36546a22 [managed: 3, unused: 2, excluded: 0] (e.g. com.mchange.v2.c3p0.impl.NewPooledConnection@1aaf0877)
+DEBUG Thread-5 org.activiti.engine.impl.jobexecutor.AcquireJobsRunnable - job acquisition thread woke up
+DEBUG Thread-5 org.activiti.engine.impl.interceptor.LogInterceptor -                                                                                                     
+DEBUG Thread-5 org.activiti.engine.impl.interceptor.LogInterceptor - --- starting AcquireJobsCmd --------------------------------------------------------
+DEBUG Thread-5 org.activiti.spring.SpringTransactionInterceptor - Running command with propagation REQUIRED
+DEBUG Thread-5 org.springframework.jdbc.datasource.DataSourceTransactionManager - Creating new transaction with name [null]: PROPAGATION_REQUIRED,ISOLATION_DEFAULT
+DEBUG Thread-5 com.mchange.v2.resourcepool.BasicResourcePool - trace com.mchange.v2.resourcepool.BasicResourcePool@36546a22 [managed: 3, unused: 2, excluded: 0] (e.g. com.mchange.v2.c3p0.impl.NewPooledConnection@1aaf0877)
+DEBUG Thread-5 org.springframework.jdbc.datasource.DataSourceTransactionManager - Acquired Connection [com.mchange.v2.c3p0.impl.NewProxyConnection@1e60d224] for JDBC transaction
+DEBUG Thread-5 org.springframework.jdbc.datasource.DataSourceTransactionManager - Switching JDBC Connection [com.mchange.v2.c3p0.impl.NewProxyConnection@1e60d224] to manual commit
+DEBUG Thread-5 org.apache.ibatis.transaction.managed.ManagedTransaction - Opening JDBC Connection
+DEBUG Thread-5 org.activiti.engine.impl.persistence.entity.JobEntity.selectNextJobsToExecute_mysql - ==>  Preparing: select RES.* from ACT_RU_JOB RES LEFT OUTER JOIN ACT_RU_EXECUTION PI ON PI.ID_ = RES.PROCESS_INSTANCE_ID_ where (RETRIES_ > 0) and (DUEDATE_ is null or DUEDATE_ <= ?) and (LOCK_OWNER_ is null or LOCK_EXP_TIME_ <= ?) and ( (RES.EXECUTION_ID_ is null) or (PI.SUSPENSION_STATE_ = 1) ) LIMIT ? OFFSET ? 
+DEBUG Thread-5 org.activiti.engine.impl.persistence.entity.JobEntity.selectNextJobsToExecute_mysql - ==> Parameters: 2019-11-07 20:44:00.096(Timestamp), 2019-11-07 20:44:00.096(Timestamp), 1(Integer), 0(Integer)
+DEBUG Thread-5 org.activiti.engine.impl.persistence.entity.JobEntity.selectNextJobsToExecute_mysql - <==      Total: 0
+DEBUG Thread-5 org.activiti.engine.impl.db.DbSqlSession - flush summary: 0 insert, 0 update, 0 delete.
+DEBUG Thread-5 org.activiti.engine.impl.db.DbSqlSession - now executing flush...
+DEBUG Thread-5 org.apache.ibatis.transaction.managed.ManagedTransaction - Closing JDBC Connection [Transaction-aware proxy for target Connection [com.mchange.v2.c3p0.impl.NewProxyConnection@1e60d224]]
+DEBUG Thread-5 org.springframework.jdbc.datasource.DataSourceTransactionManager - Initiating transaction commit
+DEBUG Thread-5 org.springframework.jdbc.datasource.DataSourceTransactionManager - Committing JDBC transaction on Connection [com.mchange.v2.c3p0.impl.NewProxyConnection@1e60d224]
+DEBUG Thread-5 org.springframework.jdbc.datasource.DataSourceTransactionManager - Releasing JDBC Connection [com.mchange.v2.c3p0.impl.NewProxyConnection@1e60d224] after transaction
+DEBUG Thread-5 org.springframework.jdbc.datasource.DataSourceUtils - Returning JDBC Connection to DataSource
+DEBUG Thread-5 com.mchange.v2.resourcepool.BasicResourcePool - trace com.mchange.v2.resourcepool.BasicResourcePool@36546a22 [managed: 3, unused: 2, excluded: 0] (e.g. com.mchange.v2.c3p0.impl.NewPooledConnection@1aaf0877)
+DEBUG Thread-5 org.activiti.engine.impl.interceptor.LogInterceptor - --- AcquireJobsCmd finished --------------------------------------------------------
+DEBUG Thread-5 org.activiti.engine.impl.interceptor.LogInterceptor -                                                                                                     
+DEBUG Thread-5 org.activiti.engine.impl.interceptor.LogInterceptor -                                                                                                     
+DEBUG Thread-5 org.activiti.engine.impl.interceptor.LogInterceptor - --- starting GetUnlockedTimersByDuedateCmd --------------------------------------------------------
+DEBUG Thread-5 org.activiti.spring.SpringTransactionInterceptor - Running command with propagation REQUIRED
+DEBUG Thread-5 org.springframework.jdbc.datasource.DataSourceTransactionManager - Creating new transaction with name [null]: PROPAGATION_REQUIRED,ISOLATION_DEFAULT
+DEBUG Thread-5 com.mchange.v2.resourcepool.BasicResourcePool - trace com.mchange.v2.resourcepool.BasicResourcePool@36546a22 [managed: 3, unused: 2, excluded: 0] (e.g. com.mchange.v2.c3p0.impl.NewPooledConnection@1aaf0877)
+DEBUG Thread-5 org.springframework.jdbc.datasource.DataSourceTransactionManager - Acquired Connection [com.mchange.v2.c3p0.impl.NewProxyConnection@cf25330] for JDBC transaction
+DEBUG Thread-5 org.springframework.jdbc.datasource.DataSourceTransactionManager - Switching JDBC Connection [com.mchange.v2.c3p0.impl.NewProxyConnection@cf25330] to manual commit
+DEBUG Thread-5 org.apache.ibatis.transaction.managed.ManagedTransaction - Opening JDBC Connection
+DEBUG Thread-5 org.activiti.engine.impl.persistence.entity.JobEntity.selectUnlockedTimersByDuedate - ==>  Preparing: select RES.* from ACT_RU_JOB RES LEFT OUTER JOIN ACT_RU_EXECUTION PI ON PI.ID_ = RES.PROCESS_INSTANCE_ID_ where (RES.TYPE_ = 'timer') and (RES.DUEDATE_ is not null) and (RES.DUEDATE_ < ?) and (RES.LOCK_OWNER_ is null or RES.LOCK_EXP_TIME_ < ?) and (RES.RETRIES_ > 0) and ( (RES.EXECUTION_ID_ is null) or (PI.SUSPENSION_STATE_ = 1) ) order by DUEDATE_ 
+DEBUG Thread-5 org.activiti.engine.impl.persistence.entity.JobEntity.selectUnlockedTimersByDuedate - ==> Parameters: 2019-11-07 20:44:05.1(Timestamp), 2019-11-07 20:44:05.1(Timestamp)
+DEBUG Thread-5 org.activiti.engine.impl.persistence.entity.JobEntity.selectUnlockedTimersByDuedate - <==      Total: 0
+DEBUG Thread-5 org.activiti.engine.impl.db.DbSqlSession - flush summary: 0 insert, 0 update, 0 delete.
+DEBUG Thread-5 org.activiti.engine.impl.db.DbSqlSession - now executing flush...
+DEBUG Thread-5 org.apache.ibatis.transaction.managed.ManagedTransaction - Closing JDBC Connection [Transaction-aware proxy for target Connection [com.mchange.v2.c3p0.impl.NewProxyConnection@cf25330]]
+DEBUG Thread-5 org.springframework.jdbc.datasource.DataSourceTransactionManager - Initiating transaction commit
+DEBUG Thread-5 org.springframework.jdbc.datasource.DataSourceTransactionManager - Committing JDBC transaction on Connection [com.mchange.v2.c3p0.impl.NewProxyConnection@cf25330]
+DEBUG Thread-5 org.springframework.jdbc.datasource.DataSourceTransactionManager - Releasing JDBC Connection [com.mchange.v2.c3p0.impl.NewProxyConnection@cf25330] after transaction
+DEBUG Thread-5 org.springframework.jdbc.datasource.DataSourceUtils - Returning JDBC Connection to DataSource
+DEBUG Thread-5 com.mchange.v2.resourcepool.BasicResourcePool - trace com.mchange.v2.resourcepool.BasicResourcePool@36546a22 [managed: 3, unused: 2, excluded: 0] (e.g. com.mchange.v2.c3p0.impl.NewPooledConnection@1aaf0877)
+DEBUG Thread-5 com.mchange.v2.c3p0.impl.NewProxyConnection - com.mchange.v2.c3p0.impl.NewProxyConnection@cf25330: close() called more than once.
+DEBUG Thread-5 org.activiti.engine.impl.interceptor.LogInterceptor - --- GetUnlockedTimersByDuedateCmd finished --------------------------------------------------------
+DEBUG Thread-5 org.activiti.engine.impl.interceptor.LogInterceptor -                                                                                                     
+DEBUG Thread-5 org.activiti.engine.impl.jobexecutor.AcquireJobsRunnable - job acquisition thread sleeping for 5000 millis
+DEBUG Thread-5 org.activiti.engine.impl.jobexecutor.AcquireJobsRunnable - job acquisition thread woke up
+DEBUG Thread-5 org.activiti.engine.impl.interceptor.LogInterceptor -                                                                                                     
+DEBUG Thread-5 org.activiti.engine.impl.interceptor.LogInterceptor - --- starting AcquireJobsCmd --------------------------------------------------------
+DEBUG Thread-5 org.activiti.spring.SpringTransactionInterceptor - Running command with propagation REQUIRED
+DEBUG Thread-5 org.springframework.jdbc.datasource.DataSourceTransactionManager - Creating new transaction with name [null]: PROPAGATION_REQUIRED,ISOLATION_DEFAULT
+DEBUG Thread-5 com.mchange.v2.resourcepool.BasicResourcePool - trace com.mchange.v2.resourcepool.BasicResourcePool@36546a22 [managed: 3, unused: 2, excluded: 0] (e.g. com.mchange.v2.c3p0.impl.NewPooledConnection@1aaf0877)
+DEBUG Thread-5 org.springframework.jdbc.datasource.DataSourceTransactionManager - Acquired Connection [com.mchange.v2.c3p0.impl.NewProxyConnection@25bfe9d3] for JDBC transaction
+DEBUG Thread-5 org.springframework.jdbc.datasource.DataSourceTransactionManager - Switching JDBC Connection [com.mchange.v2.c3p0.impl.NewProxyConnection@25bfe9d3] to manual commit
+DEBUG Thread-5 org.apache.ibatis.transaction.managed.ManagedTransaction - Opening JDBC Connection
+DEBUG Thread-5 org.activiti.engine.impl.persistence.entity.JobEntity.selectNextJobsToExecute_mysql - ==>  Preparing: select RES.* from ACT_RU_JOB RES LEFT OUTER JOIN ACT_RU_EXECUTION PI ON PI.ID_ = RES.PROCESS_INSTANCE_ID_ where (RETRIES_ > 0) and (DUEDATE_ is null or DUEDATE_ <= ?) and (LOCK_OWNER_ is null or LOCK_EXP_TIME_ <= ?) and ( (RES.EXECUTION_ID_ is null) or (PI.SUSPENSION_STATE_ = 1) ) LIMIT ? OFFSET ? 
+DEBUG Thread-5 org.activiti.engine.impl.persistence.entity.JobEntity.selectNextJobsToExecute_mysql - ==> Parameters: 2019-11-07 20:44:05.106(Timestamp), 2019-11-07 20:44:05.106(Timestamp), 1(Integer), 0(Integer)
+DEBUG Thread-5 org.activiti.engine.impl.persistence.entity.JobEntity.selectNextJobsToExecute_mysql - <==      Total: 0
+DEBUG Thread-5 org.activiti.engine.impl.db.DbSqlSession - flush summary: 0 insert, 0 update, 0 delete.
+DEBUG Thread-5 org.activiti.engine.impl.db.DbSqlSession - now executing flush...
+DEBUG Thread-5 org.apache.ibatis.transaction.managed.ManagedTransaction - Closing JDBC Connection [Transaction-aware proxy for target Connection [com.mchange.v2.c3p0.impl.NewProxyConnection@25bfe9d3]]
+DEBUG Thread-5 org.springframework.jdbc.datasource.DataSourceTransactionManager - Initiating transaction commit
+DEBUG Thread-5 org.springframework.jdbc.datasource.DataSourceTransactionManager - Committing JDBC transaction on Connection [com.mchange.v2.c3p0.impl.NewProxyConnection@25bfe9d3]
+DEBUG Thread-5 org.springframework.jdbc.datasource.DataSourceTransactionManager - Releasing JDBC Connection [com.mchange.v2.c3p0.impl.NewProxyConnection@25bfe9d3] after transaction
+DEBUG Thread-5 org.springframework.jdbc.datasource.DataSourceUtils - Returning JDBC Connection to DataSource
+DEBUG Thread-5 com.mchange.v2.resourcepool.BasicResourcePool - trace com.mchange.v2.resourcepool.BasicResourcePool@36546a22 [managed: 3, unused: 2, excluded: 0] (e.g. com.mchange.v2.c3p0.impl.NewPooledConnection@1aaf0877)
+DEBUG Thread-5 com.mchange.v2.c3p0.impl.NewProxyConnection - com.mchange.v2.c3p0.impl.NewProxyConnection@25bfe9d3: close() called more than once.
+DEBUG Thread-5 org.activiti.engine.impl.interceptor.LogInterceptor - --- AcquireJobsCmd finished --------------------------------------------------------
+DEBUG Thread-5 org.activiti.engine.impl.interceptor.LogInterceptor -                                                                                                     
+DEBUG Thread-5 org.activiti.engine.impl.interceptor.LogInterceptor -                                                                                                     
+DEBUG Thread-5 org.activiti.engine.impl.interceptor.LogInterceptor - --- starting GetUnlockedTimersByDuedateCmd --------------------------------------------------------
+DEBUG Thread-5 org.activiti.spring.SpringTransactionInterceptor - Running command with propagation REQUIRED
+DEBUG Thread-5 org.springframework.jdbc.datasource.DataSourceTransactionManager - Creating new transaction with name [null]: PROPAGATION_REQUIRED,ISOLATION_DEFAULT
+DEBUG Thread-5 com.mchange.v2.resourcepool.BasicResourcePool - trace com.mchange.v2.resourcepool.BasicResourcePool@36546a22 [managed: 3, unused: 2, excluded: 0] (e.g. com.mchange.v2.c3p0.impl.NewPooledConnection@1aaf0877)
+DEBUG Thread-5 org.springframework.jdbc.datasource.DataSourceTransactionManager - Acquired Connection [com.mchange.v2.c3p0.impl.NewProxyConnection@244ed475] for JDBC transaction
+DEBUG Thread-5 org.springframework.jdbc.datasource.DataSourceTransactionManager - Switching JDBC Connection [com.mchange.v2.c3p0.impl.NewProxyConnection@244ed475] to manual commit
+DEBUG Thread-5 org.apache.ibatis.transaction.managed.ManagedTransaction - Opening JDBC Connection
+DEBUG Thread-5 org.activiti.engine.impl.persistence.entity.JobEntity.selectUnlockedTimersByDuedate - ==>  Preparing: select RES.* from ACT_RU_JOB RES LEFT OUTER JOIN ACT_RU_EXECUTION PI ON PI.ID_ = RES.PROCESS_INSTANCE_ID_ where (RES.TYPE_ = 'timer') and (RES.DUEDATE_ is not null) and (RES.DUEDATE_ < ?) and (RES.LOCK_OWNER_ is null or RES.LOCK_EXP_TIME_ < ?) and (RES.RETRIES_ > 0) and ( (RES.EXECUTION_ID_ is null) or (PI.SUSPENSION_STATE_ = 1) ) order by DUEDATE_ 
+DEBUG Thread-5 org.activiti.engine.impl.persistence.entity.JobEntity.selectUnlockedTimersByDuedate - ==> Parameters: 2019-11-07 20:44:10.111(Timestamp), 2019-11-07 20:44:10.111(Timestamp)
+DEBUG Thread-5 org.activiti.engine.impl.persistence.entity.JobEntity.selectUnlockedTimersByDuedate - <==      Total: 0
+DEBUG Thread-5 org.activiti.engine.impl.db.DbSqlSession - flush summary: 0 insert, 0 update, 0 delete.
+DEBUG Thread-5 org.activiti.engine.impl.db.DbSqlSession - now executing flush...
+DEBUG Thread-5 org.apache.ibatis.transaction.managed.ManagedTransaction - Closing JDBC Connection [Transaction-aware proxy for target Connection [com.mchange.v2.c3p0.impl.NewProxyConnection@244ed475]]
+DEBUG Thread-5 org.springframework.jdbc.datasource.DataSourceTransactionManager - Initiating transaction commit
+DEBUG Thread-5 org.springframework.jdbc.datasource.DataSourceTransactionManager - Committing JDBC transaction on Connection [com.mchange.v2.c3p0.impl.NewProxyConnection@244ed475]
+DEBUG Thread-5 org.springframework.jdbc.datasource.DataSourceTransactionManager - Releasing JDBC Connection [com.mchange.v2.c3p0.impl.NewProxyConnection@244ed475] after transaction
+DEBUG Thread-5 org.springframework.jdbc.datasource.DataSourceUtils - Returning JDBC Connection to DataSource
+DEBUG Thread-5 com.mchange.v2.resourcepool.BasicResourcePool - trace com.mchange.v2.resourcepool.BasicResourcePool@36546a22 [managed: 3, unused: 2, excluded: 0] (e.g. com.mchange.v2.c3p0.impl.NewPooledConnection@1aaf0877)
+DEBUG Thread-5 com.mchange.v2.c3p0.impl.NewProxyConnection - com.mchange.v2.c3p0.impl.NewProxyConnection@244ed475: close() called more than once.
+DEBUG Thread-5 org.activiti.engine.impl.interceptor.LogInterceptor - --- GetUnlockedTimersByDuedateCmd finished --------------------------------------------------------
+DEBUG Thread-5 org.activiti.engine.impl.interceptor.LogInterceptor -                                                                                                     
+DEBUG Thread-5 org.activiti.engine.impl.jobexecutor.AcquireJobsRunnable - job acquisition thread sleeping for 5000 millis
+DEBUG Thread-5 org.activiti.engine.impl.jobexecutor.AcquireJobsRunnable - job acquisition thread woke up
+DEBUG Thread-5 org.activiti.engine.impl.interceptor.LogInterceptor -                                                                                                     
+DEBUG Thread-5 org.activiti.engine.impl.interceptor.LogInterceptor - --- starting AcquireJobsCmd --------------------------------------------------------
+DEBUG Thread-5 org.activiti.spring.SpringTransactionInterceptor - Running command with propagation REQUIRED
+DEBUG Thread-5 org.springframework.jdbc.datasource.DataSourceTransactionManager - Creating new transaction with name [null]: PROPAGATION_REQUIRED,ISOLATION_DEFAULT
+DEBUG Thread-5 com.mchange.v2.resourcepool.BasicResourcePool - trace com.mchange.v2.resourcepool.BasicResourcePool@36546a22 [managed: 3, unused: 2, excluded: 0] (e.g. com.mchange.v2.c3p0.impl.NewPooledConnection@1aaf0877)
+DEBUG Thread-5 org.springframework.jdbc.datasource.DataSourceTransactionManager - Acquired Connection [com.mchange.v2.c3p0.impl.NewProxyConnection@4bcbaf2f] for JDBC transaction
+DEBUG Thread-5 org.springframework.jdbc.datasource.DataSourceTransactionManager - Switching JDBC Connection [com.mchange.v2.c3p0.impl.NewProxyConnection@4bcbaf2f] to manual commit
+DEBUG Thread-5 org.apache.ibatis.transaction.managed.ManagedTransaction - Opening JDBC Connection
+DEBUG Thread-5 org.activiti.engine.impl.persistence.entity.JobEntity.selectNextJobsToExecute_mysql - ==>  Preparing: select RES.* from ACT_RU_JOB RES LEFT OUTER JOIN ACT_RU_EXECUTION PI ON PI.ID_ = RES.PROCESS_INSTANCE_ID_ where (RETRIES_ > 0) and (DUEDATE_ is null or DUEDATE_ <= ?) and (LOCK_OWNER_ is null or LOCK_EXP_TIME_ <= ?) and ( (RES.EXECUTION_ID_ is null) or (PI.SUSPENSION_STATE_ = 1) ) LIMIT ? OFFSET ? 
+DEBUG Thread-5 org.activiti.engine.impl.persistence.entity.JobEntity.selectNextJobsToExecute_mysql - ==> Parameters: 2019-11-07 20:44:10.118(Timestamp), 2019-11-07 20:44:10.118(Timestamp), 1(Integer), 0(Integer)
+DEBUG Thread-5 org.activiti.engine.impl.persistence.entity.JobEntity.selectNextJobsToExecute_mysql - <==      Total: 0
+DEBUG Thread-5 org.activiti.engine.impl.db.DbSqlSession - flush summary: 0 insert, 0 update, 0 delete.
+DEBUG Thread-5 org.activiti.engine.impl.db.DbSqlSession - now executing flush...
+DEBUG Thread-5 org.apache.ibatis.transaction.managed.ManagedTransaction - Closing JDBC Connection [Transaction-aware proxy for target Connection [com.mchange.v2.c3p0.impl.NewProxyConnection@4bcbaf2f]]
+DEBUG Thread-5 org.springframework.jdbc.datasource.DataSourceTransactionManager - Initiating transaction commit
+DEBUG Thread-5 org.springframework.jdbc.datasource.DataSourceTransactionManager - Committing JDBC transaction on Connection [com.mchange.v2.c3p0.impl.NewProxyConnection@4bcbaf2f]
+DEBUG Thread-5 org.springframework.jdbc.datasource.DataSourceTransactionManager - Releasing JDBC Connection [com.mchange.v2.c3p0.impl.NewProxyConnection@4bcbaf2f] after transaction
+DEBUG Thread-5 org.springframework.jdbc.datasource.DataSourceUtils - Returning JDBC Connection to DataSource
+DEBUG Thread-5 com.mchange.v2.resourcepool.BasicResourcePool - trace com.mchange.v2.resourcepool.BasicResourcePool@36546a22 [managed: 3, unused: 2, excluded: 0] (e.g. com.mchange.v2.c3p0.impl.NewPooledConnection@1aaf0877)
+DEBUG Thread-5 org.activiti.engine.impl.interceptor.LogInterceptor - --- AcquireJobsCmd finished --------------------------------------------------------
+DEBUG Thread-5 org.activiti.engine.impl.interceptor.LogInterceptor -                                                                                                     
+DEBUG Thread-5 org.activiti.engine.impl.interceptor.LogInterceptor -                                                                                                     
+DEBUG Thread-5 org.activiti.engine.impl.interceptor.LogInterceptor - --- starting GetUnlockedTimersByDuedateCmd --------------------------------------------------------
+DEBUG Thread-5 org.activiti.spring.SpringTransactionInterceptor - Running command with propagation REQUIRED
+DEBUG Thread-5 org.springframework.jdbc.datasource.DataSourceTransactionManager - Creating new transaction with name [null]: PROPAGATION_REQUIRED,ISOLATION_DEFAULT
+DEBUG Thread-5 com.mchange.v2.resourcepool.BasicResourcePool - trace com.mchange.v2.resourcepool.BasicResourcePool@36546a22 [managed: 3, unused: 2, excluded: 0] (e.g. com.mchange.v2.c3p0.impl.NewPooledConnection@1aaf0877)
+DEBUG Thread-5 org.springframework.jdbc.datasource.DataSourceTransactionManager - Acquired Connection [com.mchange.v2.c3p0.impl.NewProxyConnection@4a4822b1] for JDBC transaction
+DEBUG Thread-5 org.springframework.jdbc.datasource.DataSourceTransactionManager - Switching JDBC Connection [com.mchange.v2.c3p0.impl.NewProxyConnection@4a4822b1] to manual commit
+DEBUG Thread-5 org.apache.ibatis.transaction.managed.ManagedTransaction - Opening JDBC Connection
+DEBUG Thread-5 org.activiti.engine.impl.persistence.entity.JobEntity.selectUnlockedTimersByDuedate - ==>  Preparing: select RES.* from ACT_RU_JOB RES LEFT OUTER JOIN ACT_RU_EXECUTION PI ON PI.ID_ = RES.PROCESS_INSTANCE_ID_ where (RES.TYPE_ = 'timer') and (RES.DUEDATE_ is not null) and (RES.DUEDATE_ < ?) and (RES.LOCK_OWNER_ is null or RES.LOCK_EXP_TIME_ < ?) and (RES.RETRIES_ > 0) and ( (RES.EXECUTION_ID_ is null) or (PI.SUSPENSION_STATE_ = 1) ) order by DUEDATE_ 
+DEBUG Thread-5 org.activiti.engine.impl.persistence.entity.JobEntity.selectUnlockedTimersByDuedate - ==> Parameters: 2019-11-07 20:44:15.122(Timestamp), 2019-11-07 20:44:15.122(Timestamp)
+DEBUG Thread-5 org.activiti.engine.impl.persistence.entity.JobEntity.selectUnlockedTimersByDuedate - <==      Total: 0
+DEBUG Thread-5 org.activiti.engine.impl.db.DbSqlSession - flush summary: 0 insert, 0 update, 0 delete.
+DEBUG Thread-5 org.activiti.engine.impl.db.DbSqlSession - now executing flush...
+DEBUG Thread-5 org.apache.ibatis.transaction.managed.ManagedTransaction - Closing JDBC Connection [Transaction-aware proxy for target Connection [com.mchange.v2.c3p0.impl.NewProxyConnection@4a4822b1]]
+DEBUG Thread-5 org.springframework.jdbc.datasource.DataSourceTransactionManager - Initiating transaction commit
+DEBUG Thread-5 org.springframework.jdbc.datasource.DataSourceTransactionManager - Committing JDBC transaction on Connection [com.mchange.v2.c3p0.impl.NewProxyConnection@4a4822b1]
+DEBUG Thread-5 org.springframework.jdbc.datasource.DataSourceTransactionManager - Releasing JDBC Connection [com.mchange.v2.c3p0.impl.NewProxyConnection@4a4822b1] after transaction
+DEBUG Thread-5 org.springframework.jdbc.datasource.DataSourceUtils - Returning JDBC Connection to DataSource
+DEBUG Thread-5 com.mchange.v2.resourcepool.BasicResourcePool - trace com.mchange.v2.resourcepool.BasicResourcePool@36546a22 [managed: 3, unused: 2, excluded: 0] (e.g. com.mchange.v2.c3p0.impl.NewPooledConnection@1aaf0877)
+DEBUG Thread-5 org.activiti.engine.impl.interceptor.LogInterceptor - --- GetUnlockedTimersByDuedateCmd finished --------------------------------------------------------
+DEBUG Thread-5 org.activiti.engine.impl.interceptor.LogInterceptor -                                                                                                     
+DEBUG Thread-5 org.activiti.engine.impl.jobexecutor.AcquireJobsRunnable - job acquisition thread sleeping for 5000 millis
+DEBUG Thread-5 org.activiti.engine.impl.jobexecutor.AcquireJobsRunnable - job acquisition thread woke up
+DEBUG Thread-5 org.activiti.engine.impl.interceptor.LogInterceptor -                                                                                                     
+DEBUG Thread-5 org.activiti.engine.impl.interceptor.LogInterceptor - --- starting AcquireJobsCmd --------------------------------------------------------
+DEBUG Thread-5 org.activiti.spring.SpringTransactionInterceptor - Running command with propagation REQUIRED
+DEBUG Thread-5 org.springframework.jdbc.datasource.DataSourceTransactionManager - Creating new transaction with name [null]: PROPAGATION_REQUIRED,ISOLATION_DEFAULT
+DEBUG Thread-5 com.mchange.v2.resourcepool.BasicResourcePool - trace com.mchange.v2.resourcepool.BasicResourcePool@36546a22 [managed: 3, unused: 2, excluded: 0] (e.g. com.mchange.v2.c3p0.impl.NewPooledConnection@1aaf0877)
+DEBUG Thread-5 org.springframework.jdbc.datasource.DataSourceTransactionManager - Acquired Connection [com.mchange.v2.c3p0.impl.NewProxyConnection@2370b4e5] for JDBC transaction
+DEBUG Thread-5 org.springframework.jdbc.datasource.DataSourceTransactionManager - Switching JDBC Connection [com.mchange.v2.c3p0.impl.NewProxyConnection@2370b4e5] to manual commit
+DEBUG Thread-5 org.apache.ibatis.transaction.managed.ManagedTransaction - Opening JDBC Connection
+DEBUG Thread-5 org.activiti.engine.impl.persistence.entity.JobEntity.selectNextJobsToExecute_mysql - ==>  Preparing: select RES.* from ACT_RU_JOB RES LEFT OUTER JOIN ACT_RU_EXECUTION PI ON PI.ID_ = RES.PROCESS_INSTANCE_ID_ where (RETRIES_ > 0) and (DUEDATE_ is null or DUEDATE_ <= ?) and (LOCK_OWNER_ is null or LOCK_EXP_TIME_ <= ?) and ( (RES.EXECUTION_ID_ is null) or (PI.SUSPENSION_STATE_ = 1) ) LIMIT ? OFFSET ? 
+DEBUG Thread-5 org.activiti.engine.impl.persistence.entity.JobEntity.selectNextJobsToExecute_mysql - ==> Parameters: 2019-11-07 20:44:15.127(Timestamp), 2019-11-07 20:44:15.127(Timestamp), 1(Integer), 0(Integer)
+DEBUG Thread-5 org.activiti.engine.impl.persistence.entity.JobEntity.selectNextJobsToExecute_mysql - <==      Total: 0
+DEBUG Thread-5 org.activiti.engine.impl.db.DbSqlSession - flush summary: 0 insert, 0 update, 0 delete.
+DEBUG Thread-5 org.activiti.engine.impl.db.DbSqlSession - now executing flush...
+DEBUG Thread-5 org.apache.ibatis.transaction.managed.ManagedTransaction - Closing JDBC Connection [Transaction-aware proxy for target Connection [com.mchange.v2.c3p0.impl.NewProxyConnection@2370b4e5]]
+DEBUG Thread-5 org.springframework.jdbc.datasource.DataSourceTransactionManager - Initiating transaction commit
+DEBUG Thread-5 org.springframework.jdbc.datasource.DataSourceTransactionManager - Committing JDBC transaction on Connection [com.mchange.v2.c3p0.impl.NewProxyConnection@2370b4e5]
+DEBUG Thread-5 org.springframework.jdbc.datasource.DataSourceTransactionManager - Releasing JDBC Connection [com.mchange.v2.c3p0.impl.NewProxyConnection@2370b4e5] after transaction
+DEBUG Thread-5 org.springframework.jdbc.datasource.DataSourceUtils - Returning JDBC Connection to DataSource
+DEBUG Thread-5 com.mchange.v2.resourcepool.BasicResourcePool - trace com.mchange.v2.resourcepool.BasicResourcePool@36546a22 [managed: 3, unused: 2, excluded: 0] (e.g. com.mchange.v2.c3p0.impl.NewPooledConnection@1aaf0877)
+DEBUG Thread-5 org.activiti.engine.impl.interceptor.LogInterceptor - --- AcquireJobsCmd finished --------------------------------------------------------
+DEBUG Thread-5 org.activiti.engine.impl.interceptor.LogInterceptor -                                                                                                     
+DEBUG Thread-5 org.activiti.engine.impl.interceptor.LogInterceptor -                                                                                                     
+DEBUG Thread-5 org.activiti.engine.impl.interceptor.LogInterceptor - --- starting GetUnlockedTimersByDuedateCmd --------------------------------------------------------
+DEBUG Thread-5 org.activiti.spring.SpringTransactionInterceptor - Running command with propagation REQUIRED
+DEBUG Thread-5 org.springframework.jdbc.datasource.DataSourceTransactionManager - Creating new transaction with name [null]: PROPAGATION_REQUIRED,ISOLATION_DEFAULT
+DEBUG Thread-5 com.mchange.v2.resourcepool.BasicResourcePool - trace com.mchange.v2.resourcepool.BasicResourcePool@36546a22 [managed: 3, unused: 2, excluded: 0] (e.g. com.mchange.v2.c3p0.impl.NewPooledConnection@1aaf0877)
+DEBUG Thread-5 org.springframework.jdbc.datasource.DataSourceTransactionManager - Acquired Connection [com.mchange.v2.c3p0.impl.NewProxyConnection@24e872ed] for JDBC transaction
+DEBUG Thread-5 org.springframework.jdbc.datasource.DataSourceTransactionManager - Switching JDBC Connection [com.mchange.v2.c3p0.impl.NewProxyConnection@24e872ed] to manual commit
+DEBUG Thread-5 org.apache.ibatis.transaction.managed.ManagedTransaction - Opening JDBC Connection
+DEBUG Thread-5 org.activiti.engine.impl.persistence.entity.JobEntity.selectUnlockedTimersByDuedate - ==>  Preparing: select RES.* from ACT_RU_JOB RES LEFT OUTER JOIN ACT_RU_EXECUTION PI ON PI.ID_ = RES.PROCESS_INSTANCE_ID_ where (RES.TYPE_ = 'timer') and (RES.DUEDATE_ is not null) and (RES.DUEDATE_ < ?) and (RES.LOCK_OWNER_ is null or RES.LOCK_EXP_TIME_ < ?) and (RES.RETRIES_ > 0) and ( (RES.EXECUTION_ID_ is null) or (PI.SUSPENSION_STATE_ = 1) ) order by DUEDATE_ 
+DEBUG Thread-5 org.activiti.engine.impl.persistence.entity.JobEntity.selectUnlockedTimersByDuedate - ==> Parameters: 2019-11-07 20:44:20.133(Timestamp), 2019-11-07 20:44:20.133(Timestamp)
+DEBUG Thread-5 org.activiti.engine.impl.persistence.entity.JobEntity.selectUnlockedTimersByDuedate - <==      Total: 0
+DEBUG Thread-5 org.activiti.engine.impl.db.DbSqlSession - flush summary: 0 insert, 0 update, 0 delete.
+DEBUG Thread-5 org.activiti.engine.impl.db.DbSqlSession - now executing flush...
+DEBUG Thread-5 org.apache.ibatis.transaction.managed.ManagedTransaction - Closing JDBC Connection [Transaction-aware proxy for target Connection [com.mchange.v2.c3p0.impl.NewProxyConnection@24e872ed]]
+DEBUG Thread-5 org.springframework.jdbc.datasource.DataSourceTransactionManager - Initiating transaction commit
+DEBUG Thread-5 org.springframework.jdbc.datasource.DataSourceTransactionManager - Committing JDBC transaction on Connection [com.mchange.v2.c3p0.impl.NewProxyConnection@24e872ed]
+DEBUG Thread-5 org.springframework.jdbc.datasource.DataSourceTransactionManager - Releasing JDBC Connection [com.mchange.v2.c3p0.impl.NewProxyConnection@24e872ed] after transaction
+DEBUG Thread-5 org.springframework.jdbc.datasource.DataSourceUtils - Returning JDBC Connection to DataSource
+DEBUG Thread-5 com.mchange.v2.resourcepool.BasicResourcePool - trace com.mchange.v2.resourcepool.BasicResourcePool@36546a22 [managed: 3, unused: 2, excluded: 0] (e.g. com.mchange.v2.c3p0.impl.NewPooledConnection@1aaf0877)
+DEBUG Thread-5 com.mchange.v2.c3p0.impl.NewProxyConnection - com.mchange.v2.c3p0.impl.NewProxyConnection@24e872ed: close() called more than once.
+DEBUG Thread-5 org.activiti.engine.impl.interceptor.LogInterceptor - --- GetUnlockedTimersByDuedateCmd finished --------------------------------------------------------
+DEBUG Thread-5 org.activiti.engine.impl.interceptor.LogInterceptor -                                                                                                     
+DEBUG Thread-5 org.activiti.engine.impl.jobexecutor.AcquireJobsRunnable - job acquisition thread sleeping for 5000 millis
+DEBUG Thread-5 org.activiti.engine.impl.jobexecutor.AcquireJobsRunnable - job acquisition thread woke up
+DEBUG Thread-5 org.activiti.engine.impl.interceptor.LogInterceptor -                                                                                                     
+DEBUG Thread-5 org.activiti.engine.impl.interceptor.LogInterceptor - --- starting AcquireJobsCmd --------------------------------------------------------
+DEBUG Thread-5 org.activiti.spring.SpringTransactionInterceptor - Running command with propagation REQUIRED
+DEBUG Thread-5 org.springframework.jdbc.datasource.DataSourceTransactionManager - Creating new transaction with name [null]: PROPAGATION_REQUIRED,ISOLATION_DEFAULT
+DEBUG Thread-5 com.mchange.v2.resourcepool.BasicResourcePool - trace com.mchange.v2.resourcepool.BasicResourcePool@36546a22 [managed: 3, unused: 2, excluded: 0] (e.g. com.mchange.v2.c3p0.impl.NewPooledConnection@1aaf0877)
+DEBUG Thread-5 org.springframework.jdbc.datasource.DataSourceTransactionManager - Acquired Connection [com.mchange.v2.c3p0.impl.NewProxyConnection@6a567366] for JDBC transaction
+DEBUG Thread-5 org.springframework.jdbc.datasource.DataSourceTransactionManager - Switching JDBC Connection [com.mchange.v2.c3p0.impl.NewProxyConnection@6a567366] to manual commit
+DEBUG Thread-5 org.apache.ibatis.transaction.managed.ManagedTransaction - Opening JDBC Connection
+DEBUG Thread-5 org.activiti.engine.impl.persistence.entity.JobEntity.selectNextJobsToExecute_mysql - ==>  Preparing: select RES.* from ACT_RU_JOB RES LEFT OUTER JOIN ACT_RU_EXECUTION PI ON PI.ID_ = RES.PROCESS_INSTANCE_ID_ where (RETRIES_ > 0) and (DUEDATE_ is null or DUEDATE_ <= ?) and (LOCK_OWNER_ is null or LOCK_EXP_TIME_ <= ?) and ( (RES.EXECUTION_ID_ is null) or (PI.SUSPENSION_STATE_ = 1) ) LIMIT ? OFFSET ? 
+DEBUG Thread-5 org.activiti.engine.impl.persistence.entity.JobEntity.selectNextJobsToExecute_mysql - ==> Parameters: 2019-11-07 20:44:20.142(Timestamp), 2019-11-07 20:44:20.142(Timestamp), 1(Integer), 0(Integer)
+DEBUG Thread-5 org.activiti.engine.impl.persistence.entity.JobEntity.selectNextJobsToExecute_mysql - <==      Total: 0
+DEBUG Thread-5 org.activiti.engine.impl.db.DbSqlSession - flush summary: 0 insert, 0 update, 0 delete.
+DEBUG Thread-5 org.activiti.engine.impl.db.DbSqlSession - now executing flush...
+DEBUG Thread-5 org.apache.ibatis.transaction.managed.ManagedTransaction - Closing JDBC Connection [Transaction-aware proxy for target Connection [com.mchange.v2.c3p0.impl.NewProxyConnection@6a567366]]
+DEBUG Thread-5 org.springframework.jdbc.datasource.DataSourceTransactionManager - Initiating transaction commit
+DEBUG Thread-5 org.springframework.jdbc.datasource.DataSourceTransactionManager - Committing JDBC transaction on Connection [com.mchange.v2.c3p0.impl.NewProxyConnection@6a567366]
+DEBUG Thread-5 org.springframework.jdbc.datasource.DataSourceTransactionManager - Releasing JDBC Connection [com.mchange.v2.c3p0.impl.NewProxyConnection@6a567366] after transaction
+DEBUG Thread-5 org.springframework.jdbc.datasource.DataSourceUtils - Returning JDBC Connection to DataSource
+DEBUG Thread-5 com.mchange.v2.resourcepool.BasicResourcePool - trace com.mchange.v2.resourcepool.BasicResourcePool@36546a22 [managed: 3, unused: 2, excluded: 0] (e.g. com.mchange.v2.c3p0.impl.NewPooledConnection@1aaf0877)
+DEBUG Thread-5 com.mchange.v2.c3p0.impl.NewProxyConnection - com.mchange.v2.c3p0.impl.NewProxyConnection@6a567366: close() called more than once.
+DEBUG Thread-5 org.activiti.engine.impl.interceptor.LogInterceptor - --- AcquireJobsCmd finished --------------------------------------------------------
+DEBUG Thread-5 org.activiti.engine.impl.interceptor.LogInterceptor -                                                                                                     
+DEBUG Thread-5 org.activiti.engine.impl.interceptor.LogInterceptor -                                                                                                     
+DEBUG Thread-5 org.activiti.engine.impl.interceptor.LogInterceptor - --- starting GetUnlockedTimersByDuedateCmd --------------------------------------------------------
+DEBUG Thread-5 org.activiti.spring.SpringTransactionInterceptor - Running command with propagation REQUIRED
+DEBUG Thread-5 org.springframework.jdbc.datasource.DataSourceTransactionManager - Creating new transaction with name [null]: PROPAGATION_REQUIRED,ISOLATION_DEFAULT
+DEBUG Thread-5 com.mchange.v2.resourcepool.BasicResourcePool - trace com.mchange.v2.resourcepool.BasicResourcePool@36546a22 [managed: 3, unused: 2, excluded: 0] (e.g. com.mchange.v2.c3p0.impl.NewPooledConnection@1aaf0877)
+DEBUG Thread-5 org.springframework.jdbc.datasource.DataSourceTransactionManager - Acquired Connection [com.mchange.v2.c3p0.impl.NewProxyConnection@68f5f41a] for JDBC transaction
+DEBUG Thread-5 org.springframework.jdbc.datasource.DataSourceTransactionManager - Switching JDBC Connection [com.mchange.v2.c3p0.impl.NewProxyConnection@68f5f41a] to manual commit
+DEBUG Thread-5 org.apache.ibatis.transaction.managed.ManagedTransaction - Opening JDBC Connection
+DEBUG Thread-5 org.activiti.engine.impl.persistence.entity.JobEntity.selectUnlockedTimersByDuedate - ==>  Preparing: select RES.* from ACT_RU_JOB RES LEFT OUTER JOIN ACT_RU_EXECUTION PI ON PI.ID_ = RES.PROCESS_INSTANCE_ID_ where (RES.TYPE_ = 'timer') and (RES.DUEDATE_ is not null) and (RES.DUEDATE_ < ?) and (RES.LOCK_OWNER_ is null or RES.LOCK_EXP_TIME_ < ?) and (RES.RETRIES_ > 0) and ( (RES.EXECUTION_ID_ is null) or (PI.SUSPENSION_STATE_ = 1) ) order by DUEDATE_ 
+DEBUG Thread-5 org.activiti.engine.impl.persistence.entity.JobEntity.selectUnlockedTimersByDuedate - ==> Parameters: 2019-11-07 20:44:25.145(Timestamp), 2019-11-07 20:44:25.145(Timestamp)
+DEBUG Thread-5 org.activiti.engine.impl.persistence.entity.JobEntity.selectUnlockedTimersByDuedate - <==      Total: 0
+DEBUG Thread-5 org.activiti.engine.impl.db.DbSqlSession - flush summary: 0 insert, 0 update, 0 delete.
+DEBUG Thread-5 org.activiti.engine.impl.db.DbSqlSession - now executing flush...
+DEBUG Thread-5 org.apache.ibatis.transaction.managed.ManagedTransaction - Closing JDBC Connection [Transaction-aware proxy for target Connection [com.mchange.v2.c3p0.impl.NewProxyConnection@68f5f41a]]
+DEBUG Thread-5 org.springframework.jdbc.datasource.DataSourceTransactionManager - Initiating transaction commit
+DEBUG Thread-5 org.springframework.jdbc.datasource.DataSourceTransactionManager - Committing JDBC transaction on Connection [com.mchange.v2.c3p0.impl.NewProxyConnection@68f5f41a]
+DEBUG Thread-5 org.springframework.jdbc.datasource.DataSourceTransactionManager - Releasing JDBC Connection [com.mchange.v2.c3p0.impl.NewProxyConnection@68f5f41a] after transaction
+DEBUG Thread-5 org.springframework.jdbc.datasource.DataSourceUtils - Returning JDBC Connection to DataSource
+DEBUG Thread-5 com.mchange.v2.resourcepool.BasicResourcePool - trace com.mchange.v2.resourcepool.BasicResourcePool@36546a22 [managed: 3, unused: 2, excluded: 0] (e.g. com.mchange.v2.c3p0.impl.NewPooledConnection@1aaf0877)
+DEBUG Thread-5 org.activiti.engine.impl.interceptor.LogInterceptor - --- GetUnlockedTimersByDuedateCmd finished --------------------------------------------------------
+DEBUG Thread-5 org.activiti.engine.impl.interceptor.LogInterceptor -                                                                                                     
+DEBUG Thread-5 org.activiti.engine.impl.jobexecutor.AcquireJobsRunnable - job acquisition thread sleeping for 5000 millis
+DEBUG Thread-5 org.activiti.engine.impl.jobexecutor.AcquireJobsRunnable - job acquisition thread woke up
+DEBUG Thread-5 org.activiti.engine.impl.interceptor.LogInterceptor -                                                                                                     
+DEBUG Thread-5 org.activiti.engine.impl.interceptor.LogInterceptor - --- starting AcquireJobsCmd --------------------------------------------------------
+DEBUG Thread-5 org.activiti.spring.SpringTransactionInterceptor - Running command with propagation REQUIRED
+DEBUG Thread-5 org.springframework.jdbc.datasource.DataSourceTransactionManager - Creating new transaction with name [null]: PROPAGATION_REQUIRED,ISOLATION_DEFAULT
+DEBUG Thread-5 com.mchange.v2.resourcepool.BasicResourcePool - trace com.mchange.v2.resourcepool.BasicResourcePool@36546a22 [managed: 3, unused: 2, excluded: 0] (e.g. com.mchange.v2.c3p0.impl.NewPooledConnection@1aaf0877)
+DEBUG Thread-5 org.springframework.jdbc.datasource.DataSourceTransactionManager - Acquired Connection [com.mchange.v2.c3p0.impl.NewProxyConnection@4efc304e] for JDBC transaction
+DEBUG Thread-5 org.springframework.jdbc.datasource.DataSourceTransactionManager - Switching JDBC Connection [com.mchange.v2.c3p0.impl.NewProxyConnection@4efc304e] to manual commit
+DEBUG Thread-5 org.apache.ibatis.transaction.managed.ManagedTransaction - Opening JDBC Connection
+DEBUG Thread-5 org.activiti.engine.impl.persistence.entity.JobEntity.selectNextJobsToExecute_mysql - ==>  Preparing: select RES.* from ACT_RU_JOB RES LEFT OUTER JOIN ACT_RU_EXECUTION PI ON PI.ID_ = RES.PROCESS_INSTANCE_ID_ where (RETRIES_ > 0) and (DUEDATE_ is null or DUEDATE_ <= ?) and (LOCK_OWNER_ is null or LOCK_EXP_TIME_ <= ?) and ( (RES.EXECUTION_ID_ is null) or (PI.SUSPENSION_STATE_ = 1) ) LIMIT ? OFFSET ? 
+DEBUG Thread-5 org.activiti.engine.impl.persistence.entity.JobEntity.selectNextJobsToExecute_mysql - ==> Parameters: 2019-11-07 20:44:25.151(Timestamp), 2019-11-07 20:44:25.151(Timestamp), 1(Integer), 0(Integer)
+DEBUG Thread-5 org.activiti.engine.impl.persistence.entity.JobEntity.selectNextJobsToExecute_mysql - <==      Total: 0
+DEBUG Thread-5 org.activiti.engine.impl.db.DbSqlSession - flush summary: 0 insert, 0 update, 0 delete.
+DEBUG Thread-5 org.activiti.engine.impl.db.DbSqlSession - now executing flush...
+DEBUG Thread-5 org.apache.ibatis.transaction.managed.ManagedTransaction - Closing JDBC Connection [Transaction-aware proxy for target Connection [com.mchange.v2.c3p0.impl.NewProxyConnection@4efc304e]]
+DEBUG Thread-5 org.springframework.jdbc.datasource.DataSourceTransactionManager - Initiating transaction commit
+DEBUG Thread-5 org.springframework.jdbc.datasource.DataSourceTransactionManager - Committing JDBC transaction on Connection [com.mchange.v2.c3p0.impl.NewProxyConnection@4efc304e]
+DEBUG Thread-5 org.springframework.jdbc.datasource.DataSourceTransactionManager - Releasing JDBC Connection [com.mchange.v2.c3p0.impl.NewProxyConnection@4efc304e] after transaction
+DEBUG Thread-5 org.springframework.jdbc.datasource.DataSourceUtils - Returning JDBC Connection to DataSource
+DEBUG Thread-5 com.mchange.v2.resourcepool.BasicResourcePool - trace com.mchange.v2.resourcepool.BasicResourcePool@36546a22 [managed: 3, unused: 2, excluded: 0] (e.g. com.mchange.v2.c3p0.impl.NewPooledConnection@1aaf0877)
+DEBUG Thread-5 com.mchange.v2.c3p0.impl.NewProxyConnection - com.mchange.v2.c3p0.impl.NewProxyConnection@4efc304e: close() called more than once.
+DEBUG Thread-5 org.activiti.engine.impl.interceptor.LogInterceptor - --- AcquireJobsCmd finished --------------------------------------------------------
+DEBUG Thread-5 org.activiti.engine.impl.interceptor.LogInterceptor -                                                                                                     
+DEBUG Thread-5 org.activiti.engine.impl.interceptor.LogInterceptor -                                                                                                     
+DEBUG Thread-5 org.activiti.engine.impl.interceptor.LogInterceptor - --- starting GetUnlockedTimersByDuedateCmd --------------------------------------------------------
+DEBUG Thread-5 org.activiti.spring.SpringTransactionInterceptor - Running command with propagation REQUIRED
+DEBUG Thread-5 org.springframework.jdbc.datasource.DataSourceTransactionManager - Creating new transaction with name [null]: PROPAGATION_REQUIRED,ISOLATION_DEFAULT
+DEBUG Thread-5 com.mchange.v2.resourcepool.BasicResourcePool - trace com.mchange.v2.resourcepool.BasicResourcePool@36546a22 [managed: 3, unused: 2, excluded: 0] (e.g. com.mchange.v2.c3p0.impl.NewPooledConnection@1aaf0877)
+DEBUG Thread-5 org.springframework.jdbc.datasource.DataSourceTransactionManager - Acquired Connection [com.mchange.v2.c3p0.impl.NewProxyConnection@6bc4be44] for JDBC transaction
+DEBUG Thread-5 org.springframework.jdbc.datasource.DataSourceTransactionManager - Switching JDBC Connection [com.mchange.v2.c3p0.impl.NewProxyConnection@6bc4be44] to manual commit
+DEBUG Thread-5 org.apache.ibatis.transaction.managed.ManagedTransaction - Opening JDBC Connection
+DEBUG Thread-5 org.activiti.engine.impl.persistence.entity.JobEntity.selectUnlockedTimersByDuedate - ==>  Preparing: select RES.* from ACT_RU_JOB RES LEFT OUTER JOIN ACT_RU_EXECUTION PI ON PI.ID_ = RES.PROCESS_INSTANCE_ID_ where (RES.TYPE_ = 'timer') and (RES.DUEDATE_ is not null) and (RES.DUEDATE_ < ?) and (RES.LOCK_OWNER_ is null or RES.LOCK_EXP_TIME_ < ?) and (RES.RETRIES_ > 0) and ( (RES.EXECUTION_ID_ is null) or (PI.SUSPENSION_STATE_ = 1) ) order by DUEDATE_ 
+DEBUG Thread-5 org.activiti.engine.impl.persistence.entity.JobEntity.selectUnlockedTimersByDuedate - ==> Parameters: 2019-11-07 20:44:30.155(Timestamp), 2019-11-07 20:44:30.155(Timestamp)
+DEBUG Thread-5 org.activiti.engine.impl.persistence.entity.JobEntity.selectUnlockedTimersByDuedate - <==      Total: 0
+DEBUG Thread-5 org.activiti.engine.impl.db.DbSqlSession - flush summary: 0 insert, 0 update, 0 delete.
+DEBUG Thread-5 org.activiti.engine.impl.db.DbSqlSession - now executing flush...
+DEBUG Thread-5 org.apache.ibatis.transaction.managed.ManagedTransaction - Closing JDBC Connection [Transaction-aware proxy for target Connection [com.mchange.v2.c3p0.impl.NewProxyConnection@6bc4be44]]
+DEBUG Thread-5 org.springframework.jdbc.datasource.DataSourceTransactionManager - Initiating transaction commit
+DEBUG Thread-5 org.springframework.jdbc.datasource.DataSourceTransactionManager - Committing JDBC transaction on Connection [com.mchange.v2.c3p0.impl.NewProxyConnection@6bc4be44]
+DEBUG Thread-5 org.springframework.jdbc.datasource.DataSourceTransactionManager - Releasing JDBC Connection [com.mchange.v2.c3p0.impl.NewProxyConnection@6bc4be44] after transaction
+DEBUG Thread-5 org.springframework.jdbc.datasource.DataSourceUtils - Returning JDBC Connection to DataSource
+DEBUG Thread-5 com.mchange.v2.resourcepool.BasicResourcePool - trace com.mchange.v2.resourcepool.BasicResourcePool@36546a22 [managed: 3, unused: 2, excluded: 0] (e.g. com.mchange.v2.c3p0.impl.NewPooledConnection@1aaf0877)
+DEBUG Thread-5 com.mchange.v2.c3p0.impl.NewProxyConnection - com.mchange.v2.c3p0.impl.NewProxyConnection@6bc4be44: close() called more than once.
+DEBUG Thread-5 org.activiti.engine.impl.interceptor.LogInterceptor - --- GetUnlockedTimersByDuedateCmd finished --------------------------------------------------------
+DEBUG Thread-5 org.activiti.engine.impl.interceptor.LogInterceptor -                                                                                                     
+DEBUG Thread-5 org.activiti.engine.impl.jobexecutor.AcquireJobsRunnable - job acquisition thread sleeping for 5000 millis
